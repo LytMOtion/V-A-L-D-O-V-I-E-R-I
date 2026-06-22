@@ -205,6 +205,7 @@
 
 <footer>
   <span>Valdo Vieri</span>
+  <a href="mailto:inquiries@valdovieri.com">inquiries@valdovieri.com</a>
   <span>Santa Barbara, California</span>
   <a href="https://www.foundrystate.com" target="_blank" rel="noopener">A FoundryState Brand</a>
 </footer>
@@ -243,9 +244,16 @@
   }
 
   /* email */
+  // Paste your Formspree form ID below (from formspree.io, pointed at inquiries@valdovieri.com)
+  var FORM_ENDPOINT='https://formspree.io/f/REPLACE_WITH_YOUR_ID';
   document.getElementById('suForm').addEventListener('submit',function(e){
-    e.preventDefault(); this.reset();
-    document.getElementById('suOk').textContent='You’re on the list.';
+    e.preventDefault();
+    var form=this, ok=document.getElementById('suOk');
+    ok.textContent='Sending…';
+    fetch(FORM_ENDPOINT,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){ if(r.ok){ form.reset(); ok.textContent='You’re on the list.'; }
+        else { ok.textContent='Please email inquiries@valdovieri.com'; } })
+      .catch(function(){ ok.textContent='Please email inquiries@valdovieri.com'; });
   });
 })();
 </script>
