@@ -60,7 +60,7 @@
   .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;
     text-align:center;overflow:hidden;padding:8rem 1.4rem 7rem}
   .hero-bg{position:absolute;inset:0;background:#000 url('vv-hero.jpg') center/cover no-repeat;
-    transform:scale(1.05);will-change:transform}
+    transform:scale(1.0);will-change:transform}
   .hero-bg::after{content:'';position:absolute;inset:0;
     background:radial-gradient(115% 80% at 50% 46%,rgba(0,0,0,.18) 0%,rgba(0,0,0,.62) 58%,#000 100%),
       linear-gradient(180deg,rgba(0,0,0,.6) 0%,transparent 26%,transparent 58%,#000 100%)}
@@ -87,7 +87,7 @@
   .chapter{position:relative;height:100svh;min-height:560px;overflow:hidden;display:flex;align-items:flex-end}
   .chapter .img{position:absolute;inset:0}
   .chapter .img>img{transform:scale(1.08);will-change:transform}
-  .chapter.fit .img>img{object-fit:contain;transform:none}
+  .chapter.fit .img>img{object-fit:contain;transform:scale(1.2)}
   .chapter .veil2{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),transparent 30%,transparent 55%,rgba(0,0,0,.85))}
   .chapter .cap{position:relative;z-index:3;padding:0 0 clamp(3rem,9vh,7rem);width:100%}
   .chapter .cap .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.3rem,5vw,3.4rem)}
@@ -276,7 +276,7 @@
       if(ticking) return; ticking=true;
       requestAnimationFrame(function(){
         var y=window.scrollY;
-        if(heroBg) heroBg.style.transform='scale(1.05) translateY('+(y*0.14)+'px)';
+        if(heroBg) heroBg.style.transform='scale(1.04) translateY('+(y*0.08)+'px)';
         chaps.forEach(function(im){
           var r=im.getBoundingClientRect();
           var off=(r.top + r.height/2 - window.innerHeight/2) * -0.05;
