@@ -87,6 +87,7 @@
   .chapter{position:relative;height:100svh;min-height:560px;overflow:hidden;display:flex;align-items:flex-end}
   .chapter .img{position:absolute;inset:0}
   .chapter .img>img{transform:scale(1.08);will-change:transform}
+  .chapter.fit .img>img{object-fit:contain;transform:none}
   .chapter .veil2{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),transparent 30%,transparent 55%,rgba(0,0,0,.85))}
   .chapter .cap{position:relative;z-index:3;padding:0 0 clamp(3rem,9vh,7rem);width:100%}
   .chapter .cap .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.3rem,5vw,3.4rem)}
@@ -110,6 +111,14 @@
     font-size:.7rem;letter-spacing:.12em;padding:.7rem .2rem}
   .access input::placeholder{color:var(--faint);letter-spacing:.22em;text-transform:uppercase;font-size:.58rem}
   .access input:focus{outline:none}
+  .access input:-webkit-autofill,
+  .access input:-webkit-autofill:hover,
+  .access input:-webkit-autofill:focus{
+    -webkit-text-fill-color:var(--paper);
+    -webkit-box-shadow:0 0 0 1000px #000 inset;
+    caret-color:var(--paper);
+    transition:background-color 9999s ease-in-out 0s;
+  }
   .access button{background:none;border:none;color:var(--paper);font-family:var(--mono);font-size:.6rem;
     letter-spacing:.24em;text-transform:uppercase;cursor:pointer;padding:0 .4rem;transition:opacity .3s}
   .access button:hover{opacity:.6}
@@ -191,7 +200,7 @@
 </section>
 
 <!-- CHAPTER 3 — headwear -->
-<section class="chapter">
+<section class="chapter fit">
   <div class="img"><img src="vv-headwear.jpg" alt="" onerror="this.remove()"></div>
   <div class="veil2"></div>
   <div class="cap reveal"><div class="wrap">
@@ -261,7 +270,7 @@
   var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
   if(!reduce){
     var heroBg=document.getElementById('heroBg');
-    var chaps=Array.prototype.slice.call(document.querySelectorAll('.chapter .img>img'));
+    var chaps=Array.prototype.slice.call(document.querySelectorAll('.chapter:not(.fit) .img>img'));
     var ticking=false;
     window.addEventListener('scroll',function(){
       if(ticking) return; ticking=true;
