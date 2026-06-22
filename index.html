@@ -115,6 +115,19 @@
   .access button:hover{opacity:.6}
   .access .ok{margin-top:1.4rem;font-family:var(--mono);font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);min-height:1em}
 
+  /* ---- first pieces ---- */
+  .pieces{padding:clamp(5rem,12vh,9rem) 0}
+  .pieces .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.3rem,5vw,3.4rem)}
+  .pieces .k{font-family:var(--mono);font-size:.56rem;letter-spacing:.32em;text-transform:uppercase;color:var(--muted)}
+  .pieces h2{font-family:var(--serif);font-weight:300;font-size:clamp(1.8rem,4.5vw,3rem);margin-top:1rem;letter-spacing:.02em}
+  .pieces .grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1rem,3vw,2.4rem);margin-top:clamp(2.4rem,5vh,3.6rem)}
+  .pieces .item .img{aspect-ratio:4/5}
+  .pieces .item .nm{font-family:var(--serif);font-size:1.35rem;margin-top:1.2rem}
+  .pieces .item .mat{font-family:var(--mono);font-size:.56rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:.55rem;line-height:1.9}
+  .pieces .item .cta{display:inline-block;margin-top:1.1rem;font-family:var(--mono);font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:var(--paper);border-bottom:1px solid var(--line);padding-bottom:.3rem;transition:border-color .4s}
+  .pieces .item .cta:hover{border-color:var(--paper)}
+  @media(max-width:640px){.pieces .grid{grid-template-columns:1fr;gap:2.6rem}}
+
   /* ---- footer ---- */
   footer{border-top:1px solid var(--line-2);padding:2.6rem clamp(1.3rem,5vw,3.4rem);
     display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
@@ -186,6 +199,28 @@
     <h2>Ribbed merino. One in camel.</h2>
     <p>The single note of colour in an otherwise black collection.</p>
   </div></div>
+</section>
+
+<!-- FIRST PIECES -->
+<section class="pieces reveal" id="pieces">
+  <div class="wrap">
+    <div class="k">The First Pieces</div>
+    <h2>Two to begin.</h2>
+    <div class="grid">
+      <div class="item">
+        <div class="img"><img src="vv-overshirt.jpg" alt="The Zip Overshirt" onerror="this.remove()"></div>
+        <div class="nm">The Zip Overshirt</div>
+        <div class="mat">Brushed black wool · two-way metal zip · satin-lined</div>
+        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=The%20Zip%20Overshirt">Inquire →</a>
+      </div>
+      <div class="item">
+        <div class="img"><img src="vv-cap.jpg" alt="The Structured Cap" onerror="this.remove()"></div>
+        <div class="nm">The Structured Cap</div>
+        <div class="mat">Wool twill · embossed leather V</div>
+        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=The%20Structured%20Cap">Inquire →</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- FIRST ACCESS -->
