@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#000000">
-<title>Valdo Vieri</title>
-<meta name="description" content="Valdo Vieri — considered menswear in matte black wool. Launching 2026. Santa Barbara, California.">
+<title>VALDOVIERI</title>
+<meta name="description" content="VALDOVIERI — considered menswear in matte black wool.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
@@ -171,8 +171,8 @@
 <section class="hero" id="top">
   <div class="hero-bg" id="heroBg"></div>
   <div class="hero-inner">
-    <h1 class="wordmark" aria-label="Valdo Vieri">Valdo Vieri</h1>
-    <div class="tagline">Considered menswear · Matte black wool</div>
+    <h1 class="wordmark" aria-label="VALDOVIERI">VALDOVIERI</h1>
+    <div class="tagline">Collection I<br>Matte Black Wool</div>
     <div class="rule"></div>
   </div>
   <div class="scroll-cue">Scroll</div>
@@ -185,7 +185,7 @@
   <div class="cap reveal"><div class="wrap">
     <div class="k">I — Outerwear</div>
     <h2>Cut for the long term.</h2>
-    <p>Italian melton wool, honest construction, a matte two-way zip. Nothing you didn't ask for.</p>
+    <p>Italian melton wool, honest construction, a matte two-way zip. Nothing unnecessary.</p>
   </div></div>
 </section>
 
@@ -213,20 +213,20 @@
 <!-- FIRST PIECES -->
 <section class="pieces reveal" id="pieces">
   <div class="wrap">
-    <div class="k">The First Pieces</div>
+    <div class="k">Collection I</div>
     <h2>Two to begin.</h2>
     <div class="grid">
       <div class="item">
-        <div class="img"><img src="vv-overshirt.jpg" alt="The Zip Overshirt" onerror="this.remove()"></div>
-        <div class="nm">The Zip Overshirt</div>
+        <div class="img"><img src="vv-overshirt.jpg" alt="Overshirt" onerror="this.remove()"></div>
+        <div class="nm">Overshirt</div>
         <div class="mat">Brushed black wool · two-way metal zip · satin-lined</div>
-        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=The%20Zip%20Overshirt">Inquire →</a>
+        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=Overshirt">Inquire →</a>
       </div>
       <div class="item">
-        <div class="img"><img src="vv-cap.jpg" alt="The Structured Cap" onerror="this.remove()"></div>
-        <div class="nm">The Structured Cap</div>
+        <div class="img"><img src="vv-cap.jpg" alt="Cap" onerror="this.remove()"></div>
+        <div class="nm">Cap</div>
         <div class="mat">Wool twill · embossed leather V</div>
-        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=The%20Structured%20Cap">Inquire →</a>
+        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=Cap">Inquire →</a>
       </div>
     </div>
   </div>
@@ -236,22 +236,20 @@
 <section class="access" id="access">
   <div class="tex"></div>
   <div class="wrap">
-    <div class="mono reveal">Launching 2026</div>
+    <div class="mono reveal">By Request</div>
     <h2 class="reveal" style="margin-top:1.6rem">The first release is small.</h2>
-    <p class="reveal">Join the list for first access</p>
+    <p class="reveal">Private Access</p>
     <form class="reveal" id="suForm" autocomplete="off">
       <input type="email" name="email" placeholder="Email address" required>
-      <button type="submit">Join →</button>
+      <button type="submit">Request →</button>
     </form>
     <div class="ok" id="suOk"></div>
   </div>
 </section>
 
 <footer>
-  <span>Valdo Vieri</span>
+  <span>VALDOVIERI</span>
   <a href="mailto:inquiries@valdovieri.com">inquiries@valdovieri.com</a>
-  <span>Santa Barbara, California</span>
-  <a href="https://www.foundrystate.com" target="_blank" rel="noopener">A FoundryState Brand</a>
 </footer>
 
 <script>
@@ -295,7 +293,7 @@
     var form=this, ok=document.getElementById('suOk');
     ok.textContent='Sending…';
     fetch(FORM_ENDPOINT,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
-      .then(function(r){ if(r.ok){ form.reset(); ok.textContent='You’re on the list.'; }
+      .then(function(r){ if(r.ok){ form.reset(); ok.textContent='Received.'; }
         else { ok.textContent='Please email inquiries@valdovieri.com'; } })
       .catch(function(){ ok.textContent='Please email inquiries@valdovieri.com'; });
   });
