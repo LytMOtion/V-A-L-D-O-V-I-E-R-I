@@ -155,6 +155,7 @@ test('final photography release gate', {skip: process.env.REQUIRE_FINAL_PHOTOGRA
   for(const p of products)for(const c of p.colors){
     assert.deepEqual(c.views.map(v=>v.id),['front','angle','detail']);
     assert.equal(new Set(c.views.map(v=>v.file)).size,3);
+    assert.equal(new Set(c.views.map(v=>createHash('sha256').update(readFileSync(`assets/products/${v.file}`)).digest('hex'))).size,3,'each camera role must use different image bytes');
     assert.ok(c.views.every(v=>!v.crop&&v.provenance==='generated-design-concept'));
   }
 });

@@ -126,49 +126,117 @@
     "type": "Paneled cap",
     "description": "A paneled crown. A curved brim. A tonal stitched mark.",
     "details": "Rows of stitching follow the curved brim of the proposed cap.",
-    "collection": "cap-collection.webp",
-    "collectionAlt": "Generated concept study of the Graphite paneled cap.",
+    "collection": "editorial-cap-graphite-front.png",
+    "collectionAlt": "Generated concept of The Cap in Graphite, front view.",
     "colors": [
       {
         "id": "graphite",
         "name": "Graphite",
         "hex": "#41464D",
-        "front": "cap-graphite-front.webp",
-        "detail": "cap-graphite-detail.webp",
+        "front": "editorial-cap-graphite-front.png",
+        "detail": "editorial-cap-graphite-detail.png",
         "frontDimensions": [
-          1121,
-          1403
+          1122,
+          1402
         ],
         "detailDimensions": [
-          1121,
-          1403
+          1536,
+          1024
         ],
-        "detailCrop": [
-          200,
-          280,
-          720,
-          900
+        "views": [
+          {
+            "id": "front",
+            "file": "editorial-cap-graphite-front.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Front view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "angle",
+            "file": "editorial-cap-graphite-angle.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Three-quarter view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "detail",
+            "file": "editorial-cap-graphite-detail.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "label": "Brim and stitched mark detail",
+            "provenance": "generated-design-concept"
+          }
+        ],
+        "angle": "editorial-cap-graphite-angle.png",
+        "angleDimensions": [
+          1122,
+          1402
         ]
       },
       {
         "id": "soft-gray",
         "name": "Soft Gray",
         "hex": "#A2A9B1",
-        "front": "cap-soft-gray-front.webp",
-        "detail": "cap-soft-gray-detail.webp",
+        "front": "editorial-cap-soft-gray-front.png",
+        "detail": "editorial-cap-soft-gray-detail.png",
         "frontDimensions": [
-          1121,
-          1403
+          1122,
+          1402
         ],
         "detailDimensions": [
-          1121,
-          1403
+          1536,
+          1024
+        ],
+        "views": [
+          {
+            "id": "front",
+            "file": "editorial-cap-soft-gray-front.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Front view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "angle",
+            "file": "editorial-cap-soft-gray-angle.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Three-quarter view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "detail",
+            "file": "editorial-cap-soft-gray-detail.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "label": "Brim and stitched mark detail",
+            "provenance": "generated-design-concept"
+          }
+        ],
+        "angle": "editorial-cap-soft-gray-angle.png",
+        "angleDimensions": [
+          1122,
+          1402
         ]
       }
     ],
     "collectionDimensions": [
-      1536,
-      1024
+      1122,
+      1402
     ]
   },
   {
@@ -178,24 +246,117 @@
     "type": "Ribbed beanie",
     "description": "A compact crown. A turned cuff. Texture held in a close rib.",
     "details": "A rounded ribbed crown with a turned cuff and a tonal stitched mark.",
-    "collection": "beanie-collection.webp",
-    "collectionAlt": "Generated concept study of the Midnight Navy ribbed beanie with its turned cuff.",
+    "collection": "editorial-beanie-graphite-front.png",
+    "collectionAlt": "Generated concept of The Beanie in Graphite, front view.",
     "colors": [
       {
         "id": "graphite",
         "name": "Graphite",
         "hex": "#41464D",
-        "front": "beanie-graphite-front.webp",
-        "detail": "beanie-graphite-detail.webp"
+        "front": "editorial-beanie-graphite-front.png",
+        "detail": "editorial-beanie-graphite-detail.png",
+        "views": [
+          {
+            "id": "front",
+            "file": "editorial-beanie-graphite-front.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Front view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "angle",
+            "file": "editorial-beanie-graphite-angle.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Three-quarter view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "detail",
+            "file": "editorial-beanie-graphite-detail.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "label": "Cuff and stitched mark detail",
+            "provenance": "generated-design-concept"
+          }
+        ],
+        "frontDimensions": [
+          1122,
+          1402
+        ],
+        "angle": "editorial-beanie-graphite-angle.png",
+        "angleDimensions": [
+          1122,
+          1402
+        ],
+        "detailDimensions": [
+          1536,
+          1024
+        ]
       },
       {
         "id": "midnight-navy",
         "name": "Midnight Navy",
         "hex": "#24364B",
-        "front": "beanie-midnight-navy-front.webp",
-        "detail": "beanie-midnight-navy-detail.webp"
+        "front": "editorial-beanie-midnight-navy-front.png",
+        "detail": "editorial-beanie-midnight-navy-detail.png",
+        "views": [
+          {
+            "id": "front",
+            "file": "editorial-beanie-midnight-navy-front.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Front view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "angle",
+            "file": "editorial-beanie-midnight-navy-angle.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Three-quarter view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "detail",
+            "file": "editorial-beanie-midnight-navy-detail.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "label": "Cuff and stitched mark detail",
+            "provenance": "generated-design-concept"
+          }
+        ],
+        "frontDimensions": [
+          1122,
+          1402
+        ],
+        "angle": "editorial-beanie-midnight-navy-angle.png",
+        "angleDimensions": [
+          1122,
+          1402
+        ],
+        "detailDimensions": [
+          1536,
+          1024
+        ]
       }
     ],
-    "collectionColor": "midnight-navy"
+    "collectionDimensions": [
+      1122,
+      1402
+    ]
   }
 ]
