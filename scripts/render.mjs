@@ -34,7 +34,8 @@ function access(product, color, preview) {
 function layout({title, description, content, preload, product, color, preview}) {
   const header = `<header class="top"><nav class="nav wrap" aria-label="Main navigation"><a class="brand" href="/" aria-label="VALDOVIERI home">${brand()}<span>VALDOVIERI</span></a><div class="nav-links"><a href="/#collection">Collection I</a><a href="#access">Private Access</a></div></nav></header>`;
   const footer = `<footer><div class="wrap"><div class="footer-row"><span class="footer-name">VALDOVIERI</span><span>Collection I</span><a href="mailto:inquiries@valdovieri.com">inquiries@valdovieri.com</a><a href="#top">Back to top ↑</a></div><p class="provenance">All garment images show generated design concepts with digitally applied original marks. Colors and construction are proposed. Materials, dimensions, origin, manufacture and availability remain unconfirmed.</p></div></footer>`;
-  const values = {TITLE:escape(title), DESCRIPTION:escape(description), HEADER:header, CONTENT:content + access(product,color,preview), FOOTER:footer, PRELOAD:`<link rel="preload" as="image" href="/assets/products/${preload}" fetchpriority="high">`};
+  const routeScript = product ? `<script type="application/json" id="colorRoutes">${JSON.stringify(Object.fromEntries(product.colors.map(c => [c.id,productPath(product,c)])))}</script><script src="/color-route.js"></script>` : '';
+  const values = {COLOR_ROUTE:routeScript, TITLE:escape(title), DESCRIPTION:escape(description), HEADER:header, CONTENT:content + access(product,color,preview), FOOTER:footer, PRELOAD:`<link rel="preload" as="image" href="/assets/products/${preload}" fetchpriority="high">`};
   return template.replace(/\{\{(\w+)\}\}/g, (_, key) => values[key]);
 }
 export function renderCollection(placements, preview = true) {

@@ -91,3 +91,41 @@ test('safe dry-run identifies all six piece/color combinations and never sends',
     assert.match(x.state.status,/No request has been sent/);
   }
 });
+function queryRoute(product, url) {
+  const html = readFileSync(`dist${productPath(product)}index.html`, 'utf8');
+  const routes = html.match(/<script type="application\/json" id="colorRoutes">([^<]+)<\/script>/)[1];
+  let destination;
+  vm.runInNewContext(readFileSync('scripts/color-route.js', 'utf8'), {
+    document: { getElementById: () => ({ textContent: routes }) }, URL,
+    window: { location: { href: url, replace: value => { destination = value; } } }
+  });
+  return destination;
+}
+test('query-selected colors resolve within the same product with anchor and matching static context', () => {
+  for (const product of products) for (const color of product.colors) {
+    const other = product.colors.find(c => c.id !== color.id);
+    const start = `https://preview.example${productPath(product, other)}?color=${encodeURIComponent(color.name)}&source=review#access`;
+    const resolved = queryRoute(product, start);
+    const next = new URL(resolved, start);
+    assert.equal(next.pathname, productPath(product, color));
+    assert.equal(next.searchParams.get('color'), color.id);
+    assert.equal(next.searchParams.get('source'), 'review');
+    assert.equal(next.hash, '#access');
+    assert.equal(queryRoute(product, next.href), undefined, 'canonical selection must not loop');
+    const html = readFileSync(`dist${next.pathname}index.html`, 'utf8');
+    assert.ok(html.includes(`id="selectedColor">${color.name}</strong>`));
+    assert.ok(html.includes(`id="inquiryColor" value="${color.name}"`));
+    assert.ok(html.includes(`src="/assets/products/${color.front}"`));
+    assert.ok(html.includes(`src="/assets/products/${color.detail}"`));
+  }
+});
+test('unavailable or arbitrary query values cannot switch product or redirect off site', () => {
+  for (const product of products) {
+    for (const color of ['gold', 'https://outside.example/', '__proto__', 'constructor']) {
+      assert.equal(queryRoute(product, `https://preview.example${productPath(product)}?color=${encodeURIComponent(color)}`), undefined);
+    }
+    assert.equal(queryRoute(product, `https://preview.example${productPath(product)}`), undefined);
+  }
+  assert.equal(queryRoute(products[0], 'https://preview.example/products/jacket/?color=navy'), undefined);
+  assert.equal(new URL(queryRoute(products[2], 'https://preview.example/products/beanie/?color=navy'), 'https://preview.example').pathname, '/products/beanie/midnight-navy/');
+});

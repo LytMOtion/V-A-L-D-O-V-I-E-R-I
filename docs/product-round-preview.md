@@ -4,4 +4,6 @@ Authorized target is Vercel Preview only. Production branch main and original de
 
 Build produces the collection page and six product/color routes with selected images, color, inquiry subject and Private Access context. Preview forms validate locally and report the selected piece/color without a network submission. Existing production Formspree behavior is exercised only with mocks.
 
-Verification: npm run lint; npm test (builds first, ten meaningful tests). Additional actual desktop/mobile browser checks and two independent reviews are required for the final frozen commit/deployment. Native-resolution gallery opens a modal for useful textile inspection and supports Close/Escape/focus return. Content is visible immediately; no scroll reveal dependency.
+Verification: npm run lint; npm test (builds first, twelve meaningful tests). Additional actual desktop/mobile browser checks and two independent reviews are required for the final frozen commit/deployment. Native-resolution gallery opens a modal for useful textile inspection and supports Close/Escape/focus return. Content is visible immediately; no scroll reveal dependency.
+
+Validated product query selection (?color=graphite, soft-gray or midnight-navy, plus readable name/navy/gray aliases) resolves within that product to its matching canonical static route. Both-direction selection preserves query and page anchor. Unknown/unavailable colors stay on the current valid product state; arbitrary redirect targets are not accepted. Native color links remain usable without JavaScript.
