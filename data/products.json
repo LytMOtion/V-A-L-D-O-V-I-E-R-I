@@ -4,54 +4,130 @@
     "number": "01",
     "name": "The Jacket",
     "type": "Full-zip jacket",
-    "description": "A low point collar. A full front zip. A clean, straight silhouette.",
-    "details": "Two vertical welt pockets and plain cuffs frame the proposed jacket. The small tonal mark sits on the wearer\u2019s left chest.",
-    "placement": "Proposed mark: 10mm wide, wearer\u2019s left chest.",
-    "collection": "jacket-collection.webp",
-    "collectionAlt": "Generated concept of the Graphite full-zip jacket in a complete menswear look.",
+    "description": "A short spread collar. A front zip. Angled welt pockets.",
+    "details": "Plain cuffs and a straight faced hem.",
+    "collection": "editorial-jacket-graphite-front.png",
+    "collectionAlt": "Generated concept of the Graphite full-zip Jacket, front view.",
     "colors": [
       {
         "id": "graphite",
         "name": "Graphite",
         "hex": "#41464D",
-        "front": "jacket-graphite-front.webp",
-        "detail": "jacket-graphite-detail.webp",
+        "front": "editorial-jacket-graphite-front.png",
+        "detail": "editorial-jacket-graphite-interior.png",
         "frontDimensions": [
           1122,
           1402
         ],
         "detailDimensions": [
+          1254,
+          1254
+        ],
+        "angle": "editorial-jacket-graphite-angle.png",
+        "angleDimensions": [
           1122,
           1402
+        ],
+        "views": [
+          {
+            "id": "front",
+            "file": "editorial-jacket-graphite-front.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Front view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "angle",
+            "file": "editorial-jacket-graphite-angle.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Three-quarter outfit view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "detail",
+            "file": "editorial-jacket-graphite-interior.png",
+            "dimensions": [
+              1254,
+              1254
+            ],
+            "label": "Interior detail",
+            "provenance": "generated-design-concept"
+          }
         ]
       },
       {
         "id": "soft-gray",
         "name": "Soft Gray",
         "hex": "#A2A9B1",
-        "front": "jacket-soft-gray-front.webp",
-        "detail": "jacket-soft-gray-detail.webp",
+        "front": "editorial-jacket-soft-gray-front.png",
+        "detail": "editorial-jacket-soft-gray-interior.png",
         "frontDimensions": [
           1122,
           1402
         ],
         "detailDimensions": [
+          1254,
+          1254
+        ],
+        "angle": "editorial-jacket-soft-gray-angle.png",
+        "angleDimensions": [
           1122,
           1402
+        ],
+        "views": [
+          {
+            "id": "front",
+            "file": "editorial-jacket-soft-gray-front.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Front view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "angle",
+            "file": "editorial-jacket-soft-gray-angle.png",
+            "dimensions": [
+              1122,
+              1402
+            ],
+            "label": "Three-quarter outfit view",
+            "provenance": "generated-design-concept"
+          },
+          {
+            "id": "detail",
+            "file": "editorial-jacket-soft-gray-interior.png",
+            "dimensions": [
+              1254,
+              1254
+            ],
+            "label": "Interior detail",
+            "provenance": "generated-design-concept"
+          }
         ]
       }
+    ],
+    "collectionDimensions": [
+      1122,
+      1402
     ]
   },
   {
     "id": "cap",
     "number": "02",
     "name": "The Cap",
-    "type": "Five-panel cap",
-    "description": "An uninterrupted front panel. A curved brim. A quiet tonal mark.",
-    "details": "The proposed five-panel shape keeps the front clear. Fine rows of stitching follow the brim; the icon is centered above its join.",
-    "placement": "Proposed mark: 16mm wide, centered on the front panel.",
+    "type": "Paneled cap",
+    "description": "A paneled crown. A curved brim. A tonal stitched mark.",
+    "details": "Rows of stitching follow the curved brim of the proposed cap.",
     "collection": "cap-collection.webp",
-    "collectionAlt": "Generated concept study of the Graphite five-panel cap.",
+    "collectionAlt": "Generated concept study of the Graphite paneled cap.",
     "colors": [
       {
         "id": "graphite",
@@ -101,8 +177,7 @@
     "name": "The Beanie",
     "type": "Ribbed beanie",
     "description": "A compact crown. A turned cuff. Texture held in a close rib.",
-    "details": "Even ribs run into the turned cuff of the proposed beanie. A small tonal icon sits at its center, following the knit\u2019s direction.",
-    "placement": "Proposed mark: 12mm wide, centered on the turned cuff.",
+    "details": "A rounded ribbed crown with a turned cuff and a tonal stitched mark.",
     "collection": "beanie-collection.webp",
     "collectionAlt": "Generated concept study of the Midnight Navy ribbed beanie with its turned cuff.",
     "colors": [

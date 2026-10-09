@@ -1,10 +1,112 @@
 {
-  "status":"staging-photography-pending",
-  "opening":{"file":"jacket-collection.webp","dimensions":[1536,1024],"mobile":{"file":"jacket-collection.webp","dimensions":[1536,1024]},"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated concept of a complete outfit wearing The Jacket in Graphite.","position":"66% 50%"},
-  "outfit":{"file":"jacket-collection.webp","dimensions":[1536,1024],"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated jacket outfit study.","caption":"The Jacket / Graphite"},
-  "closer":{"file":"jacket-graphite-front.webp","dimensions":[1122,1402],"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated jacket study.","caption":"The Jacket / Graphite"},
-  "construction":{"file":"jacket-graphite-detail.webp","dimensions":[1122,1402],"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated jacket construction study.","caption":"The Jacket / Graphite / Detail","copy":"A closer view of the collar, front closure and stitching."},
-  "cap":{"file":"cap-collection.webp","dimensions":[1536,1024],"href":"/products/cap/","linkLabel":"The Cap / Graphite","alt":"Generated cap concept study.","caption":"The Cap / Graphite"},
-  "beanie":{"file":"beanie-collection.webp","dimensions":[1536,1024],"href":"/products/beanie/midnight-navy/","linkLabel":"The Beanie / Midnight Navy","alt":"Generated beanie concept study.","caption":"The Beanie / Midnight Navy"},
-  "closing":{"file":"beanie-collection.webp","dimensions":[1536,1024],"href":"/products/beanie/midnight-navy/","linkLabel":"The Beanie / Midnight Navy","alt":"Generated beanie concept study.","featured":[{"href":"/products/beanie/midnight-navy/","label":"The Beanie / Midnight Navy"}]}
+  "status": "intended-home-jacket-ready-for-rendered-review",
+  "opening": {
+    "file": "editorial-home-desktop-opening.png",
+    "dimensions": [
+      1723,
+      913
+    ],
+    "mobile": {
+      "file": "editorial-home-mobile-opening.png",
+      "dimensions": [
+        899,
+        1749
+      ],
+      "position": "52% 50%",
+      "media": "(max-width:600px) and (orientation:portrait)"
+    },
+    "href": "/products/jacket/",
+    "linkLabel": "The Jacket / Graphite",
+    "alt": "Generated design concept: the complete Graphite Jacket outfit walking beside a sunlit white wall and steel-framed glass.",
+    "position": "50% 50%"
+  },
+  "outfit": {
+    "file": "editorial-jacket-graphite-angle.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "href": "/products/jacket/",
+    "linkLabel": "The Jacket / Graphite",
+    "alt": "Generated design concept: the complete Graphite Jacket outfit in a three-quarter view beside a steel-framed window.",
+    "caption": "The Jacket / Graphite",
+    "position": "50% 50%"
+  },
+  "closer": {
+    "file": "editorial-home-jacket-closer.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "href": "/products/jacket/",
+    "linkLabel": "The Jacket / Graphite",
+    "alt": "Generated design concept: a closer view of the Graphite Jacket collar, front zip, welt pocket and cuff.",
+    "caption": "The Jacket / Graphite",
+    "position": "50% 50%"
+  },
+  "construction": {
+    "file": "editorial-jacket-graphite-interior.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "href": "/products/jacket/",
+    "linkLabel": "The Jacket / Graphite",
+    "alt": "Generated design concept: the Graphite Jacket back-neck facing with its tonal stitched original icon.",
+    "caption": "The Jacket / Graphite / Interior detail",
+    "copy": "The back-neck facing and its tonal stitched mark.",
+    "heading": "Inside the collar",
+    "position": "50% 50%"
+  },
+  "cap": {
+    "file": "editorial-home-cap-graphite.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "href": "/products/cap/",
+    "linkLabel": "The Cap / Graphite",
+    "alt": "Generated design concept: the Graphite paneled Cap with a curved brim and smaller tonal stitched original icon, worn beside a cool white wall.",
+    "caption": "The Cap / Graphite",
+    "position": "50% 50%"
+  },
+  "beanie": {
+    "file": "editorial-home-beanie-midnight-navy.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "href": "/products/beanie/midnight-navy/",
+    "linkLabel": "The Beanie / Midnight Navy",
+    "alt": "Generated design concept: the Midnight Navy ribbed Beanie with a turned cuff and tonal stitched original icon, worn in cool architectural daylight.",
+    "caption": "The Beanie / Midnight Navy",
+    "position": "50% 50%"
+  },
+  "closing": {
+    "file": "editorial-home-closing-fresh-desktop.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "position": "50% 50%",
+    "href": "/products/jacket/",
+    "linkLabel": "The Jacket / Graphite",
+    "alt": "Generated design concept: the complete Graphite Jacket outfit seated on a charcoal bench beside steel-framed glazing in cool daylight.",
+    "featured": [
+      {
+        "href": "/products/jacket/",
+        "label": "The Jacket / Graphite"
+      }
+    ],
+    "mobile": {
+      "file": "editorial-home-closing-fresh-mobile.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "position": "50% 50%",
+      "media": "(max-width:900px) and (orientation:portrait)"
+    }
+  },
+  "jacketCopy": "A short spread collar. A front zip. Angled welt pockets."
 }

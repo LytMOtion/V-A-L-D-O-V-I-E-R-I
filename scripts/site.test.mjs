@@ -83,7 +83,7 @@ test('homepage is editorial and catalog is separately addressable', () => {
   assert.ok(!/wordmark|Form\.|Restraint\.|piece-grid/.test(home));
   assert.ok(home.includes('class="opening"')); assert.ok(home.includes('class="construction-study"'));
   assert.ok(home.includes('class="closing"')); assert.ok(collection.includes('class="piece-grid"'));
-  assert.ok(home.includes('(max-width:900px) and (orientation:portrait)'));
+  assert.ok(home.includes('(max-width:600px) and (orientation:portrait)'));
 });
 test('product order preserves summary, front, inquiry, then remaining views', () => {
   for(const p of products)for(const c of p.colors){
