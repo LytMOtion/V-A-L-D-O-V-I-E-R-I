@@ -7,20 +7,24 @@ export function productPath(product, color = product.colors[0]) {
   return `/products/${product.id}/${color.id === 'graphite' ? '' : `${color.id}/`}`;
 }
 function brand() { return `<svg viewBox="0 0 252 293" aria-hidden="true"><path d="${icon}"/></svg>`; }
-function textileMark(id, placement, color) {
+function textileMark(id, placement, color, productId) {
   if (!placement) return '';
   const width = placement.glyphWidth * 252 / 178;
-  const threads = [-25,25,90].map((angle,i) => `<pattern id="thread-${id}-${i}" width="75" height="75" patternUnits="userSpaceOnUse" patternTransform="rotate(${angle})"><image href="/assets/materials/thread-${color}.webp" width="75" height="75" preserveAspectRatio="xMidYMid slice"/></pattern>`).join('');
+  const knit = productId === 'beanie';
+  const pitch = knit ? 140 : 75;
+  const threads = [-25,25,90].map((angle,i) => `<pattern id="thread-${id}-${i}" width="${pitch}" height="${pitch}" patternUnits="userSpaceOnUse" patternTransform="rotate(${angle})"><image href="/assets/materials/thread-${color}.webp" width="${pitch}" height="${pitch}" preserveAspectRatio="xMidYMid slice"/></pattern>`).join('');
   const surface = `<rect x="0" y="65" width="126" height="228" fill="url(#thread-${id}-0)"/><rect x="126" y="65" width="126" height="228" fill="url(#thread-${id}-1)"/><rect x="0" y="0" width="252" height="65" fill="url(#thread-${id}-2)"/>`;
+  const strength = color === 'midnight-navy' ? 9 : 6;
+  const relief = knit ? `<filter id="relief-${id}" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="${.2126*strength} ${.7152*strength} ${.0722*strength} 0 -.82 ${.2126*strength} ${.7152*strength} ${.0722*strength} 0 -.82 ${.2126*strength} ${.7152*strength} ${.0722*strength} 0 -.82 0 0 0 1 0"/></filter>` : '';
   const mobile = placement.mobile ? `--mobile-x:${placement.mobile.x}%;--mobile-y:${placement.mobile.y}%;--mobile-width:${placement.mobile.glyphWidth*252/178}%;` : '';
-  return `<svg class="garment-mark" viewBox="0 0 252 293" aria-hidden="true" data-original-mark="true" data-finish="thread" style="--mark-x:${placement.x}%;--mark-y:${placement.y}%;--mark-width:${width}%;--mark-angle:${placement.angle || 0}deg;${mobile}"><defs><clipPath id="shape-${id}"><path data-icon-path="original" d="${icon}"/></clipPath>${threads}</defs><g clip-path="url(#shape-${id})">${surface}</g></svg>`;
+  return `<svg class="garment-mark" viewBox="0 0 252 293" aria-hidden="true" data-original-mark="true" data-finish="thread" data-knit-contact="${knit}" style="--mark-x:${placement.x}%;--mark-y:${placement.y}%;--mark-width:${width}%;--mark-angle:${placement.angle || 0}deg;${mobile}"><defs><clipPath id="shape-${id}"><path data-icon-path="original" d="${icon}"/></clipPath>${threads}${relief}</defs><g ${knit ? `filter="url(#relief-${id})"` : ''} clip-path="url(#shape-${id})">${surface}</g></svg>`;
 }
 export function imageFrame({product, color, view, placements, eager = false, id = '', href}) {
   const file = view === 'collection' ? product.collection : color[view];
   const alt = view === 'collection' ? product.collectionAlt : `Generated design concept: ${product.name} in ${color.name}, ${view === 'front' ? 'complete front view' : 'close view of the tonal original icon and material'}.`;
   const placement = placements?.[product.id]?.[color.id]?.[view];
   const [w,h] = view === 'collection' ? [1536,1024] : [1122,1402];
-  const frame = `<span class="image-frame" data-view="${view}" style="aspect-ratio:${w}/${h}" ${id ? `id="${id}"` : ''}><img src="/assets/products/${file}" width="${w}" height="${h}" alt="${escape(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${textileMark(id || `${product.id}-${color.id}-${view}`, placement, color.id)}</span>`;
+  const frame = `<span class="image-frame" data-view="${view}" style="aspect-ratio:${w}/${h}" ${id ? `id="${id}"` : ''}><img src="/assets/products/${file}" width="${w}" height="${h}" alt="${escape(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${textileMark(id || `${product.id}-${color.id}-${view}`, placement, color.id, product.id)}</span>`;
   return href === null ? frame : `<a class="image-link" href="${href || productPath(product, color)}" aria-label="${escape(view === 'collection' ? `Explore ${product.name} in ${color.name}` : `Inspect ${product.name} in ${color.name} — ${view === 'front' ? 'detail' : 'front'} view`)}">${frame}</a>`;
 }
 function access(product, color, preview) {

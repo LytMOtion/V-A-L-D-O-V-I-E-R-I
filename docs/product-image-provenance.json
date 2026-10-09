@@ -8,7 +8,18 @@
     ],
     "sourceSha256": "03faf843462471fecaa4cbca42bb64cda36fa14d9b04f2d18bf5320a9fee602c",
     "assetSha256": "ef6bcfa7ba31bf73ff7d0f5a9db5972a2096166165a5a143c4e3633c203870af",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-9009109e-1c75-4369-97f7-0956382f41a7.png",
+    "promptRecords": [
+      "docs/product-image-prompts/01-jacket-graphite-front.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-9009109e-1c75-4369-97f7-0956382f41a7.png",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "pending final rendered independent review"
   },
   {
     "deployedAsset": "assets/products/jacket-graphite-detail.webp",
@@ -19,7 +30,20 @@
     ],
     "sourceSha256": "35c203b19f6718d2f065515d2937c67fadaa0ca58285fa101ab8283aeb35695b",
     "assetSha256": "a4f97d53c4dbf7ccb8b70bc252491ad9b54c5abd141c0d7f4e4c1f55128c415e",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-93fd78d8-3423-467a-9e07-4f1e209cdb85.png",
+    "promptRecords": [
+      "docs/product-image-prompts/07-jacket-graphite-detail.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/jacket-graphite-front-blank-v1.png"
+    ],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-93fd78d8-3423-467a-9e07-4f1e209cdb85.png",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "pending final rendered independent review"
   },
   {
     "deployedAsset": "assets/products/cap-graphite-front.webp",
@@ -30,7 +54,18 @@
     ],
     "sourceSha256": "d4f50bc264755816dc9b70d155ec7f8dd06741312f9593488d3c6a96ddde7396",
     "assetSha256": "dd014c9597fdce067ab1fa99895974df626bcef475969ea3eccaa4b7e17b3d80",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-d22b3360-25d4-457e-8168-eeffdd34332c.png",
+    "promptRecords": [
+      "docs/product-image-prompts/02-cap-graphite-front.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-d22b3360-25d4-457e-8168-eeffdd34332c.png",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "pending final rendered independent review"
   },
   {
     "deployedAsset": "assets/products/cap-graphite-detail.webp",
@@ -41,7 +76,20 @@
     ],
     "sourceSha256": "bd79cc27774f45258f73b953053efaf7daf84a04c3b817f670d1560959c94958",
     "assetSha256": "5580289663276f1221326bb1f97cb82ab189378e69ec62c128f5f237cb85b6dc",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-7c1405a1-cd3f-4d17-bf2b-3b8ae4030798.png",
+    "promptRecords": [
+      "docs/product-image-prompts/08-cap-graphite-detail.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/cap-graphite-front-blank-v1.png"
+    ],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-7c1405a1-cd3f-4d17-bf2b-3b8ae4030798.png",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "pending final rendered independent review"
   },
   {
     "deployedAsset": "assets/products/beanie-graphite-front.webp",
@@ -52,7 +100,18 @@
     ],
     "sourceSha256": "cf7296e906f86ec7b56edb9304f773a0c0ce0ad3b3acadea825a8555d234965b",
     "assetSha256": "1f2f1bf4fb5d1106a991510ba3ef7f83635ee5b3a1d121dece823e0e0ec45cda",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-2badb266-572f-4bb2-b54d-678ec3aaddd4.png",
+    "promptRecords": [
+      "docs/product-image-prompts/03-beanie-graphite-front.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-2badb266-572f-4bb2-b54d-678ec3aaddd4.png",
+    "mark": "exact original V2 path; photographic thread with increased fine strand contrast and local knit shading coupling; both native v11 detail colors personally passed all three visual specialists as generated concept only",
+    "visualGate": "native detail thread/contact provisionally passed; final paired front/editorial/mobile deployment recheck pending"
   },
   {
     "deployedAsset": "assets/products/beanie-graphite-detail.webp",
@@ -63,29 +122,68 @@
     ],
     "sourceSha256": "8e0a6cc42a300a1d97810bcf70fe116d0132cd6559dfc7dc3dabd2d88d3b36b3",
     "assetSha256": "9c05fbef501c0ba3a91688db7b16f2352b12e2c160720aea5a80ac30977dab3c",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-853fec3f-2914-4f5e-a342-38afd3aa5322.png",
+    "promptRecords": [
+      "docs/product-image-prompts/09-beanie-graphite-detail.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/beanie-graphite-front-blank-v1.png"
+    ],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-853fec3f-2914-4f5e-a342-38afd3aa5322.png",
+    "mark": "exact original V2 path; photographic thread with increased fine strand contrast and local knit shading coupling; both native v11 detail colors personally passed all three visual specialists as generated concept only",
+    "visualGate": "native detail thread/contact provisionally passed; final paired front/editorial/mobile deployment recheck pending"
   },
   {
     "deployedAsset": "assets/products/jacket-soft-gray-front.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/jacket-soft-gray-front-blank-v2.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-front-twill-v3.png",
     "dimensions": [
       1122,
       1402
     ],
-    "sourceSha256": "786752fc87106ea3697ec30c1c3d3a8ee36e8d72dd5b39001c00ea297dc3cb77",
-    "assetSha256": "6fce3c4f5b32510c309789a360b47ad1e2c235ba69c1381df8301ab25c3f6455",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "sourceSha256": "e2f80dd2696db44786130e5158e38ab941ef3ea457900f7f72a2e23435fcba65",
+    "assetSha256": "490d01a4aa3491b270c0900fd9cbadb206ed76e285125a68bb453c3efa165f1b",
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-08ef2b61-7ba9-4ff5-b49f-9a744384f6e3.png",
+    "promptRecords": [
+      "docs/jacket-soft-gray-front-twill-v3.json"
+    ],
+    "promptLineageStatus": "root tool output/reference/prompt recorded",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "front body regular fine diagonal twill improved; collar/shoulder/sleeve grain still curled; whole material gate open",
+    "generatedOriginal": "../generated_images/exec-5386dd96-cbae-4af8-bf40-a26069265110.png",
+    "toolReferences": [
+      "evidence/round-two/image-production/masters/jacket-graphite-front-blank-v1.png"
+    ]
   },
   {
     "deployedAsset": "assets/products/jacket-soft-gray-detail.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/assets/jacket-soft-gray-detail-blank-v3.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-detail-twill-v4.png",
     "dimensions": [
       1122,
       1402
     ],
-    "sourceSha256": "b1f27779c08bceab3a4b3e35f49926d22358442a757d808896ca0b9fef94b0f2",
-    "assetSha256": "ee06acf6bc4900e46e398dc1493d7d46c499754e100d671ee5217d986224e267",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "sourceSha256": "e014597529003d3b813ba8a369ddcc064daf92227339c83f352b4a07a6c414f4",
+    "assetSha256": "e09c2ffc4d2663edf07200f923a01f4e0a7e43d50b1182a2a8c54dd38126a2e8",
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-bffa0766-fac4-426e-ae48-eadc34389dff.png",
+    "promptRecords": [
+      "docs/jacket-soft-gray-detail-twill-v4.json"
+    ],
+    "promptLineageStatus": "root tool output/reference/prompt recorded",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "chest regular fine diagonal twill improved; collar/inner neck/right sleeve still curling; whole-material gate open",
+    "generatedOriginal": "../generated_images/exec-597c47c7-d993-457d-aa27-efd0cce585eb.png",
+    "toolReferences": [
+      "evidence/round-two/image-production/assets/jacket-graphite-detail-blank-v1.png"
+    ]
   },
   {
     "deployedAsset": "assets/products/cap-soft-gray-front.webp",
@@ -96,7 +194,16 @@
     ],
     "sourceSha256": "0071ee8cf44d70e324227310cdd91ec70d62553fee2f037e8eaed5dfca54c29b",
     "assetSha256": "a0a12942b3797b33d134d2d584fb314bb4cf342eff014abf4833cd28a6409407",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-0bc6d0b0-3156-466a-9ec9-db024cfea0a1.png",
+    "promptRecords": [
+      "docs/product-image-prompts/17-cap-soft-gray-front.txt"
+    ],
+    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "open pending final rendered independent reviews; Soft Gray woven texture specifically flagged"
   },
   {
     "deployedAsset": "assets/products/cap-soft-gray-detail.webp",
@@ -107,7 +214,18 @@
     ],
     "sourceSha256": "d65cee4570facea71a49abb71174d3f106a1fe200804e243c32105aa70cb2a34",
     "assetSha256": "34110c750c0be78290002e80b02ed52fafd51885448b948fa7185c6faacd5d27",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-579a0768-cb87-4298-b899-b313d559b8cc.png",
+    "promptRecords": [
+      "docs/product-image-prompts/19-cap-soft-gray-detail.txt",
+      "docs/product-image-prompts/21-cap-soft-gray-surface-detail.txt",
+      "docs/product-image-prompts/23-cap-soft-gray-zones-detail.txt"
+    ],
+    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "open pending final rendered independent reviews; Soft Gray woven texture specifically flagged"
   },
   {
     "deployedAsset": "assets/products/beanie-midnight-navy-front.webp",
@@ -118,7 +236,20 @@
     ],
     "sourceSha256": "f345d7e48556a972e8dcf1e1120690813b6bd1adab63af6f50aae18b8ed4c61c",
     "assetSha256": "6a4715ff4fb8405fd5e1ca735700d801793768a76657087b888faf5d12e95640",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-2dfc9c04-4b9e-4294-8d27-df16a65c8d78.png",
+    "promptRecords": [
+      "docs/product-image-prompts/06-beanie-midnight-front.txt"
+    ],
+    "promptLineageStatus": "recorded original tool output and references available",
+    "toolReferences": [
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/beanie-graphite-front-blank-v1.png"
+    ],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-2dfc9c04-4b9e-4294-8d27-df16a65c8d78.png",
+    "mark": "exact original V2 path; photographic thread with increased fine strand contrast and local knit shading coupling; both native v11 detail colors personally passed all three visual specialists as generated concept only",
+    "visualGate": "native detail thread/contact provisionally passed; final paired front/editorial/mobile deployment recheck pending"
   },
   {
     "deployedAsset": "assets/products/beanie-midnight-navy-detail.webp",
@@ -129,7 +260,17 @@
     ],
     "sourceSha256": "8bc842fb63e1d457820ac9246cb8760d2d56f4d86d4d5f7f49ba6b04b4fd784b",
     "assetSha256": "93cade6c4958ee78a31624b8b1ce3778c0a1c5fd48cedc0d9bdce54af135e94a",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-7ec0a0f4-acd1-4928-90f9-031ba7b0b402.png",
+    "promptRecords": [
+      "docs/product-image-prompts/12-beanie-midnight-detail.txt",
+      "docs/product-image-prompts/12b-beanie-midnight-detail-clean.txt"
+    ],
+    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
+    "mark": "exact original V2 path; photographic thread with increased fine strand contrast and local knit shading coupling; both native v11 detail colors personally passed all three visual specialists as generated concept only",
+    "visualGate": "native detail thread/contact provisionally passed; final paired front/editorial/mobile deployment recheck pending"
   },
   {
     "deployedAsset": "assets/products/jacket-collection.webp",
@@ -140,7 +281,16 @@
     ],
     "sourceSha256": "4cdd7b4e885732ec36fb58267ee428dfe15d8657689ebcce732cd54eee54ccc3",
     "assetSha256": "e7cb088ef5a6d860cc9143b830acf52aed9838c4f0c9402702c6b560b95b636f",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-2c000f97-05be-439c-862f-2df003db79e0.png",
+    "promptRecords": [
+      "docs/product-image-prompts/13-jacket-editorial.txt"
+    ],
+    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "pending final rendered independent review"
   },
   {
     "deployedAsset": "assets/products/cap-collection.webp",
@@ -151,7 +301,16 @@
     ],
     "sourceSha256": "4cbe67cd491c171d2d6447ed81fce5b6feeb77046fd748cef729f2c353f5b776",
     "assetSha256": "3b4f658cde4f3e2a3b869c6cd28b6069cdb8c79bf01c4a3287e3db8cd7a8f1de",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-a1b7f464-e130-46ae-8d98-9bcd873e2dc8.png",
+    "promptRecords": [
+      "docs/product-image-prompts/14-cap-editorial.txt"
+    ],
+    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
+    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
+    "visualGate": "pending final rendered independent review"
   },
   {
     "deployedAsset": "assets/products/beanie-collection.webp",
@@ -162,6 +321,15 @@
     ],
     "sourceSha256": "69ccb8ba407b39ef3381ba1af7ebcfd7c38b4ef42db9c7d2b2f6dfd8689ec31d",
     "assetSha256": "4f71cbbdc93e767318c26405246d7ea8433bbe5c08b3f4ed4d35b1e55c3f0e01",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint"
+    "conversion": "RGB lossless WebP, no retouching or pixel tint",
+    "classification": "AI-generated design concept; not manufactured product evidence",
+    "tool": "approved built-in image_gen.imagegen",
+    "generatedOriginalHashMatch": "../generated_images/exec-9d559658-4c06-4d8c-a108-e33f0ff4ba10.png",
+    "promptRecords": [
+      "docs/product-image-prompts/15-beanie-editorial.txt"
+    ],
+    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
+    "mark": "exact original V2 path; photographic thread with increased fine strand contrast and local knit shading coupling; both native v11 detail colors personally passed all three visual specialists as generated concept only",
+    "visualGate": "native detail thread/contact provisionally passed; final paired front/editorial/mobile deployment recheck pending"
   }
 ]
