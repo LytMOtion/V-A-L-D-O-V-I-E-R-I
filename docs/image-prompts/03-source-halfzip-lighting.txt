@@ -1,0 +1,9 @@
+Use case: lighting-weather
+Asset type: source-derived garment image with exposure adjustment, reference product concept
+Primary request: Edit only the lighting and exposure of the provided original photograph. Preserve the exact existing black high-neck half-zip top and the same black mannequin, background, framing, garment boundaries, shoulder seams, collar shape and single silver zipper that ends at the chest. Make the originally underexposed dense matte cloth easier to read.
+Input images: Image 1, vv-overshirt.jpg: edit target and sole garment geometry truth.
+Lighting/mood: subtly lift exposure and add very gentle studio fill on the front chest and outer shoulder/sleeve boundaries. Preserve the dark black background and dramatic restrained light. Improve fine fabric texture visibility without changing fabric identity, turning the top gray, or flattening shadows.
+Composition/framing: preserve the source square framing, exact mannequin position and existing crop. Do not extend or reveal new sleeves, cuffs, hem, lower garment or body.
+Color palette: deep black, charcoal highlights, original neutral silver zip hardware.
+Constraints: change lighting only. Do not create, remove, redraw, reshape or lengthen any garment component. The original HALF-ZIP remains exactly the same length and placement; collar and seams remain the same. Keep the mannequin with its original neck fitting. No wearer, no full zipper, no new seams, pockets, hems, linings, logos, typography or watermark. This is a source-derived lighting concept, not verified additional product photography.
+Avoid: plastic gloss, washed-out gray, invented knit pattern, extra tailoring details, new camera angle, cropped silhouette change, full-length zipper.

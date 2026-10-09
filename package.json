@@ -1,0 +1,10 @@
+{
+  "name": "valdovieri-preview",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/site.test.mjs",
+    "lint": "node --check scripts/site.js && node --check scripts/build.mjs"
+  }
+}

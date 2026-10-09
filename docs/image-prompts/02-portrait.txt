@@ -1,0 +1,12 @@
+Use case: identity-preserve
+Asset type: premium menswear website portrait companion, editorial concept photography
+Primary request: Produce a vertical 4:5 companion photograph from the same editorial shoot as Image 1. Preserve the EXACT same fictional man, face, hair, skin, body, black half-zip top, charcoal trousers and concrete location, with a complementary closer camera framing. This should feel like a second photograph captured within a minute, not a new wardrobe or model.
+Input images: Image 1, valdovieri-hero-concept-v1.png: identity, outfit, scene and lighting reference/edit target. Image 2, vv-overshirt.jpg: original garment collar, matte fabric, shoulder seams and chest-ending silver half-zip reference.
+Scene/backdrop: the same cool-gray concrete architectural pier and wall, quiet gray environment.
+Subject: the same man at the same ledge. Relaxed half-body stance, upper thighs through head visible, one hand naturally resting on the ledge. Calm neutral gaze slightly past camera; natural facial texture and realistic hands.
+Style/medium: photorealistic restrained premium menswear editorial; 50mm lens feel, realistic anatomy and drape.
+Composition/framing: vertical 4:5 portrait, comfortably framed head to mid-thigh, both shoulders and the full garment hem/cuffs visible. Quiet headroom. Show the chest-ending half-zip, collar, shoulder seams and dense matte fabric clearly. A tiny portion of charcoal trousers visible below.
+Lighting/mood: same soft cool directional daylight from upper left with natural gentle fill. Readable deep black cloth, mild shadows, no crushed-black treatment. Keep identity and palette consistent with Image 1.
+Color palette: black, charcoal, cool soft gray with natural subdued skin tones.
+Constraints: retain the reference top's HALF-ZIP ending at chest, single silver zipper, high stand collar and unbranded chest. No full-length zip, chest pockets, added buttons, new lining, leather trim, logos, headwear, typography or watermarks. Garment lower portions remain editorial concept styling. Skin and hand anatomy should remain natural. Do not convert the portrait into a product claim.
+Avoid: a different face/model, waxy skin, over-smoothed hands, fused fingers, implausible wrist, mannequin stance, shiny polyester appearance, dramatic color shift, fake branding, any other brand.

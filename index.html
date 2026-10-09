@@ -3,300 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#000000">
-<title>VALDOVIERI</title>
-<meta name="description" content="VALDOVIERI — considered menswear in matte black wool.">
+<meta name="theme-color" content="#171a1d">
+<title>VALDOVIERI — Collection I</title>
+<meta name="description" content="VALDOVIERI. Collection I — a study in form, texture and restraint.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/look-wide.webp" fetchpriority="high">
 <style>
-  :root{
-    --bg:#000;            /* true black for maximum depth */
-    --paper:#EDEAE3;
-    --muted:#8d8a81;
-    --faint:#4d4b44;
-    --line:rgba(237,234,227,.14);
-    --line-2:rgba(237,234,227,.07);
-    --serif:'Cormorant Garamond',Georgia,serif;
-    --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
-    --ease:cubic-bezier(.16,1,.3,1);
-    --track:.51em;        /* the wide letter spacing of the wordmark */
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{background:var(--bg);color:var(--paper);font-family:var(--serif);font-weight:300;
-    line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
-  body.lock{overflow:hidden}
-  ::selection{background:var(--paper);color:#000}
-  a{color:inherit;text-decoration:none}
-  img{display:block}
-  .mono{font-family:var(--mono);font-size:.6rem;letter-spacing:.34em;text-transform:uppercase;color:var(--muted)}
+:root{--ink:#171a1d;--navy:#242e38;--white:#fff;--gray:#bbc0c5;--line:#484e54;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-padding-top:90px;-webkit-text-size-adjust:100%}body{margin:0;background:var(--ink);color:var(--white);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{display:block;width:100%;height:auto}button,input{font:inherit}button,a,input{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:6px}::selection{background:#bbc0c5;color:var(--ink)}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05}h2{font-size:clamp(40px,4.8vw,72px);letter-spacing:-.02em}p{max-width:44ch}.eyebrow{font:400 12px/1.5 var(--sans);letter-spacing:.17em;text-transform:uppercase}.note{font-size:12px;line-height:1.7;color:#c0c5ca}.wrap{max-width:1440px;margin:auto;padding-inline:clamp(24px,5vw,80px)}.skip{position:fixed;top:-80px;left:16px;z-index:50;background:#fff;color:var(--ink);padding:12px 18px}.skip:focus{top:12px}.top{position:sticky;top:0;z-index:20;background:rgba(23,26,29,.97);border-bottom:1px solid #363c42}.nav{min-height:76px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{display:flex;align-items:center;gap:15px}.brand svg{width:25px;height:29px;fill:#fff}.brand span{font-family:var(--serif);font-size:19px;letter-spacing:.18em}.nav-links{display:flex;align-items:center;gap:clamp(20px,3vw,44px)}.nav-links a{font-size:12px;letter-spacing:.06em;padding:14px 0}.nav-links a:hover{color:#c5ccd2}.hero{padding-top:28px}.wordmark{font-size:clamp(34px,7.5vw,112px);letter-spacing:.19em;padding-left:.19em;text-align:center;line-height:1;margin:0 0 28px}.hero-frame{position:relative;background:#323538;width:min(100%,calc(min(max(320px,100svh - 310px),860px)*1.5));max-width:1290px;margin:auto}.hero-photo{height:min(max(320px,calc(100svh - 310px)),860px);object-fit:contain;object-position:center;background:#323538}.hero-caption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:18px}.hero-caption a{font-size:12px;border-bottom:1px solid #8d969e;padding-bottom:3px}.intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding-block:96px 104px;align-items:end}.intro h2{max-width:12ch}.intro p{color:#c9cdd1;font-size:17px;line-height:1.8}.intro .eyebrow{color:#c0c5ca;margin-bottom:22px}.editorial{background:#fff;color:var(--ink);padding-block:88px}.editorial-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:clamp(40px,8vw,120px);align-items:center}.editorial-photo{background:#bdc0c2;aspect-ratio:4/5;object-fit:cover;object-position:50% 32%}.caption{font-size:12px;line-height:1.7;margin-top:14px;color:#606971}.editorial h2{max-width:12ch;margin:20px 0 26px}.editorial p{font-size:17px;color:#535d66;line-height:1.8}.text-link{display:inline-flex;gap:36px;align-items:center;margin-top:32px;padding:12px 0;border-bottom:1px solid currentColor;font-size:13px}.text-link:hover{opacity:.75}.studies{padding-block:100px}.section-head{display:flex;justify-content:space-between;gap:36px;align-items:end;margin-bottom:44px}.section-head h2{font-size:clamp(36px,4vw,60px);margin-top:16px}.section-head p{color:#bdc4ca;font-size:14px;max-width:34ch}.study-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px)}.study-image{position:relative;background:#45494b;overflow:hidden;aspect-ratio:1/1}.study-image>img{height:100%;object-fit:cover}.half-zip>img{object-fit:contain}.cap-concept .applied-mark{position:absolute;width:4.4%;height:auto;left:44%;top:39%;fill:#25272a;opacity:.9;transform:rotate(-5deg);filter:drop-shadow(0 1px 0 #636669)}.study h3{font-size:32px;margin-top:24px}.study-description{color:#bbc2c8;font-size:14px;margin-top:13px}.study .caption{color:#a7b0b8;margin-top:10px}.study .text-link{margin-top:16px}.mark-story{display:flex;align-items:center;gap:28px;margin-top:66px;border-top:1px solid #41474d;padding-top:30px}.mark-story svg{width:30px;height:35px;fill:#bdc4ca;flex-shrink:0}.mark-story p{color:#bfc6cd;font-size:14px;max-width:65ch}.access{background:var(--navy);padding-block:90px 96px;border-top:1px solid #414b55}.access-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}.access h2{margin-top:18px}.access .lead{color:#cdd3d8;margin-top:22px;font-size:16px}.access-form{align-self:center}.access label{display:block;font-size:13px;margin-bottom:12px}.form-row{display:flex;gap:10px}.access input{border:1px solid #84909a;min-width:0;flex:1;background:transparent;color:#fff;padding:15px 14px;font-size:16px;border-radius:0}.access input::placeholder{color:#bfc8d0}.access button{border:1px solid #fff;background:#fff;color:var(--navy);font-size:13px;padding:15px 20px;cursor:pointer;white-space:nowrap}.access button:hover{background:#e4e8eb}.access button:disabled{opacity:.65;cursor:wait}.form-note{font-size:12px;color:#c1c9d1;margin-top:16px;max-width:50ch}.status{font-size:14px;min-height:3em;margin-top:14px;max-width:52ch}footer{padding-block:30px;border-top:1px solid #42494f}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;color:#b9c1c9}.footer-name{font-family:var(--serif);font-size:18px;letter-spacing:.14em}.footer-row a{text-decoration:underline;text-underline-offset:4px}.provenance{margin-top:20px;color:#a9b2bc;font-size:12px;max-width:82ch}
 
-  /* film grain */
-  .grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.05;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    mix-blend-mode:overlay}
-
-  /* image holder w/ dark fallback */
-  .img{position:relative;background:radial-gradient(120% 120% at 32% 18%,#161617 0%,#0a0a0b 55%,#000 100%);overflow:hidden}
-  .img>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-
-  /* ---- intro veil ---- */
-  .veil{position:fixed;inset:0;z-index:9500;background:#000;display:flex;align-items:center;justify-content:center;
-    transition:opacity 1.1s var(--ease),visibility 1.1s}
-  .veil.done{opacity:0;visibility:hidden}
-  .veil .vmark{width:auto;height:34px;opacity:0;animation:vIn 1.4s .2s var(--ease) forwards}
-  .veil .vmark path{fill:var(--paper)}
-  @keyframes vIn{0%{opacity:0;transform:translateY(6px)}100%{opacity:.9;transform:none}}
-
-  /* ---- header ---- */
-  header.top{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;
-    padding:1.8rem clamp(1.3rem,5vw,3.4rem);mix-blend-mode:difference}
-  header.top .mk{width:auto;height:15px}
-  header.top .mk path{fill:#fff}
-  header.top .yr{font-family:var(--mono);font-size:.58rem;letter-spacing:.3em;color:#fff}
-
-  /* ---- hero ---- */
-  .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;
-    text-align:center;overflow:hidden;padding:8rem 1.4rem 7rem}
-  .hero-bg{position:absolute;inset:0;background:#000 url('vv-hero.jpg') center/cover no-repeat;
-    transform:scale(1.0);will-change:transform}
-  .hero-bg::after{content:'';position:absolute;inset:0;
-    background:radial-gradient(115% 80% at 50% 46%,rgba(0,0,0,.18) 0%,rgba(0,0,0,.62) 58%,#000 100%),
-      linear-gradient(180deg,rgba(0,0,0,.6) 0%,transparent 26%,transparent 58%,#000 100%)}
-  .hero-inner{position:relative;z-index:3;opacity:0;animation:rise 1.8s 1.1s var(--ease) forwards}
-
-  /* THE WORDMARK — wide-tracked, two words spaced apart */
-  .wordmark{font-family:var(--serif);font-weight:300;text-transform:uppercase;text-align:center;
-    font-size:clamp(1.5rem,6.2vw,4.1rem);letter-spacing:var(--track);line-height:1.15;
-    padding-left:var(--track)}  /* one evenly-tracked wordmark */
-  .hero .tagline{margin:2.6rem auto 0;max-width:30ch;font-family:var(--mono);font-size:.6rem;
-    letter-spacing:.3em;text-transform:uppercase;color:rgba(237,234,227,.7);line-height:2.2}
-  .hero .rule{width:1px;height:54px;margin:2.6rem auto 0;background:linear-gradient(var(--line),transparent)}
-  .hero-mark{display:block;width:auto;height:clamp(44px,6.6vw,62px);margin:0 auto clamp(2.2rem,5.2vh,3.4rem)}
-  .hero-mark path{fill:var(--paper)}
-  .hero .collection{margin:clamp(2rem,4.4vh,2.8rem) auto 0;font-family:var(--mono);font-size:.6rem;letter-spacing:.34em;text-transform:uppercase;color:rgba(237,234,227,.68)}
-  .scroll-cue{position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);z-index:3;
-    font-family:var(--mono);font-size:.54rem;letter-spacing:.32em;text-transform:uppercase;color:var(--faint);
-    opacity:0;animation:fade 1.4s 2.6s forwards}
-  @keyframes rise{to{opacity:1}}
-  @keyframes fade{to{opacity:1}}
-
-  /* ---- reveal ---- */
-  .reveal{opacity:0;transform:translateY(30px);transition:opacity 1.4s var(--ease),transform 1.4s var(--ease)}
-  .reveal.in{opacity:1;transform:none}
-
-  /* ---- full-bleed image chapters ---- */
-  .chapter{position:relative;height:100svh;min-height:560px;overflow:hidden;display:flex;align-items:flex-end}
-  .chapter .img{position:absolute;inset:0}
-  .chapter .img>img{transform:scale(1.08);will-change:transform}
-  .chapter.fit .img>img{object-fit:contain;transform:scale(1.2)}
-  .chapter .veil2{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),transparent 30%,transparent 55%,rgba(0,0,0,.85))}
-  .chapter .cap{position:relative;z-index:3;padding:0 0 clamp(3rem,9vh,7rem);width:100%}
-  .chapter .cap .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.3rem,5vw,3.4rem)}
-  .chapter .k{font-family:var(--mono);font-size:.56rem;letter-spacing:.32em;text-transform:uppercase;color:var(--muted)}
-  .chapter h2{font-family:var(--serif);font-weight:300;font-size:clamp(2rem,6vw,4.2rem);line-height:1.05;
-    letter-spacing:.02em;margin-top:1.1rem;max-width:16ch}
-  .chapter p{margin-top:1.3rem;max-width:40ch;color:rgba(237,234,227,.72);font-size:1.05rem;line-height:1.7}
-  .chapter.center{align-items:center;text-align:center}
-  .chapter.center .cap{padding-bottom:0}
-  .chapter.center h2{margin-inline:auto}
-
-  /* ---- list / first access ---- */
-  .access{padding:clamp(6rem,16vh,12rem) 0;text-align:center;position:relative;overflow:hidden}
-  .access .tex{position:absolute;inset:0;background:#000 url('vv-texture.jpg') center/cover no-repeat;opacity:.18}
-  .access .tex::after{content:'';position:absolute;inset:0;background:radial-gradient(70% 70% at 50% 50%,transparent,#000)}
-  .access .wrap{position:relative;z-index:2;max-width:680px;margin:0 auto;padding:0 1.4rem}
-  .access h2{font-family:var(--serif);font-weight:300;font-size:clamp(2.2rem,6vw,4rem);letter-spacing:.02em;line-height:1.1}
-  .access p{margin-top:1.4rem;font-family:var(--mono);font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;color:var(--muted);line-height:2}
-  .access form{margin-top:3rem;display:flex;gap:.5rem;max-width:440px;margin-inline:auto;border-bottom:1px solid var(--line);padding-bottom:.4rem}
-  .access input{flex:1;background:transparent;border:none;color:var(--paper);font-family:var(--mono);
-    font-size:.7rem;letter-spacing:.12em;padding:.7rem .2rem}
-  .access input::placeholder{color:var(--faint);letter-spacing:.22em;text-transform:uppercase;font-size:.58rem}
-  .access input:focus{outline:none}
-  .access input:-webkit-autofill,
-  .access input:-webkit-autofill:hover,
-  .access input:-webkit-autofill:focus{
-    -webkit-text-fill-color:var(--paper);
-    -webkit-box-shadow:0 0 0 1000px #000 inset;
-    caret-color:var(--paper);
-    transition:background-color 9999s ease-in-out 0s;
-  }
-  .access button{background:none;border:none;color:var(--paper);font-family:var(--mono);font-size:.6rem;
-    letter-spacing:.24em;text-transform:uppercase;cursor:pointer;padding:0 .4rem;transition:opacity .3s}
-  .access button:hover{opacity:.6}
-  .access .ok{margin-top:1.4rem;font-family:var(--mono);font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);min-height:1em}
-
-  /* ---- first pieces ---- */
-  .pieces{padding:clamp(5rem,12vh,9rem) 0}
-  .pieces .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.3rem,5vw,3.4rem)}
-  .pieces .k{font-family:var(--mono);font-size:.56rem;letter-spacing:.32em;text-transform:uppercase;color:var(--muted)}
-  .pieces h2{font-family:var(--serif);font-weight:300;font-size:clamp(1.8rem,4.5vw,3rem);margin-top:1rem;letter-spacing:.02em}
-  .pieces .grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1rem,3vw,2.4rem);margin-top:clamp(2.4rem,5vh,3.6rem)}
-  .pieces .item .img{aspect-ratio:4/5}
-  .pieces .item .nm{font-family:var(--serif);font-size:1.35rem;margin-top:1.2rem}
-  .pieces .item .mat{font-family:var(--mono);font-size:.56rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:.55rem;line-height:1.9}
-  .pieces .item .cta{display:inline-block;margin-top:1.1rem;font-family:var(--mono);font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:var(--paper);border-bottom:1px solid var(--line);padding-bottom:.3rem;transition:border-color .4s}
-  .pieces .item .cta:hover{border-color:var(--paper)}
-  @media(max-width:640px){.pieces .grid{grid-template-columns:1fr;gap:2.6rem}}
-
-  /* ---- footer ---- */
-  footer{border-top:1px solid var(--line-2);padding:2.6rem clamp(1.3rem,5vw,3.4rem);
-    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
-  footer span,footer a{font-family:var(--mono);font-size:.54rem;letter-spacing:.24em;text-transform:uppercase;color:var(--faint)}
-  footer a:hover{color:var(--paper)}
-
-  @media(max-width:640px){
-    .chapter{height:88svh}
-    .wordmark{letter-spacing:.3em;padding-left:.3em;font-size:clamp(1.2rem,7.6vw,2.2rem)}
-  }
-  @media(prefers-reduced-motion:reduce){
-    *{animation:none!important}
-    .reveal{opacity:1;transform:none;transition:none}
-    .hero-inner{opacity:1}.veil{display:none}.hero-bg,.chapter .img>img{transform:none!important}
-  }
+@media(max-width:760px){html{scroll-padding-top:75px}.nav{min-height:68px}.brand span{display:none}.brand svg{width:24px;height:28px}.nav-links{gap:22px}.nav-links a{font-size:12px}.hero{padding-top:26px}.hero-frame{width:100%}.wordmark{font-size:8.4vw;letter-spacing:.15em;padding-left:.15em;margin-bottom:26px}.hero-photo{height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center}.hero-caption{align-items:flex-start;padding-block:16px}.hero-caption .note{max-width:17ch;font-size:11px}.intro{grid-template-columns:1fr;gap:30px;padding-block:58px 64px}.intro h2{font-size:50px}.intro p{font-size:16px}.editorial{padding-block:56px}.editorial-grid{grid-template-columns:1fr;gap:36px}.editorial-photo{max-height:660px}.editorial h2{font-size:50px;margin:16px 0 22px}.editorial p{font-size:16px}.studies{padding-block:60px}.section-head{display:block;margin-bottom:30px}.section-head p{margin-top:22px;font-size:14px}.study-grid{grid-template-columns:1fr;gap:44px}.study h3{font-size:30px;margin-top:20px}.mark-story{margin-top:46px;gap:22px}.access{padding-block:60px}.access-grid{grid-template-columns:1fr;gap:36px}.access h2{font-size:48px}.form-row{flex-wrap:wrap}.access input{width:100%;flex-basis:100%}.access button{padding:14px 20px;min-height:48px;width:100%}.footer-row{row-gap:18px}.footer-row a{font-size:12px}.provenance{margin-top:24px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 </head>
-<body class="lock">
-<div class="grain"></div>
-
-<!-- intro veil -->
-<div class="veil" id="veil">
-  <svg class="vmark" viewBox="0 0 252 293" aria-hidden="true"><path d="M214.9150085,51.4052966h-29.2199707c-4.3344116-.3286133-7.9520264-1.0706787-10.5344849-1.729187-1.7004395-.4335327-2.9287109-.8219604-3.2455444-.9208374-26.1731567-8.1694946-45.914856-8.3499756-45.914978-8.3499756-.000061,0-22.9886475-.2102051-42.8913574,7.2670288-.2932739.1101685-1.3759155.5216064-2.8879395,1.0085449-3.0602417.9855347-7.9252319,2.2768555-13.9157715,2.7244263h-29.3099976l3.1835938,7.1565552c.5888062,1.3240356,1.1776123,2.6477661,1.7664185,3.9734497.5668945,1.2734375,1.1339111,2.5471191,1.7008057,3.8205566l.1202393.2702637-.000061-.0002441c27.5935059,61.9865112,55.1959839,123.9730835,82.7890015,185.9694214,27.2237549-61.9998779,54.4553833-123.9904175,81.680481-185.9810791l-.0014648.0119019,1.8198242-4.0908203h.0012207c.5888062-1.3256836,1.1776123-2.6494141,1.7664185-3.9734497l3.1835938-7.1565552h-.0900269ZM176.7432556,62.5174792l-38.5082397,92.5878296c-3.8900146,9.5599976-9.8800049,24.2399902-11.6800537,30.0599976-1.7999878-5.8200073-7.789978-20.2700195-11.6799927-29.8300171l-39.0853882-92.9018555c-.2452393-.5828857.1080322-1.2382202.7269897-1.3678589,5.4817505-1.1480713,9.4762573-2.727478,10.8545532-3.250061,8.8873901-3.3696289,24.2921753-6.5021973,38.6289062-6.4102173.0001221,0,18.5731201.1191406,42.5249634,7.8099976.0361328.0115967.1045532.0336914.2018433.0647583.000061.000061,1.2684937.4050293,2.5668945.7630005.7619629.210083,2.4381104.6387329,4.7229004,1.1107788.6150513.1270752.9678345.7838135.7266235,1.3636475Z"/></svg>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><nav class="nav wrap" aria-label="Main navigation">
+<a class="brand" href="#top" aria-label="VALDOVIERI home"><svg viewBox="0 0 252 293" aria-hidden="true"><path id="brand-path" d="M214.9150085,51.4052966h-29.2199707c-4.3344116-.3286133-7.9520264-1.0706787-10.5344849-1.729187-1.7004395-.4335327-2.9287109-.8219604-3.2455444-.9208374-26.1731567-8.1694946-45.914856-8.3499756-45.914978-8.3499756-.000061,0-22.9886475-.2102051-42.8913574,7.2670288-.2932739.1101685-1.3759155.5216064-2.8879395,1.0085449-3.0602417.9855347-7.9252319,2.2768555-13.9157715,2.7244263h-29.3099976l3.1835938,7.1565552c.5888062,1.3240356,1.1776123,2.6477661,1.7664185,3.9734497.5668945,1.2734375,1.1339111,2.5471191,1.7008057,3.8205566l.1202393.2702637-.000061-.0002441c27.5935059,61.9865112,55.1959839,123.9730835,82.7890015,185.9694214,27.2237549-61.9998779,54.4553833-123.9904175,81.680481-185.9810791l-.0014648.0119019,1.8198242-4.0908203h.0012207c.5888062-1.3256836,1.1776123-2.6494141,1.7664185-3.9734497l3.1835938-7.1565552h-.0900269ZM176.7432556,62.5174792l-38.5082397,92.5878296c-3.8900146,9.5599976-9.8800049,24.2399902-11.6800537,30.0599976-1.7999878-5.8200073-7.789978-20.2700195-11.6799927-29.8300171l-39.0853882-92.9018555c-.2452393-.5828857.1080322-1.2382202.7269897-1.3678589,5.4817505-1.1480713,9.4762573-2.727478,10.8545532-3.250061,8.8873901-3.3696289,24.2921753-6.5021973,38.6289062-6.4102173.0001221,0,18.5731201.1191406,42.5249634,7.8099976.0361328.0115967.1045532.0336914.2018433.0647583.000061.000061,1.2684937.4050293,2.5668945.7630005.7619629.210083,2.4381104.6387329,4.7229004,1.1107788.6150513.1270752.9678345.7838135.7266235,1.3636475Z"/></svg><span>VALDOVIERI</span></a>
+<div class="nav-links"><a href="#collection">Collection I</a><a href="#access">Private Access</a></div>
+</nav></header>
+<main id="main">
+<section class="hero" id="top" aria-label="Collection I">
+<h1 class="wordmark">VALDOVIERI</h1>
+<figure><div class="hero-frame"><picture><source media="(max-width: 760px)" srcset="assets/look-mobile.webp"><img class="hero-photo" src="assets/look-wide.webp" width="1536" height="1024" alt="A full menswear look: black half-zip, charcoal trousers and black shoes, in a quiet concrete courtyard." fetchpriority="high" decoding="async"></picture></div>
+<figcaption class="hero-caption wrap"><span class="eyebrow">Collection I</span><span class="note">Editorial concept study</span><a href="#collection">Explore the collection <span aria-hidden="true">↓</span></a></figcaption></figure>
+<div class="intro wrap"><div><p class="eyebrow">Form · Texture · Restraint</p><h2>A quieter expression.</h2></div><p>A considered silhouette. A restrained palette.<br>Collection I explores the way simple forms meet the rhythm of everyday life.</p></div>
+</section>
+<section class="editorial" id="collection" aria-labelledby="collection-title"><div class="editorial-grid wrap">
+<figure><img class="editorial-photo" src="assets/look-portrait.webp" width="1122" height="1402" alt="The same black half-zip and charcoal trousers, seen closer in the concrete courtyard." loading="lazy" decoding="async"><figcaption class="caption">Collection I / Editorial concept study</figcaption></figure>
+<div><p class="eyebrow">01 / The silhouette</p><h2 id="collection-title">A clean line.<br>A distinct presence.</h2><p>The high collar and short zip give the half-zip its shape. Black and charcoal bring the whole look into focus.</p><a class="text-link" href="#pieces">View the studies <span aria-hidden="true">↘</span></a></div>
+</div></section>
+<section class="studies" id="pieces" aria-labelledby="studies-title"><div class="wrap">
+<div class="section-head"><div><p class="eyebrow">Collection I / Details</p><h2 id="studies-title">Considered up close.</h2></div><p>Studies in silhouette and texture.<br>Final materials and specifications are to be confirmed.</p></div>
+<div class="study-grid">
+<article class="study"><figure><div class="study-image half-zip"><img src="assets/half-zip-study.webp" width="1254" height="1254" alt="Source-derived lighting concept of the existing black half-zip on a mannequin, showing the high collar, short metal zip and fabric surface." loading="lazy" decoding="async"></div><figcaption class="caption">Source-derived lighting concept</figcaption></figure><h3>The half-zip</h3><p class="study-description">High collar. Short front zip. A restrained black silhouette.</p><a class="text-link" href="mailto:inquiries@valdovieri.com?subject=Half-zip%20inquiry">Inquire <span aria-hidden="true">↗</span></a></article>
+<article class="study"><figure><div class="study-image cap-concept"><img src="assets/cap-study.webp" width="1122" height="1402" alt="Dark cap concept with a small tonal VALDOVIERI icon applied digitally to its front panel." loading="lazy" decoding="async"><svg class="applied-mark" viewBox="0 0 252 293" aria-hidden="true"><path d="M214.9150085,51.4052966h-29.2199707c-4.3344116-.3286133-7.9520264-1.0706787-10.5344849-1.729187-1.7004395-.4335327-2.9287109-.8219604-3.2455444-.9208374-26.1731567-8.1694946-45.914856-8.3499756-45.914978-8.3499756-.000061,0-22.9886475-.2102051-42.8913574,7.2670288-.2932739.1101685-1.3759155.5216064-2.8879395,1.0085449-3.0602417.9855347-7.9252319,2.2768555-13.9157715,2.7244263h-29.3099976l3.1835938,7.1565552c.5888062,1.3240356,1.1776123,2.6477661,1.7664185,3.9734497.5668945,1.2734375,1.1339111,2.5471191,1.7008057,3.8205566l.1202393.2702637-.000061-.0002441c27.5935059,61.9865112,55.1959839,123.9730835,82.7890015,185.9694214,27.2237549-61.9998779,54.4553833-123.9904175,81.680481-185.9810791l-.0014648.0119019,1.8198242-4.0908203h.0012207c.5888062-1.3256836,1.1776123-2.6494141,1.7664185-3.9734497l3.1835938-7.1565552h-.0900269ZM176.7432556,62.5174792l-38.5082397,92.5878296c-3.8900146,9.5599976-9.8800049,24.2399902-11.6800537,30.0599976-1.7999878-5.8200073-7.789978-20.2700195-11.6799927-29.8300171l-39.0853882-92.9018555c-.2452393-.5828857.1080322-1.2382202.7269897-1.3678589,5.4817505-1.1480713,9.4762573-2.727478,10.8545532-3.250061,8.8873901-3.3696289,24.2921753-6.5021973,38.6289062-6.4102173.0001221,0,18.5731201.1191406,42.5249634,7.8099976.0361328.0115967.1045532.0336914.2018433.0647583.000061.000061,1.2684937.4050293,2.5668945.7630005.7619629.210083,2.4381104.6387329,4.7229004,1.1107788.6150513.1270752.9678345.7838135.7266235,1.3636475Z"/></svg></div><figcaption class="caption">Headwear concept / Digital mark application</figcaption></figure><h3>The cap</h3><p class="study-description">A quiet shape. A smaller tonal mark, visible at close range.</p><a class="text-link" href="mailto:inquiries@valdovieri.com?subject=Headwear%20inquiry">Inquire <span aria-hidden="true">↗</span></a></article>
 </div>
-
-<header class="top">
-  <svg class="mk" viewBox="0 0 252 293" aria-hidden="true"><path d="M214.9150085,51.4052966h-29.2199707c-4.3344116-.3286133-7.9520264-1.0706787-10.5344849-1.729187-1.7004395-.4335327-2.9287109-.8219604-3.2455444-.9208374-26.1731567-8.1694946-45.914856-8.3499756-45.914978-8.3499756-.000061,0-22.9886475-.2102051-42.8913574,7.2670288-.2932739.1101685-1.3759155.5216064-2.8879395,1.0085449-3.0602417.9855347-7.9252319,2.2768555-13.9157715,2.7244263h-29.3099976l3.1835938,7.1565552c.5888062,1.3240356,1.1776123,2.6477661,1.7664185,3.9734497.5668945,1.2734375,1.1339111,2.5471191,1.7008057,3.8205566l.1202393.2702637-.000061-.0002441c27.5935059,61.9865112,55.1959839,123.9730835,82.7890015,185.9694214,27.2237549-61.9998779,54.4553833-123.9904175,81.680481-185.9810791l-.0014648.0119019,1.8198242-4.0908203h.0012207c.5888062-1.3256836,1.1776123-2.6494141,1.7664185-3.9734497l3.1835938-7.1565552h-.0900269ZM176.7432556,62.5174792l-38.5082397,92.5878296c-3.8900146,9.5599976-9.8800049,24.2399902-11.6800537,30.0599976-1.7999878-5.8200073-7.789978-20.2700195-11.6799927-29.8300171l-39.0853882-92.9018555c-.2452393-.5828857.1080322-1.2382202.7269897-1.3678589,5.4817505-1.1480713,9.4762573-2.727478,10.8545532-3.250061,8.8873901-3.3696289,24.2921753-6.5021973,38.6289062-6.4102173.0001221,0,18.5731201.1191406,42.5249634,7.8099976.0361328.0115967.1045532.0336914.2018433.0647583.000061.000061,1.2684937.4050293,2.5668945.7630005.7619629.210083,2.4381104.6387329,4.7229004,1.1107788.6150513.1270752.9678345.7838135.7266235,1.3636475Z"/></svg>
-</header>
-
-<!-- HERO -->
-<section class="hero" id="top">
-  <div class="hero-bg" id="heroBg"></div>
-  <div class="hero-inner">
-    <h1 class="wordmark" aria-label="VALDOVIERI">VALDOVIERI</h1>
-    <div class="collection">Collection I</div>
-  </div>
-  <div class="scroll-cue">Scroll</div>
-</section>
-
-<!-- CHAPTER 1 — outerwear -->
-<section class="chapter">
-  <div class="img"><img src="vv-overshirt.jpg" alt="" onerror="this.remove()"></div>
-  <div class="veil2"></div>
-  <div class="cap reveal"><div class="wrap">
-    <div class="k">I — Outerwear</div>
-    <h2>Cut for the long term.</h2>
-    <p>Italian melton wool.<br>Matte metal zip.<br>Nothing unnecessary.</p>
-  </div></div>
-</section>
-
-<!-- CHAPTER 2 — the mark / detail -->
-<section class="chapter center">
-  <div class="img"><img src="vv-detail.jpg" alt="" onerror="this.remove()"></div>
-  <div class="veil2"></div>
-  <div class="cap reveal"><div class="wrap">
-    <div class="k">The Mark</div>
-    <h2>Found only at close range.</h2>
-  </div></div>
-</section>
-
-<!-- CHAPTER 3 — headwear -->
-<section class="chapter fit">
-  <div class="img"><img src="vv-headwear.jpg" alt="" onerror="this.remove()"></div>
-  <div class="veil2"></div>
-  <div class="cap reveal"><div class="wrap">
-    <div class="k">II — Headwear</div>
-    <h2>Ribbed merino. One in camel.</h2>
-    <p>The single note of colour.</p>
-  </div></div>
-</section>
-
-<!-- FIRST PIECES -->
-<section class="pieces reveal" id="pieces">
-  <div class="wrap">
-    <div class="k">Collection I</div>
-    <div class="grid">
-      <div class="item">
-        <div class="img"><img src="vv-overshirt.jpg" alt="Overshirt" onerror="this.remove()"></div>
-        <div class="nm">Overshirt</div>
-        <div class="mat">Brushed Black Wool<br>Two-Way Metal Zip<br>Satin Lining</div>
-        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=Overshirt">Inquire</a>
-      </div>
-      <div class="item">
-        <div class="img"><img src="vv-cap.jpg" alt="Cap" onerror="this.remove()"></div>
-        <div class="nm">Cap</div>
-        <div class="mat">Wool Twill<br>Embossed Leather V</div>
-        <a class="cta" href="mailto:inquiries@valdovieri.com?subject=Cap">Inquire</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FIRST ACCESS -->
-<section class="access" id="access">
-  <div class="tex"></div>
-  <div class="wrap">
-    <div class="mono reveal">By Request</div>
-    <p class="reveal">Private Access</p>
-    <form class="reveal" id="suForm" autocomplete="off">
-      <input type="email" name="email" placeholder="Email address" required>
-      <button type="submit">Request →</button>
-    </form>
-    <div class="ok" id="suOk"></div>
-  </div>
-</section>
-
-<footer>
-  <span>VALDOVIERI</span>
-  <a href="mailto:inquiries@valdovieri.com">inquiries@valdovieri.com</a>
-</footer>
-
-<script>
-(function(){
-  /* intro veil */
-  var veil=document.getElementById('veil');
-  function lift(){ veil.classList.add('done'); document.body.classList.remove('lock'); }
-  window.addEventListener('load',function(){ setTimeout(lift,1500); });
-  setTimeout(lift,2600); // fallback if load is slow
-
-  /* reveal on scroll */
-  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.2});
-  Array.prototype.forEach.call(document.querySelectorAll('.reveal'),function(el){io.observe(el)});
-
-  /* parallax: hero + each chapter image */
-  var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-  if(!reduce){
-    var heroBg=document.getElementById('heroBg');
-    var chaps=Array.prototype.slice.call(document.querySelectorAll('.chapter:not(.fit) .img>img'));
-    var ticking=false;
-    window.addEventListener('scroll',function(){
-      if(ticking) return; ticking=true;
-      requestAnimationFrame(function(){
-        var y=window.scrollY;
-        if(heroBg) heroBg.style.transform='scale(1.04) translateY('+(y*0.08)+'px)';
-        chaps.forEach(function(im){
-          var r=im.getBoundingClientRect();
-          var off=(r.top + r.height/2 - window.innerHeight/2) * -0.05;
-          im.style.transform='scale(1.08) translateY('+off+'px)';
-        });
-        ticking=false;
-      });
-    },{passive:true});
-  }
-
-  /* email */
-  // Paste your Formspree form ID below (from formspree.io, pointed at inquiries@valdovieri.com)
-  var FORM_ENDPOINT='https://formspree.io/f/xlgyeaaz';
-  document.getElementById('suForm').addEventListener('submit',function(e){
-    e.preventDefault();
-    var form=this, ok=document.getElementById('suOk');
-    ok.textContent='Sending…';
-    fetch(FORM_ENDPOINT,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
-      .then(function(r){ if(r.ok){ form.reset(); ok.textContent='Received.'; }
-        else { ok.textContent='Please email inquiries@valdovieri.com'; } })
-      .catch(function(){ ok.textContent='Please email inquiries@valdovieri.com'; });
-  });
-})();
-</script>
+<div class="mark-story"><svg viewBox="0 0 252 293" aria-hidden="true"><path d="M214.9150085,51.4052966h-29.2199707c-4.3344116-.3286133-7.9520264-1.0706787-10.5344849-1.729187-1.7004395-.4335327-2.9287109-.8219604-3.2455444-.9208374-26.1731567-8.1694946-45.914856-8.3499756-45.914978-8.3499756-.000061,0-22.9886475-.2102051-42.8913574,7.2670288-.2932739.1101685-1.3759155.5216064-2.8879395,1.0085449-3.0602417.9855347-7.9252319,2.2768555-13.9157715,2.7244263h-29.3099976l3.1835938,7.1565552c.5888062,1.3240356,1.1776123,2.6477661,1.7664185,3.9734497.5668945,1.2734375,1.1339111,2.5471191,1.7008057,3.8205566l.1202393.2702637-.000061-.0002441c27.5935059,61.9865112,55.1959839,123.9730835,82.7890015,185.9694214,27.2237549-61.9998779,54.4553833-123.9904175,81.680481-185.9810791l-.0014648.0119019,1.8198242-4.0908203h.0012207c.5888062-1.3256836,1.1776123-2.6494141,1.7664185-3.9734497l3.1835938-7.1565552h-.0900269ZM176.7432556,62.5174792l-38.5082397,92.5878296c-3.8900146,9.5599976-9.8800049,24.2399902-11.6800537,30.0599976-1.7999878-5.8200073-7.789978-20.2700195-11.6799927-29.8300171l-39.0853882-92.9018555c-.2452393-.5828857.1080322-1.2382202.7269897-1.3678589,5.4817505-1.1480713,9.4762573-2.727478,10.8545532-3.250061,8.8873901-3.3696289,24.2921753-6.5021973,38.6289062-6.4102173.0001221,0,18.5731201.1191406,42.5249634,7.8099976.0361328.0115967.1045532.0336914.2018433.0647583.000061.000061,1.2684937.4050293,2.5668945.7630005.7619629.210083,2.4381104.6387329,4.7229004,1.1107788.6150513.1270752.9678345.7838135.7266235,1.3636475Z"/></svg><p>The VALDOVIERI mark, used with restraint. The original geometry is preserved in every digital application shown here.</p></div>
+</div></section>
+<section class="access" id="access" aria-labelledby="access-title"><div class="access-grid wrap"><div><p class="eyebrow">By request</p><h2 id="access-title">Private Access</h2><p class="lead">Leave your email to hear more about Collection I.<br>For individual inquiries, <a href="mailto:inquiries@valdovieri.com" style="text-decoration:underline;text-underline-offset:4px">write to us</a>.</p></div>
+<div class="access-form"><form id="suForm" data-preview="true"><label for="email">Email address</label><div class="form-row"><input id="email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required aria-describedby="form-note suOk"><button type="submit">Request access</button></div><p class="form-note" id="form-note">Preview mode: you can test the form. No request is sent.</p></form><p class="status" id="suOk" role="status" aria-live="polite"></p><noscript><p class="form-note">Please email <a href="mailto:inquiries@valdovieri.com">inquiries@valdovieri.com</a> to request access.</p></noscript></div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="footer-row"><span class="footer-name">VALDOVIERI</span><span>Collection I</span><a href="mailto:inquiries@valdovieri.com">inquiries@valdovieri.com</a><a href="#top">Back to top ↑</a></div><p class="provenance">Editorial and headwear imagery are generated concepts, not verified manufactured products. The half-zip lighting concept is derived from existing collection imagery; garment details are interpreted. Materials, origin and construction specifications remain to be confirmed.</p></div></footer>
+<script src="site.js" defer></script>
 </body>
 </html>
