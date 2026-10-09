@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: corrected same-master Midnight Navy jacket front concept
+Primary request: Correct ONLY the artificial wavy/swirled textile mottling on the navy jacket in Image1. Its front cloth must have the uniform fine dense matte woven character of Image2, without brocade swirls, marbled patches, wavy grain or noisy ornamental pattern. Keep the same Midnight Navy #24364B appearance, light and every construction feature of Image1.
+Input images: Image1 jacket-midnight-front-blank-v1.png is edit target, identity and navy color master. Image2 jacket-graphite-front-blank-v1.png is uniform fabric texture reference only; do NOT change the navy to graphite.
+Invariants: exact silhouette, collar points and seams, shoulder set-in seams, frontfullgunmetalzipper and hardware, bothverticalweltpockets, plainsimpledoubleturnedcuffs/straighthem, folds, studio background, light/contactshadow/camera/framing1122×1402. Keep color visibly blue. Do not tint whole photo; do not darken or blur fabric to conceal the error.
+Material correction: uniform very fine credible woven grain, matte dense surface with subtle natural fold shading. Fineweave—not large twill bands, not knit, suede, shiny shell, swirled brocade or waxy plastic. Restore exposed fabricdetail at usefulresolution while maintaining source garmentgeometry.
+Constraints: no logos/letters/glyphs/patches/labels/text/watermark; front entirelyblank for authentic V2 native material application. Proposed concept only, no manufactured/material/origin claim.

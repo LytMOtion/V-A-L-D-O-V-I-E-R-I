@@ -1,0 +1,7 @@
+Use case: product-mockup
+Asset type: distinct beanie collection editorial concept
+Primary request: Photograph the exact NEW Midnight Navy compact rib beanie from Image1 as a calm architectural knit study, with a different composition from the front packshot and cap study. Keep its master construction and yarn regularity unchanged.
+Input images: Image1 beanie-midnight-front-blank-v1.png is complete beanie construction/color reference; Image2 beanie-midnight-detail-blank-v1.png is exact paired2×2rib texture/cuff reference.
+Master invariants: compact rounded crown with coherent decreases, close regular2×2rib pattern, turned cuff approximately65mm with real thickness, same proportions and yarn gauge. Entire front cuff blank for later native authentic V2 sewn application; no badge/labels/glyphs.
+Scene: one beanie standing naturally on the edge of a narrow cool-gray architectural ledge, plain charcoal wall behind. Camera modest15degree turn from front, near cuff eye-level; preserve readable front cuff and complete crown. Soft side daylight and real contactshadow. No people or extra garment.
+Composition: wide3:2, beanie slightly left of center and a long architectural ledge extending right, giving quieter balanced negative space than cap study. Entire beanie in frame with air. Useful yarn strands, cuff fold and decrease lines exposed, Navy visibly blue under neutral diffuse light. No text, marks, labels, watermark or cream/gold/camel palette. A distinct concept image, not a crop/recolor of the front packshot and not physical product proof.

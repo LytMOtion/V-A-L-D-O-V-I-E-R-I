@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: same-master product concept colorway, full front view
+Primary request: Edit only the beanie's textile color in supplied Image1 from Graphite gray to Midnight Navy (#24364B), a visibly blue deep navy, not black. This is a localized product-fabric colorway edit, NOT a whole-photo tint. Keep the background, studio lighting, contact shadows, camera, composition, dimensions and all garment construction identical.
+Input images: Image1 beanie-graphite-front-blank-v1.png is the sole canonical product master and edit target; preserve it.
+Construction invariants: Preserve exact existing knit rib pattern and yarn stitch columns, compact crown decrease geometry, folded cuff height/proportions, every fold and outer silhouette. Do not change knit gauge or rib type.
+Lighting: preserve the neutral diffuse source lighting. Navy should clearly read blue with physically plausible cloth luminance and dense fabric texture. No blue cast on neutral-gray background or gray studio plinth.
+Constraints: Product remains completely BLANK, without logo, glyph, letter, label or badge, for authentic native V2 material application later. Preserve all seams, pockets, zips, hardware, rib pattern, geometry and cloth texture; change no construction. Matte finish. Exactly one product, full front4:5 framing. No people, text, watermark, extra objects or source-independent redesigned garment. This is a proposed concept, not verified material/manufacture/origin evidence.

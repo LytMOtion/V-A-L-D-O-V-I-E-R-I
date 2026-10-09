@@ -1,0 +1,234 @@
+{
+  "created_context_date": "2026-10-09",
+  "producer": "/root/image_production",
+  "integration_owner": "/root",
+  "tool": "image_gen.imagegen (functions tools.image_gen__imagegen)",
+  "mode": "built-in",
+  "tool_model": "not exposed by built-in tool; no model override, CLI fallback or new credentials used",
+  "transparent_background": false,
+  "raster_editing": "Built-in imagegen only; local cp operations preserve PNG bytes. No Python raster editing.",
+  "recommended_set": [
+    "hero",
+    "portrait_fullbody",
+    "cap"
+  ],
+  "sources_untouched": true,
+  "brand_geometry": {
+    "authentic_svg": "evidence/original-icon/extracted/SVG/V Version 2.svg",
+    "authentic_svg_sha256": "58b9bd888691ef995f2cccab8d058d9d23f5cf69c11e3b661ee5774c0ae7a8c7",
+    "inspected_png": "evidence/original-icon/extracted/PNG/V Version 2.png",
+    "inspected_png_sha256": "ec9b46caced34790d9f564510c20cd8e8419e2b40fd7f90dac965bd38c14df15",
+    "raster_application_status": "None. Never redrawn or regenerated. Exact native overlay remains integration owner's task.",
+    "original_cap_mark": "Visually differs from authentic Version 2; removed from generated blank base."
+  },
+  "entries": [
+    {
+      "id": "hero",
+      "file": "valdovieri-hero-concept-v1.png",
+      "generated": "exec-37b8ccc2-5c91-43e2-b0c1-1b7e97534778.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "01-hero.txt",
+      "refs": [
+        "valdovieri-original/vv-overshirt.jpg"
+      ],
+      "classification": "AI-generated editorial concept",
+      "status": "recommended",
+      "sha256": "a7030cf8c2e644c663e4646d761f575e0c6ee435702f38ffcdafc4c2cb4df147",
+      "limits": [
+        "Cuffs, waistband/hem and full garment length are inferred; source only shows upper mannequin garment.",
+        "Trousers, shoes and model are styling concepts, not verified manufactured products."
+      ],
+      "path": "evidence/image-production/assets/valdovieri-hero-concept-v1.png",
+      "tool_generated_path": "generated_images/exec-37b8ccc2-5c91-43e2-b0c1-1b7e97534778.png",
+      "prompt_path": "evidence/image-production/prompts/01-hero.txt",
+      "tool_parameters": {
+        "referenced_image_paths": [
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/valdovieri-original/vv-overshirt.jpg"
+        ],
+        "transparent_background": false
+      },
+      "inspection": "Personally inspected generated output and relevant original references; anatomy/construction/light described in REPORT.md."
+    },
+    {
+      "id": "portrait_fullbody",
+      "file": "valdovieri-fullbody-portrait-concept-v2.png",
+      "generated": "exec-99dc11a9-4a1c-4b96-8757-e9e646f6ad26.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "prompt": "05-fullbody-portrait.txt",
+      "refs": [
+        "evidence/image-production/assets/valdovieri-hero-concept-v1.png",
+        "evidence/image-production/assets/valdovieri-portrait-concept-v1.png",
+        "valdovieri-original/vv-overshirt.jpg"
+      ],
+      "classification": "AI-generated editorial concept",
+      "status": "recommended mobile full-look companion",
+      "sha256": "93aea9d0752a6f43901816800084f3b2a6c1b9c764b0b91f3a3803292aa2d40a",
+      "limits": [
+        "Same inferred cuff/waistband/full length as hero; not verified construction.",
+        "Complete shoes/body should remain uncropped by consuming layouts."
+      ],
+      "path": "evidence/image-production/assets/valdovieri-fullbody-portrait-concept-v2.png",
+      "tool_generated_path": "generated_images/exec-99dc11a9-4a1c-4b96-8757-e9e646f6ad26.png",
+      "prompt_path": "evidence/image-production/prompts/05-fullbody-portrait.txt",
+      "tool_parameters": {
+        "referenced_image_paths": [
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/image-production/assets/valdovieri-hero-concept-v1.png",
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/image-production/assets/valdovieri-portrait-concept-v1.png",
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/valdovieri-original/vv-overshirt.jpg"
+        ],
+        "transparent_background": false
+      },
+      "inspection": "Personally inspected generated output and relevant original references; anatomy/construction/light described in REPORT.md."
+    },
+    {
+      "id": "cap",
+      "file": "valdovieri-blank-cap-concept-v1.png",
+      "generated": "exec-f543d820-848a-4298-881c-456eb3df14d6.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "prompt": "04-blank-cap.txt",
+      "refs": [
+        "valdovieri-original/vv-cap.jpg"
+      ],
+      "classification": "AI-generated blank cap concept base",
+      "status": "recommended",
+      "sha256": "b60fa8535aa53eb399368a5ce50cbc362f658bb04f66378434e5057fcdecba42",
+      "limits": [
+        "No logo is generated or applied in the raster.",
+        "Any native exact SVG overlay must be labeled digital application concept; embroidery/manufacturing accuracy unverified.",
+        "Cap material composition cannot be inferred from photograph."
+      ],
+      "path": "evidence/image-production/assets/valdovieri-blank-cap-concept-v1.png",
+      "tool_generated_path": "generated_images/exec-f543d820-848a-4298-881c-456eb3df14d6.png",
+      "prompt_path": "evidence/image-production/prompts/04-blank-cap.txt",
+      "tool_parameters": {
+        "referenced_image_paths": [
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/valdovieri-original/vv-cap.jpg"
+        ],
+        "transparent_background": false
+      },
+      "inspection": "Personally inspected generated output and relevant original references; anatomy/construction/light described in REPORT.md."
+    },
+    {
+      "id": "halfzip_lighting",
+      "file": "valdovieri-halfzip-lighting-study-v1.png",
+      "generated": "exec-6946ec18-b112-488d-afd7-c92f1a261350.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "03-source-halfzip-lighting.txt",
+      "refs": [
+        "valdovieri-original/vv-overshirt.jpg"
+      ],
+      "classification": "AI-generated source-derived lighting study",
+      "status": "optional derivative; canonical source retained",
+      "sha256": "1d765c018d428a6bdc1e22adc32902db07f0158401d700121e8c63f9f7ec18b7",
+      "limits": [
+        "Requested lighting-only edit; visually retains normalized source framing/collar/shoulder seams/chest-ending zip/mannequin.",
+        "Generative resynthesis means pixel-exact seam, fabric and hardware invariance is not verified.",
+        "Do not present as verified product photography or replace canonical source truth."
+      ],
+      "path": "evidence/image-production/assets/valdovieri-halfzip-lighting-study-v1.png",
+      "tool_generated_path": "generated_images/exec-6946ec18-b112-488d-afd7-c92f1a261350.png",
+      "prompt_path": "evidence/image-production/prompts/03-source-halfzip-lighting.txt",
+      "tool_parameters": {
+        "referenced_image_paths": [
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/valdovieri-original/vv-overshirt.jpg"
+        ],
+        "transparent_background": false
+      },
+      "inspection": "Personally inspected generated output and relevant original references; anatomy/construction/light described in REPORT.md."
+    },
+    {
+      "id": "portrait_close",
+      "file": "valdovieri-portrait-concept-v1.png",
+      "generated": "exec-675b5b33-9071-4142-87ab-9101e2380622.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "prompt": "02-portrait.txt",
+      "refs": [
+        "evidence/image-production/assets/valdovieri-hero-concept-v1.png",
+        "valdovieri-original/vv-overshirt.jpg"
+      ],
+      "classification": "AI-generated editorial concept",
+      "status": "optional closer story crop; superseded for mobile hero",
+      "sha256": "09ce877169878ec633f7c7db26860a9ef361bd9cd88353d8468063427c2ad639",
+      "limits": [
+        "Head-to-thigh crop does not communicate complete shoes/outfit.",
+        "Cuff/waistband construction remains inferred concept styling."
+      ],
+      "path": "evidence/image-production/assets/valdovieri-portrait-concept-v1.png",
+      "tool_generated_path": "generated_images/exec-675b5b33-9071-4142-87ab-9101e2380622.png",
+      "prompt_path": "evidence/image-production/prompts/02-portrait.txt",
+      "tool_parameters": {
+        "referenced_image_paths": [
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/image-production/assets/valdovieri-hero-concept-v1.png",
+          "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/valdovieri-original/vv-overshirt.jpg"
+        ],
+        "transparent_background": false
+      },
+      "inspection": "Personally inspected generated output and relevant original references; anatomy/construction/light described in REPORT.md."
+    }
+  ],
+  "tool_output_metadata": [
+    {
+      "name": "hero",
+      "output_hint": "Generated images are saved to /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images as /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-37b8ccc2-5c91-43e2-b0c1-1b7e97534778.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "keys": [
+        "image_url",
+        "output_hint"
+      ]
+    },
+    {
+      "name": "portrait_v1",
+      "output_hint": "Generated images are saved to /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images as /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-675b5b33-9071-4142-87ab-9101e2380622.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "keys": [
+        "image_url",
+        "output_hint"
+      ]
+    },
+    {
+      "name": "halfzip",
+      "output_hint": "Generated images are saved to /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images as /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-6946ec18-b112-488d-afd7-c92f1a261350.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "keys": [
+        "image_url",
+        "output_hint"
+      ]
+    },
+    {
+      "name": "cap",
+      "output_hint": "Generated images are saved to /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images as /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-f543d820-848a-4298-881c-456eb3df14d6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "keys": [
+        "image_url",
+        "output_hint"
+      ]
+    },
+    {
+      "name": "portrait_v2",
+      "output_hint": "Generated images are saved to /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images as /Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-99dc11a9-4a1c-4b96-8757-e9e646f6ad26.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "keys": [
+        "image_url",
+        "output_hint"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "valdovieri-original/vv-overshirt.jpg": "2c3928b81b5e7edf8674d67ffaed2e01a4c3c0e7cab471b0ba5b5c96ca2b839d",
+    "valdovieri-original/vv-cap.jpg": "6547c79f95631cf6cee8fbd214dd2ce2669d17df98b13a5a0145320f42cee7c2",
+    "valdovieri-original/vv-hero.jpg": "13409319faa9935056151a987cd22c215d334eb739c99a067650778e1fe0ecbd",
+    "valdovieri-original/vv-detail.jpg": "13409319faa9935056151a987cd22c215d334eb739c99a067650778e1fe0ecbd",
+    "valdovieri-original/vv-headwear.jpg": "e8a8e559cd0259f6b03fcd979c8d8888d7dae0a683245f5381b577bc9a8cbf40",
+    "valdovieri-original/vv-texture.jpg": "36c1131d9fd6fecb34e0fdd6b0c09958b0a1d94c4d7b2134d131bcf9b3dc9d5a"
+  }
+}

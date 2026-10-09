@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: same-master Midnight Navy product macro concept
+Primary request: Create the same jacket macro in Midnight Navy (#24364B), visibly blue, by editing only cloth/yarn color from the supplied Graphite macro. Image1 is sole canonical reference/edit target. Keep composition, camera, construction and all material structures fixed.
+Input images: Image1 jacket-graphite-detail-blank-v1.png is the sole target. Do not introduce texture from another image or any prior navy photograph.
+Construction invariants: the same point collar, collar stitch seam, shoulder seam, zipper teeth and exact gunmetal slider, chest plane and folds. Keep neutral light, gray background and contact shadows as in source. No whole-photo tint. No change in seam/hardware or knit positions.
+Material: uniform very fine dense micro-twill cloth: tiny straight regular parallel diagonal yarn lines, compact matte finish, no swirl, mosaic, paisley, maze or marbled islands. At native resolution, the textile detail must remain as regular, sharp and plausible as Graphite. Render real straight yarn geometry and coherent fabric relief; never replace it with irregular swirling decorative noise. Do not blur, darken or compress to hide defects.
+Brand staging: no logo, glyph, monogram, patch, badge, text, labels or watermark. Entire relevant chest/cuff remains blank for authentic native V2 sewn material application by integration owner. Concept proposal only; no manufactured/material/origin claim.

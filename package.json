@@ -5,6 +5,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node --test scripts/site.test.mjs",
-    "lint": "node --check scripts/site.js && node --check scripts/build.mjs"
+    "lint": "node --check scripts/site.js && node --check scripts/build.mjs && node --check scripts/render.mjs && node --check scripts/gallery.js",
+    "pretest": "npm run build"
   }
 }

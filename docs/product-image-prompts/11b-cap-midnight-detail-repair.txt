@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: clean Midnight Navy cap macro concept
+Primary request: Create the EXACT same cap macro as Image1, with only cloth color changed to Midnight Navy (#24364B). Preserve the source's very regular fine dense woven yarn grid. Do not use any prior navy cap photo as reference. Source fine weave is canonical.
+Input images: Image1 cap-graphite-detail-blank-v1.png is sole target and complete macro geometry, lighting and texture reference.
+Invariants: same continuous front panel, no front center seam, curved upper/front joins, no top button, same brim/crown join and exactly FIVE brim stitch rows. Same camera/frame/cap silhouette and no extra stitches. Keep gray background and shadows neutral. Only product cloth dye changes; no whole-photo tint.
+Material: regular tiny straight warp/weft fibers, densely repeated uniform weave matching source. No irregular swirl, geometric mosaic, maze, paisley, marbled patches or ornamental grain. Fine matte textile and realistic seam stitches. Keep detail sharp without waxy sheen, smoothing, blur or dark concealment.
+Brand staging: no V, glyph, logo, patch, embroidery graphic, text, labels or watermark. Front stays fully blank for separate authentic native V2 sewn application. Proposed concept, not manufactured/material/origin evidence.

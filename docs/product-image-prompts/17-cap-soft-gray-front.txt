@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: same-master Soft Gray cap front concept
+Primary request: Change ONLY the product cloth dye in Image1 from Graphite to cool Soft Gray (#A2A9B1). Preserve the exact source product design, material weave, camera, geometry, studio lighting, contact shadows and gray background. This is a localized product colorway change, never a whole-photo tint.
+Input images: Image1 cap-graphite-front-blank-v1.png is the sole canonical edit target. Keep all its construction and fine cloth texture.
+Construction invariants: continuous front panel, five-panel construction, no center front seam or top button, side eyelets, curved brim, five stitch rows, silhouette and every cloth fold. Maintain source proportions and crop; no new seams/hardware, no changed material.
+Surface: clean regular fine matte dense woven cloth, the same tiny uniform yarn structure as Graphite; photograph realistic tiny yarn and seam relief. Soft Gray genuinely cool medium-light gray, not white/cream, with enough garment/background separation from natural edge/contact shadows. Preserve neutral background and do not introduce blue/warm color casts. No swirling/marbled/ornamental grain, no shiny metal fabric, no blur or exposure concealment.
+Brand staging: product remains completely blank for exact native V2 tonal material application. No glyph, letter, logo, label, patch, badge, embroidery graphic, text or watermark. All design/color/material are concept proposals, not verified manufactured/material/origin evidence.

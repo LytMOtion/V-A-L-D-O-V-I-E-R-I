@@ -8,7 +8,10 @@
     event.preventDefault();
     if (busy || !form.reportValidity()) return;
     if (form.dataset.preview === 'true') {
-      status.textContent = 'Preview complete. No request has been sent.';
+      var piece = document.getElementById('inquiryPiece');
+      var color = document.getElementById('inquiryColor');
+      var context = piece && color ? ' for ' + piece.value + ' / ' + color.value : '';
+      status.textContent = 'Preview complete' + context + '. No request has been sent.';
       return;
     }
     busy = true;

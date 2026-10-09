@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: corresponding Navy product macro concept
+Primary request: Change ONLY textile color of Image1 jacketmacro fromGraphite toMidnightNavy #24364B, matching Image2frontcolorway. Preserve Image1 exactmacroframing, construction, finefabrictexture, lighting andshadows. Thisislocalizedproductclothcoloredit, NOT a whole-photo tint or new crop.
+Inputimages: Image1 jacket-graphite-detail-blank-v1.png sole edit target andmacrogeometry/microtexturetruth; Image2 jacket-midnight-front-blank-v3.png Navy color reference only, same productmaster, do notborrowfrontframing.
+Invariants: Pointcollar boundary and stitches, shoulder seam, exactziphardware/teeth, finesameclothweave, everyfold andblankchest. Keepbackgroundneutralgray andcameraexactlyasImage1. Maintain fine materialdetail atnativemacroresolution.
+Color: visiblyblueMidnightNavy, sameunderdiffuseneutralsoftstudiolightasfront, no black/navycollapse. Fineclothweave/yarnreliefremainexposed, notblurred or darkened. No artificialswirledpattern or decorativeclothmottling.
+Brandstaging: macro remainsBLANK, no logo/V/letter/patch/badge/stitchgraphic/text/watermark. NativeexactV2 samephysicalposition willbeappliedseparatelybyintegrationowner. Conceptonly, notverified manufactured/material/origin claim.

@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset type: targeted final fine-cloth repair on same Soft Gray cap macro concept
+Primary request: Complete the fabric surface repair of Image1 in the named remaining zones, without changing any construction or camera. Rebuild the UPPER CROWN/TOP PANELS and LEFT/RIGHT SIDE PANEL cloth with the same regular straight woven yarn structure as the repaired continuous center front panel. Keep the front panel uniform. Reduce all yarn-grid size modestly to the Graphite fine scale, rather than a coarse linen mesh.
+Input images: Image1 cap-soft-gray-detail-blank-v2.png is sole edit target. Keep Soft Gray #A2A9B1, same neutral diffuse light and contact shadows.
+Texture target: tiny straight warp and weft yarns making a fine regular dense woven grid; same yarn scale throughout front, upper crown, sides and brim, matching Graphite macro. Straight yarn directions produce a uniform matte textile surface; no decorative surface pattern. Fine native material detail remains readable. Do not blur or darken.
+Invariants: exact framing, silhouette, collar/zip/hardware/shoulder seams for jacket; exact five-panel cap seams and five brim stitch rows for cap. Seam and zipper/stitch coordinates unchanged, no new features. All product regions blank, no V, glyph, labels, patch, badge, text or watermark. A concept proposal, not physical product evidence.

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "jacket",
+    "number": "01",
+    "name": "The Jacket",
+    "type": "Full-zip jacket",
+    "description": "A low point collar. A full front zip. A clean, straight silhouette.",
+    "details": "Two vertical welt pockets and plain cuffs frame the proposed jacket. The small tonal mark sits on the wearer’s left chest.",
+    "placement": "Proposed mark: 10mm wide, wearer’s left chest.",
+    "collection": "jacket-collection.webp",
+    "collectionAlt": "Generated concept of the Graphite full-zip jacket in a complete menswear look.",
+    "colors": [
+      {
+        "id": "graphite",
+        "name": "Graphite",
+        "hex": "#41464D",
+        "front": "jacket-graphite-front.webp",
+        "detail": "jacket-graphite-detail.webp"
+      },
+      {
+        "id": "soft-gray",
+        "name": "Soft Gray",
+        "hex": "#A2A9B1",
+        "front": "jacket-soft-gray-front.webp",
+        "detail": "jacket-soft-gray-detail.webp"
+      }
+    ]
+  },
+  {
+    "id": "cap",
+    "number": "02",
+    "name": "The Cap",
+    "type": "Five-panel cap",
+    "description": "An uninterrupted front panel. A curved brim. A quiet tonal mark.",
+    "details": "The proposed five-panel shape keeps the front clear. Fine rows of stitching follow the brim; the icon is centered above its join.",
+    "placement": "Proposed mark: 16mm wide, centered on the front panel.",
+    "collection": "cap-collection.webp",
+    "collectionAlt": "Generated concept study of the Graphite five-panel cap.",
+    "colors": [
+      {
+        "id": "graphite",
+        "name": "Graphite",
+        "hex": "#41464D",
+        "front": "cap-graphite-front.webp",
+        "detail": "cap-graphite-detail.webp"
+      },
+      {
+        "id": "soft-gray",
+        "name": "Soft Gray",
+        "hex": "#A2A9B1",
+        "front": "cap-soft-gray-front.webp",
+        "detail": "cap-soft-gray-detail.webp"
+      }
+    ]
+  },
+  {
+    "id": "beanie",
+    "number": "03",
+    "name": "The Beanie",
+    "type": "Ribbed beanie",
+    "description": "A compact crown. A turned cuff. Texture held in a close rib.",
+    "details": "Even ribs run into the turned cuff of the proposed beanie. A small tonal icon sits at its center, following the knit’s direction.",
+    "placement": "Proposed mark: 12mm wide, centered on the turned cuff.",
+    "collection": "beanie-collection.webp",
+    "collectionAlt": "Generated concept study of the Midnight Navy ribbed beanie with its turned cuff.",
+    "colors": [
+      {
+        "id": "graphite",
+        "name": "Graphite",
+        "hex": "#41464D",
+        "front": "beanie-graphite-front.webp",
+        "detail": "beanie-graphite-detail.webp"
+      },
+      {
+        "id": "midnight-navy",
+        "name": "Midnight Navy",
+        "hex": "#24364B",
+        "front": "beanie-midnight-navy-front.webp",
+        "detail": "beanie-midnight-navy-detail.webp"
+      }
+    ],
+    "collectionColor": "midnight-navy"
+  }
+]

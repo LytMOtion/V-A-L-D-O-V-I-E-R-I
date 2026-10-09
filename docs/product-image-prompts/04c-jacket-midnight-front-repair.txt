@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: clean same-master Navy jacket front colorway concept
+Primary request: Precisely recolor ONLY the cloth of Image1 jacket from graphite to Midnight Navy #24364B. KEEP THE SOURCE TEXTURE UNCHANGED: fine uniform dense woven surface, with no wavy, swirling, marbled, ornamental or brocade-like pattern. The source is the correct jacket; Image2 demonstrates its clean fine textile at macro scale. Do NOT use any prior navy image as shape/texture source.
+Input images: Image1 jacket-graphite-front-blank-v1.png is sole full-front edit target and all geometry/texture reference. Image2 jacket-graphite-detail-blank-v1.png shows matching fine cloth weave, point collar/zip material, only a microtexture reference. Do NOT borrow macro crop or change front composition.
+Invariants: source jacket entire1122×1402front, silhouette, everycollar/shoulder/cuff/hemseam, verticalwelts, exactgunmetalzipper/hardware, folds, softgraybackdrop, neutral light and contact shadows. Change no edge, seam, closure or geometry. Product-specific cloth color ONLY, no whole-photo blue tint.
+Finish: uniform veryfinewoven matte dense cloth in readable deep blue Navy. Preserve genuine finegrain and fold light. Do not darken/blur/compress tohide defects; no new paisley/swirls/speckledpatches, no large twill texture or fuzzy knit, no gloss.
+Brand staging: no logo, mark, badge, glyph, embroidery, text, labels or watermark. Completelyblank for authenticnativeV2 application. A concept proposal, notverified manufacture/material/origin.

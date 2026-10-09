@@ -1,0 +1,118 @@
+{
+  "jacket": {
+    "graphite": {
+      "front": {
+        "x": 59.7148,
+        "y": 33.16690442225392,
+        "glyphWidth": 1.3102,
+        "finish": "thread"
+      },
+      "detail": {
+        "x": 42.780748663101605,
+        "y": 51.35520684736091,
+        "glyphWidth": 3.6541889483065955,
+        "finish": "thread"
+      },
+      "collection": {
+        "x": 55.794270833333336,
+        "y": 22.8515625,
+        "glyphWidth": 0.29947916666666663,
+        "angle": 0,
+        "finish": "thread",
+        "mobile": {
+          "x": 52.9892578125,
+          "y": 22.8515625,
+          "glyphWidth": 0.5615234374999999
+        }
+      }
+    },
+    "soft-gray": {
+      "front": {
+        "x": 59.7148,
+        "y": 33.16690442225392,
+        "glyphWidth": 1.3102,
+        "finish": "thread"
+      },
+      "detail": {
+        "x": 42.780748663101605,
+        "y": 51.35520684736091,
+        "glyphWidth": 3.6541889483065955,
+        "finish": "thread"
+      }
+    }
+  },
+  "cap": {
+    "graphite": {
+      "front": {
+        "x": 50,
+        "y": 48.3595,
+        "glyphWidth": 6.2567,
+        "finish": "thread"
+      },
+      "detail": {
+        "x": 50,
+        "y": 48.35948644793152,
+        "glyphWidth": 10.606060606060606,
+        "finish": "thread"
+      },
+      "collection": {
+        "x": 61.848958333333336,
+        "y": 51.85546875,
+        "glyphWidth": 3.4505208333333335,
+        "angle": 6.5,
+        "finish": "thread"
+      }
+    },
+    "soft-gray": {
+      "front": {
+        "x": 50,
+        "y": 48.3595,
+        "glyphWidth": 6.2567,
+        "finish": "thread"
+      },
+      "detail": {
+        "x": 50,
+        "y": 48.35948644793152,
+        "glyphWidth": 10.606060606060606,
+        "finish": "thread"
+      }
+    }
+  },
+  "beanie": {
+    "graphite": {
+      "front": {
+        "x": 50,
+        "y": 71.1127,
+        "glyphWidth": 5.9269,
+        "finish": "thread"
+      },
+      "detail": {
+        "x": 50,
+        "y": 68.25962910128388,
+        "glyphWidth": 10.606060606060606,
+        "finish": "thread"
+      }
+    },
+    "midnight-navy": {
+      "front": {
+        "x": 50,
+        "y": 71.1127,
+        "glyphWidth": 5.9269,
+        "finish": "thread"
+      },
+      "detail": {
+        "x": 50,
+        "y": 68.25962910128388,
+        "glyphWidth": 10.606060606060606,
+        "finish": "thread"
+      },
+      "collection": {
+        "x": 35.80729166666667,
+        "y": 68.75,
+        "glyphWidth": 3.1119791666666665,
+        "angle": 1,
+        "finish": "thread"
+      }
+    }
+  }
+}

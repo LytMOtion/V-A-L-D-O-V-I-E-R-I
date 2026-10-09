@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: corresponding Navy product macro concept
+Primary request: Change ONLY textile color of Image1 beaniemacro fromGraphite toMidnightNavy #24364B, matching Image2frontcolorway. Preserve Image1 exactmacroframing, construction, finefabrictexture, lighting andshadows. Thisislocalizedproductclothcoloredit, NOT a whole-photo tint or new crop.
+Inputimages: Image1 beanie-graphite-detail-blank-v1.png sole edit target andmacrogeometry/microtexturetruth; Image2 beanie-midnight-front-blank-v1.png Navy color reference only, same productmaster, do notborrowfrontframing.
+Invariants: Everyclose2×2knitrib/stitchcolumn, yarnstrands/gauge, upperfold/lowercuffedge, cuffheight andcurvature, allknitshadows. Keepbackgroundneutralgray andcameraexactlyasImage1. Maintain fine materialdetail atnativemacroresolution.
+Color: visiblyblueMidnightNavy, sameunderdiffuseneutralsoftstudiolightasfront, no black/navycollapse. Fineclothweave/yarnreliefremainexposed, notblurred or darkened. No artificialswirledpattern or decorativeclothmottling.
+Brandstaging: macro remainsBLANK, no logo/V/letter/patch/badge/stitchgraphic/text/watermark. NativeexactV2 samephysicalposition willbeappliedseparatelybyintegrationowner. Conceptonly, notverified manufactured/material/origin claim.

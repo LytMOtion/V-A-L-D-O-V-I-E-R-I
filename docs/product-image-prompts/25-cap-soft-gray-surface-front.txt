@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset type: repaired same-master Soft Gray cap full front concept
+Primary request: Replace ONLY cloth microtexture throughout ALL product fabric panels in Image1 with the clean fine regular straight woven yarn structure demonstrated by Image2. Same Soft Gray #A2A9B1, actual source construction and all larger folds remain fixed. Do not merely recolor or soften the old surface.
+Input images: Image1 cap-soft-gray-front-blank-v1.png is full-front geometry/camera/color edit target. Image2 cap-soft-gray-detail-blank-v3.png is corrected uniform fine-weave material reference only; do not adopt macro framing.
+Surface: very fine dense woven matte cloth. Yarn spacing scales down naturally at full-product camera distance, fine regular straight thread structure across collar/crown, all panels and cuffs/brim, without decorative grain. Preserve visible stitching and realistic fold relief.
+Invariants: continuous front panel, all five-panel seams, no center seam/button, side eyelets, brim curve and exact five stitch rows, cloth folds and silhouette. Keep full4:5 framing, neutral gray studio, light and contact shadows. Do not blur/darken/compress to conceal texture. Product completely blank for separate authentic V2 thread integration, no logo, letters, patch, badge, label, text or watermark. Concept proposal only.
