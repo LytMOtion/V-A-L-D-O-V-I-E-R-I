@@ -1,0 +1,16 @@
+{
+  "id": "03",
+  "status": "generated; self-review reject pending independent review",
+  "outputSha256": "ae887999a4e4290234b25bfa9c2e2178973c38163237d1474b873d3009fc0153",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-57467d03-2e1a-4149-bd77-da917e10e35a.png",
+  "referenceSha256": ["e014597529003d3b813ba8a369ddcc064daf92227339c83f352b4a07a6c414f4"],
+  "selfReview": "Directional body and some neck continuation but strong curling persists on collar and sleeve. Construction retained. Not a pass.",
+  "tool": "built-in image_gen",
+  "strategy": "focused positive chest-swatch continuation to collar/neck/shoulder/sleeve; preserve successful chest",
+  "prompt": "Use case: precise-object-edit\nAsset type: blank Soft Gray apparel macro concept photograph.\nPrimary request: Finish the SAME fine cotton diagonal twill consistently across the unfinished collar, neckline and sleeve planes of the attached jacket. Use the existing fine parallel diagonal yarn weave on the large central chest as the exact material swatch. Extend that same actual fine yarn, yarn diameter, dense gauge, matte cotton softness and fabric weight to EVERY other cotton surface. Completely resolve NEW yarn structure on the folded collar (upper left/middle down to its point), horizontal inner-neck strip at top left, neck opening cloth, narrow diagonal shoulder seam band from collar toward upper right, and curved right sleeve. Each of those planes is cut from the identical roll of fine tightly woven twill as the chest. At native scale, minute parallel diagonal woven ribs are narrowly spaced, regular and straight within each local plane; cut/fold orientation changes their direction naturally. The visible weave stays parallel and directional even on turned collar faces, narrow folded seam edges and the sleeve. Real tiny fibers and soft cotton sheen give tactile fine detail.\nInvariants: Preserve exact 1122×1402 framing, cool Soft Gray #A2A9B1, neutral cool gray background/light, every garment outline, low fold-down point collar geometry and point location, neckline/seam/stitch positions, folds, shoulder slope, sleeve shape, zipper teeth, single gunmetal zipper pull and hardware. Keep the successful central chest twill and existing chest lighting. The sole change is a newly rendered coherent woven material on remaining cotton planes; all cloth planes should have the same physical material family.\nConstraints: Detailed matte textile, visible coherent fine yarn, natural physical fabric weight. Blank unbranded garment, no icon, glyph, patch, badge, labels, text or watermark. No diffuse smoothing, blur, flat plastic surface, tint cast or exposure darkening. No invented seams, panels, fasteners or folds. Generated design-concept product photograph.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-detail-twill-v4.png"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/03-jacket-soft-gray-detail-body-twill-continuation.png"
+}

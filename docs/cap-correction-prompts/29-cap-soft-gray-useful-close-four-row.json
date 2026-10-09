@@ -1,0 +1,38 @@
+{
+  "id": "29",
+  "status": "HOLD: Art/R1/R2 actual residual crown/rightbrim material; camera variance alone not rejection",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: NEW useful close photograph of blank Soft Gray cap, proposed design concept.\nInput image 1: the attached accepted clean Soft Gray complete-front cap25 is the ONLY garment, cloth, pigment and construction authority. Do not use any previous macro image.\nPrimary request: Make a genuinely new naturally photographed closer view of this SAME cap, camera optically moved closer to study its central uninterrupted front face, both fine upper crown/front stitch margins, lower front/brim join and ALL FOUR parallel curved brim stitch rows. This is a useful physical product-detail camera, not a raster crop, resize or upscale. Native portrait1120x1404.\nCamera/frame: Proposed photographed field about110mm wide\u00d7138mm high, centered across the same proposed160mm-wide front face, so the continuous face extends beyond the side edges. Vertical field about92mm above its lower front/brim join to46mm below. This keeps a shallow upper-crown band and BOTH transverse crown/front stitching margins near the top with breathing room, the broad blank front face filling the center, the lower front/brim join around y930, and ALL FOUR separate brim stitch rows through approximately y1200\u20131360 with a clear small margin beneath the fourth row. The outer vertical side seams and eyelets may naturally be out of this genuinely closer optical frame. If all four stitch rows need a little more space, slightly pull camera back to include them with margins; preserve original row positions relative to actual brim, never invent a fifth row or a new seam.\nPhysical material invariant: Preserve the SAME fine compact regular directional woven cloth on every visible crown, front and brim plane, with the same actual yarn diameter, density and panel-relative direction as the accepted full front. At closer optical scale, fine straight local diagonal yarn segments and small straight cross-yarn interlacing become proportionally more legible. Minute matte fibers and natural supported fabric weight. The central blank face, shallow upper crown context and all brim cloth must remain clean ordered tiny physical woven yarn. No closed-loop/maze/curl/fingerprint/embossed decorative grain, coarse basket cells, plastic smoothing, flat fills, blur, texture stamps or artificial grain overlay.\nConstruction/light: Same five-panel cap with uninterrupted one-piece front, NO vertical center seam or top button. TWO fine garment-matching stitch margins around the transverse curved upper join, lower front/brim join and EXACTLY FOUR fine parallel curved brim rows, same spacing/density/margins and substantial curved brim. Same proposed cool Soft Gray around#A2A9B1, matching tonal thread, neutral cool gray studio/plinth, soft diffuse upper-left light and physical contact if within frame. No warm cream/gold or gloss.\nBlank cap: NO logo, V, glyph, icon, embroidery mark, badge, patch, label, text or watermark. No person or extra object. Proposed dimensions are concept camera/calibration assumptions, not manufactured evidence.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png"
+  ],
+  "referenceSha256": [
+    "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520"
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/29-cap-soft-gray-useful-close-four-row.png",
+  "lineage": "accepted25 sole cleanwholemaster; purposeful NEW close optically photographed proposed110x138mmfield; fourrows/bothuppermargins; no26/27texture or rasterediting",
+  "outputSha256": "01e6a7c12c119e080b0bfd29176603d027eeaf4602a9362e10fbeb1236d4b12f",
+  "nativeDimensions": [
+    1120,
+    1404
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-5ae0465d-7a04-47e8-ac4b-d854e28efc4c.png",
+  "selfReview": "Actual closer camera differs proposed110mmfield: fullface~1090px/side seams/dome visible, so proposed16mm~109px needs honest remap. Camera variation alone is acceptable if material and useful context pass. Art/R2 actual crown/rightbrim material HOLD remains.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "HOLD material",
+      "evidence": "4rows1045/1082/1116/1152; twojoinmargins/lowerjoin supported; crown430-800/y0-65 faintclosed winding; ~109pxglyph usefulifmaterialpasses"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "HOLD material",
+      "evidence": "4rows1037/1074/1111/1148; crown430-800/y0-90 andrightbrim670-960/y875-1030 closed winding; orderlycentralfront; actualcamera not163px"
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "HOLD material",
+      "evidence": "crown500-850/y0-90 faint closedwinding;rightbrim700-1000/y890-1030 maze;4rows/twojoinmargins/context remain;~109pxglyph usable if material passes"
+    }
+  ]
+}

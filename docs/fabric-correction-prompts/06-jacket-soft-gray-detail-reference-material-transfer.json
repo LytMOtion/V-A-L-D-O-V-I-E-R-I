@@ -1,0 +1,20 @@
+{
+  "id": "06",
+  "status": "generated; self-review reject pending independent review",
+  "outputSha256": "f21aac83b11d3d8850c71a8444c0c88bdf3d9496d73e716db6729fd3cb762aae",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-a0ae8268-8d2c-46f1-a1a0-974465b8b591.png",
+  "selfReview": "Original geometry/pull retained, but collar/neck/sleeve maze micrograin persists and body ribs grow coarser despite explicit6x finer projection. Reject.",
+  "tool": "built-in image_gen",
+  "strategy": "two-reference separation: original target geometry/gauge, standalone authentic twill swatch appearance at ~6x finer projection",
+  "prompt": "Use case: precise-object-edit\nInput images: Image 1 is the EDIT TARGET and absolute garment/camera/color/lighting/construction authority. Image 2 is ONLY a much more magnified PHYSICAL YARN MATERIAL REFERENCE; it is not a framing, size, color, seam or garment reference.\nPrimary request: Replace the cotton fabric microstructure in Image 1 using the authentic straight regular diagonal twill yarn construction of Image 2. Apply this coherent material across EVERY cloth plane: especially the folded collar face, inner-neck strip, shoulder seam band and right sleeve. Rebuild their yarn detail completely using Image 2's straight continuously parallel twill ribs and tiny physical cotton fibers. On the target, the cloth is viewed at a much lower magnification than the material reference: project the reference yarn pattern about SIX TIMES FINER, so the tiny diagonal twill ribs have a pitch of about 2–3 pixels and match the successful fine chest cloth of Image 1. Do not put Image 2's large magnified ridges on the garment. All panels belong to the same fine cotton twill roll; align each plane's regular straight diagonal grain with its own cut/fold, and let natural curvature bend the whole orderly thread field. Keep soft matte cotton weight, true local shadows and subtle fine yarn fibers. Image 1's existing chest is the final gauge calibration; Image 2 supplies physical thread appearance and regular construction. Fully replace the collar/sleeve's old microtexture, preserving their macro folds.\nGeometry and photography invariants: COPY Image 1's exact 1122×1402 composition and every garment boundary. Preserve collar outline, point around x450,y545, fold/neck opening, all seam/stitch rows and positions, shoulder slope, armhole and right sleeve projection. Preserve original single gunmetal zipper pull including its exact shape, both apertures, size and position near x170,y400..545; preserve all zipper teeth and tape positions. Preserve background, cool Soft Gray #A2A9B1 pigment, exposure and real lighting exactly. Never move, enlarge, reshape or add hardware/seams/panels/marks. The change is only newly coherent fine woven cloth surface.\nConstraints: Sharp tactile yarn detail throughout, no blur, smoothing, plastic fill or darkening. Fine straight directional twill everywhere, no decorative material. Blank design-concept photo: no logo, glyph, emblem, label, badge, patch, text or watermark.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-detail-twill-v4.png",
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/05-soft-gray-fine-cotton-twill-reference.png"
+  ],
+  "referenceSha256": [
+    "e014597529003d3b813ba8a369ddcc064daf92227339c83f352b4a07a6c414f4",
+    "99fbe6f74634bbb94f0ac8c2f8688dd2987ea3cdc918896a4d6483ad83cc5508"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/06-jacket-soft-gray-detail-reference-material-transfer.png"
+}

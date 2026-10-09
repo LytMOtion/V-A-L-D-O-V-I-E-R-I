@@ -1,0 +1,18 @@
+{
+  "id": "19",
+  "status": "generated; coherentusefulclosecandidate, actualphysicalmapping review pending",
+  "outputSha256": "bef93d47666210cff4df215cee193801ab65454217f602c694dd07c4e24c52ff",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-fb6ccfb5-b2ec-4714-9ce2-fc899e2c5215.png",
+  "selfReview": "Cleanregularfibers/zipcollarcontext. Actualcamera~2.0–2.2xold09notplanned2.75x: fullpullx110/y75..410,collarpoint850/480. Requested100x125field/112pxglyph/898,561 cannotblindlyassert; Artactualphysical10mmremapneeded.",
+  "tool": "built-in image_gen",
+  "strategy": "NEW100x125mmphysicalcamera fieldfrom09fornative10mmthreadproof, zip+collarcontext, NOglyph/crop/upscale",
+  "prompt": "Use case: product-mockup\nInput image: Accepted clean SoftGray jacket macro is exclusive physical cloth, color, construction, lighting and exact zipper/collar authority. Create a NEW genuinely closer studio photograph of its wearer-left upper chest, not a crop/resized/upscaled copy.\nPhysical camera field: 100mm WIDE ×125mm TALL, portrait1122×1402. Same straight-on camera plane as reference. Field extends horizontally from5mm viewer-left of centerzip to95mm wearer-left chest; vertically roughly100..225mm below the collar/shoulder intersection. This is roughly2.75× closer optical magnification than attached macro. Show sourcephysical region corresponding approximatelyx148..553,y580..1086 in reference only as scene guidance, NOT deterministicresize.\nComposition: Centerzip chain/tape close to leftedge aroundx56, with the source's partially cropped lower gunmetalpull at upperleft and its real lower rectangular through-aperture visible. Sourcecollar point enters naturally near upperright aroundx1000/y360, keeping same collarfold/seam construction. Mostframe is the blank wearer-left chest cloth with subtle garmentfoldweight, meaningfulzip/collarseam context, no isolated fabric tile. Blank wearer-left bodyarea aroundx898/y561 remains cleancloth. Do notadd any mark there.\nMaterial: SAME coherent fine compact diagonal twill as source, exact actual yarn diameter/density/weight, projected more visibly by genuinely closer camera. Tiny physical cotton-like yarns, regular straight parallel local diagonal ribs, natural individual fine fibers and true restrained yarn shadows. Collar/sourcechest share same clothroll. Honestdiffuseupperleftlight/coolSoftGray #A2A9B1/tonalthread, no cream/gold. Preserve originalgunmetal hardware design/chain/seams, no inventednewstitching/hardware.\nConstraints: NEWphotograph atcloser opticalscale, sharpdetail, no rastercrop/upscale/blur/smoothing/tint/exposuredarkening/flatfill. Entireimage blank: no glyph/logo/icon/letters/text/label/badge/patch/watermark. No generatedembroidery or newgarmentpanels. Generateddesignconcept, no verifiedfiber/manufacturingclaim.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/09-jacket-soft-gray-detail-original-pull-restoration.png"
+  ],
+  "referenceSha256": [
+    "fa5d53d392cdbf82b2fd86f7a6fa8cdc7c050081f4058b4b9ea3b6f0302afb38"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/19-jacket-soft-gray-useful-close-photo.png"
+}

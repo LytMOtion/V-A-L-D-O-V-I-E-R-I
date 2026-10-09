@@ -1,0 +1,47 @@
+{
+  "id": "25",
+  "status": "PASS: Art/R1/R2 native bounded NEW four-row family authority",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: photoreal blank cap full-front catalog image for a proposed design concept.\nPrimary request: Create a genuinely new natural studio photograph of one complete cool Soft Gray five-panel cap. Portrait native 1120x1404. Straight frontal product camera, slightly above the brim plane so its curved top is readable. Complete cap centered on a rectangular neutral gray plinth, crown apex near y250, lower crown/brim attachment near y860, brim tip near y1150, cap width around960 pixels with balanced left/right margins. Moderate head-size crown, not exaggerated tall. Substantial gently curved brim, symmetrical physical crown and believable grounding contact shadow.\nGarment construction: A broad uninterrupted single front panel with NO vertical center seam, its clean blank front face spanning about x215 to915 and from the curved transverse crown join near y480 to lower crown seam near y860. A rounded upper crown continues over it. The transverse upper crown join curves down gently at its sides and has exactly TWO narrow garment-matching stitching margins, one on either side of the join. Two coherent crown-to-side joins frame the continuous front face; side panels softly curve behind, with one small tonal sewn eyelet on each visible side. FIVE-PANEL construction, NO top button. The curved brim has EXACTLY FOUR distinct fine parallel curved stitch rows, with realistic close row spacing and clear fabric edge margins. Four brim rows must be traceable across the entire brim; the panel count is separately five.\nPhysical fabric: All crown, front panel, side panels and brim are cut from the SAME fine dense compact directional woven cloth. The surface consists of very small, evenly spaced, orderly straight local diagonal yarns and fine cross-yarn interlacing, with a crisp fine regular grain. Individual short straight yarn segments remain orderly; cloth direction follows the cut and natural surface perspective. Minute natural fibers, matte dry cloth, softly substantial physical weight. Keep the yarn gauge fine and proportional to a complete cap at this camera distance. Actual fabric texture visible under natural diffuse light, especially on the blank front face. Uniformly regular small woven grain across all planes. Do not generate larger decorative patterns.\nColor/light/background: Proposed cool neutral Soft Gray approximately #A2A9B1, stitching matches the cap. Cool neutral gray studio and rectangular gray plinth. Soft diffuse upper-left daylight studio illumination, restrained natural highlights on yarns, readable depth and contact. No warm cream, beige, gold, or glossy material.\nConstraints: Absolutely no logo, V, glyph, icon, text, label, badge, patch, watermark or person. No vertical front seam, no top button, no extra brim stitch row. No curling, winding, fingerprint, maze, topographic or swirling texture, no embossed grain, no plastic, flat color areas, blur or grain overlay. This is a generated concept photograph, without fiber or manufacturing claims.",
+  "references": [],
+  "referenceSha256": [],
+  "constructionConceptSource": {
+    "path": "evidence/round-two/fabric-correction/17-cap-soft-gray-detail-clean-master.png",
+    "sha256": "4501965ff3d84bcf792d2be13db3c0392925ee893f418bc7a123565ca38ad728",
+    "role": "personally inspected construction/fine-gauge transcription only; not image tool input"
+  },
+  "expectedOutput": "evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png",
+  "lineage": "NEW text-only photograph after23/24 material failure; same proposed FOUR-row FIVE-panel cap; no raster inheritance; blank",
+  "outputSha256": "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520",
+  "nativeDimensions": [
+    1121,
+    1403
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-45aa4410-3926-4b08-8bd5-e9fc7118302b.png",
+  "selfReview": "New text-only cloth appears compact regular straight directional across all planes, four brim rows visible, two upper stitch margins, blank continuous face and no top button. Independent whole-family gauge/form review required.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "PASS new family",
+      "evidence": "fine directional woven all planes; four rows center931/955/979/1003; two margins; no button; eyelets; contact",
+      "proposedVAnchor": {
+        "visibleWidthPx": 72.8,
+        "center": [
+          560,
+          676
+        ],
+        "basis": "proposed160mm face,728px projection; proposed16mm glyph; proposed30mm lowerjoin setback"
+      }
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "PASS new family",
+      "evidence": "native1121x1403 fine grain/fiber/fuzz all planes; four rows933/956/980/1003; double upper margins; no center seam/button"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "PASS new family",
+      "evidence": "four rows930/954/978/1002; straight small directional yarn all planes; no broad curl/fingerprint/flatfill; no pair correspondence17"
+    }
+  ]
+}

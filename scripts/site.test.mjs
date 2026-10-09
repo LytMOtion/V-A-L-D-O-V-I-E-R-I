@@ -78,11 +78,18 @@ test('every rendered local image/link resolves and every garment mark keeps orig
   assert.ok(css.includes('prefers-reduced-motion:reduce'));
   assert.ok(!/IntersectionObserver|opacity:\s*0(?:;|})|class="lock"/.test(script+css));
 });
-test('all fifteen active photographic views are distinct completed assets',()=>{
+test('active looks are distinct; the documented Graphite cap detail faithfully reuses its front master',()=>{
   const files=products.flatMap(p=>[p.collection,...p.colors.flatMap(c=>[c.front,c.detail])]);
   assert.equal(files.length,15); assert.equal(new Set(files).size,15);
   const hashes=files.map(file=>createHash('sha256').update(readFileSync(`assets/products/${file}`)).digest('hex'));
-  assert.equal(new Set(hashes).size,15,'active photos must not repeat as separate looks');
+  assert.equal(new Set(hashes).size,14,'only the explicitly documented detail crop may reuse its photograph');
+  const cap=products.find(p=>p.id==='cap').colors.find(c=>c.id==='graphite');
+  assert.deepEqual(cap.detailCrop,[200,280,720,900]);
+  assert.deepEqual(readFileSync(`assets/products/${cap.detail}`),readFileSync(`assets/products/${cap.front}`),'faithful crop retains the untouched source photograph');
+  const html=readFileSync(`dist/products/cap/index.html`,'utf8');
+  assert.ok(html.includes('data-faithful-crop="true"'));
+  assert.ok(html.includes('Detail crop / same photograph'));
+  assert.ok(html.includes('--photo-width:720px;aspect-ratio:720/900'));
 });
 test('safe dry-run identifies all six piece/color combinations and never sends',async()=>{
   for(const product of products)for(const color of product.colors){

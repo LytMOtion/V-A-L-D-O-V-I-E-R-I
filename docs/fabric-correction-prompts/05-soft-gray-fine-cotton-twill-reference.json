@@ -1,0 +1,13 @@
+{
+  "id": "05",
+  "status": "generated; material appearance credible, scale differs from requested",
+  "outputSha256": "99fbe6f74634bbb94f0ac8c2f8688dd2987ea3cdc918896a4d6483ad83cc5508",
+  "nativeDimensions": [1254, 1254],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-dc0762ce-a58b-433c-a292-e16f0090866b.png",
+  "selfReview": "Coherent regular physical diagonal twill, soft fibers, no curl, but tool chose much higher magnification than requested2–3px. Use only enlarged physical-yarn appearance reference with explicit roughly6x finer projection in target06.",
+  "tool": "built-in image_gen",
+  "strategy": "standalone positive physical yarn reference, no garment to confuse shape/material",
+  "prompt": "Use case: product-mockup\nAsset type: photographic textile material reference for correcting apparel photographs.\nPrimary request: A sharply focused true macro photograph of one flat piece of exceptionally fine densely woven cotton 2/1 diagonal twill in cool neutral Soft Gray #A2A9B1. Fill the ENTIRE square 1024×1024 image with the cloth surface. The twill is a real tightly woven textile made from thin cotton warp and weft yarns: alternating tiny yarn crossovers advance by one yarn each row to make hundreds of straight, closely spaced, continuous diagonal twill ribs across the image. Aim for about 400 subtle diagonal ribs across the 1024-pixel width, each separated by only 2–3 pixels, not large corduroy ridges. Fine individual yarn detail is natural and tactile, with tiny sparse cotton-fiber fuzz. The material is compact and softly matte with fine regular structure and very slight yarn variation.\nComposition and lighting: Camera directly perpendicular to the smooth flat fabric; no folds or seams, no garment, no pattern pieces, no border or table. Neutral softly raking diffused upper-left light reveals the very fine yarn structure without bold shadow. All areas in equally sharp focus. Cloth pigment and threads are the same cool gray. Subtle yarn light/shadow, no warm tint, no high-contrast graphic lines.\nConstraints: Straight parallel regular fine diagonal twill throughout. This is a close-up photo of fine cotton, not a diagram, illustration, CGI, relief engraving or decorative surface. No text, branding, label, watermark, extra object, stitch row, wrinkle, knit, coarse basket weave, looping yarn, curled contours or circular patterns. No smoothing/blur or exposure-darkening.",
+  "references": [],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/05-soft-gray-fine-cotton-twill-reference.png"
+}

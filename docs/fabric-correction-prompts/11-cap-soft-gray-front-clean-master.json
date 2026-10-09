@@ -1,0 +1,18 @@
+{
+  "id": "11",
+  "status": "generated; self-review fullsurface fail, independent review pending",
+  "outputSha256": "987737d48a5c4dab9ed3daf11f16e4493d00b489c2953ae2d33626608e111ae2",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-dcfcfb4c-c8cd-4d96-959b-cf9065990838.png",
+  "selfReview": "Fine frontface but obvious crown/side curling contourgrain survives in NEWfullfront fromfresh02. Not a wholeclothpass; no propagation.",
+  "tool": "built-in image_gen",
+  "strategy": "wholemasterreshoot fromfresh02 physicalcloth/construction, camerabackedout; noolddefectivecaptextureauthority",
+  "prompt": "Use case: product-mockup\nInput image: The attached NEW clean woven cap macro is the physical garment-construction and cotton-appearance authority. Create its FULL FRONT product view with the camera pulled back. Do not make another macro crop.\nPrimary request: A new professional studio full-front photograph of this SAME blank five-panel cap in cool Soft Gray #A2A9B1. Entire cap visible, frontal view, supported by a rectangular neutralgray studio plinth. It is one consistent fine dense plain-weave cotton material across the large continuous front panel, upper crown, both sides and brim. Numerous very thin straight local warp and weft yarns alternate one-over-one with tiny soft cotton fibers and matte weight. Each plane has an orderly regular fine yarn crossing at its natural cloth direction. The camera is farther away than in the reference, so woven grain becomes naturally much finer and denser at the full-cap view, never giant checker cells or large nubs. All planes share the same fine yarn diameter and density.\nConstruction: EXACTLY five-panel cap, large continuous one-piece front face without vertical center seam, two upper-crown joins and curved transverse front/crown seam, side panels with one tonal sewn ventilation eyelet visible on each side. No top button. Curved substantial brim with EXACTLY FIVE parallel gently curved sewn stitch rows, no sixth row. Tonal sewn stitches, same frontal crown curvature and softly supported front face as the reference. No added panels, extra seams, buckle within this frontalview or other hardware.\nCamera/layout: 1122×1402 portrait. Cap centeredx561; crownapex near y300. Entire crown occupies roughlyx90..1030 andy300..840. Transverse crown/frontseam center near y445 and sideends neary500. Large continuous frontpanel endsnear y820. Brim startsaroundy820 and curvesforward to softfrontedge aroundy1000 atcenter andy1060 atcorners. Allcapedgesfullyvisible withmargins. Plinthtopsupport beneathbrim, visiblefrontedge aroundy1160. Neutralcoolgray seamlessstudiobackground, diffused upper-leftlight, natural contactsupportshadow.\nConstraints: Photoreal tactile fine cloth and stitches throughout, physical garmentweight. No smoothing/blur/flatplastic/darkening, no decorative pattern. Cool neutralgray cloth/thread, no cream/gold/lightwarmcast. Completely blank unbranded cap: no icon, logo, glyph, patch, badge, label, text or watermark. Generated design-concept imagery, not verified manufacturing.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/02-cap-soft-gray-detail-new-physical-weave.png"
+  ],
+  "referenceSha256": [
+    "1a1d252e59af4933cfef2f3c9206f2c7c66d0cb0b67b7ff10e910c05d0842a4c"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/11-cap-soft-gray-front-clean-master.png"
+}

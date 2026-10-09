@@ -1,0 +1,42 @@
+{
+  "id": "30",
+  "status": "PASS standalone visiblecloth/context; FAMILY HOLD reversed dominant diagonal yarn versus25/28",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: genuinely NEW useful close photograph of the central blank Soft Gray cap face and brim, proposed design concept.\nPrimary request: A natural studio product DETAIL photograph, ONLY the central portion of a cap's broad continuous front face. The frame is mostly a large field of actual fine woven front-face cloth, with useful sewing context at top and bottom. No complete cap silhouette is visible in this close view. No crown apex, no full dome, no vertical outer side-panel seams, no eyelets or outer brim corners in the camera's field. This must be a genuinely new optically closer photograph, not a crop, resize or upscale of any image.\nPhysical camera: Portrait native1120x1404, same straight frontal plane as a catalog cap, slightly above the brim. Proposed optical field about110\u2013115mm wide\u00d7138\u2013144mm high, centered on the central25..135mm of an assumed160mm-wide continuous front. The front panel extends naturally BEYOND both left/right image edges. A very shallow upper-crown cloth band and a transverse curved upper crown/front join with BOTH fine stitch margins run across the frame near y70\u2013120, with breathing space above. The broad uninterrupted blank front face occupies the central image to its lower front/brim join near y920\u2013950. The top of the gently curved substantial brim occupies the lower part, with EXACTLY FOUR separate fine parallel curved stitch rows roughly y1190\u20131360, all four visible and a small clean cloth margin below the last row. The brim's outer edge may be outside this close optical field; do not cut off any stitch row. Slightly pull the camera back if needed to keep both upper stitch margins and allfour rows with clean breathing room.\nSame cap design: Proposed Soft Gray five-panel cap, NO vertical center-front seam, NO top button. Double upper-join stitch margins and EXACTLY FOUR brim rows are distinct sewing features. Preserve the physical panel and brim proportions of a moderate five-panel cap. The visible cloth is softly supported, with restrained natural curvature and fabric weight, not an isolated flat texture swatch.\nCritical physical material: All visible upper band, front face and brim use ONE SAME fine dense compact directional woven cloth. Very fine evenly spaced orderly straight local diagonal yarns, tightly interlaced with tiny straight cross-yarn segments. Clean regular shallow physical thread relief and fine fibers, dry matte yarn. Each short yarn segment remains straight and ordered under the close lens, with the same fine physical gauge across all planes; small perspective variations are natural. The regular fine yarn construction must remain readable and tactile. Do not invent large decorative grain, closed loops, maze-like organization, curls, fingerprints, winding/crosshook ridges, embossed contour bands, plastic smoothing, flat panels or blur.\nColor/light: Cool neutral proposed Soft Gray approximately#A2A9B1 and garment-matching tonal thread. Natural diffuse upper-left studio light gives honest restrained yarn highlights and fine shadows, no harsh gloss, no warm cream/gold tint or whole-image filter.\nConstraints: Entire visible cap blank: NO logo, V, glyph, icon, embroidery mark, text, label, badge, patch or watermark. No person, product insert or extra seam. Generated design concept only; camera dimensions are proposed calibration assumptions, not actual manufactured measurement.",
+  "references": [],
+  "referenceSha256": [],
+  "constructionConceptSource": {
+    "path": "evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png",
+    "sha256": "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520",
+    "role": "personally accepted cleanfront physicalcloth/construction/camera transcription only; no raster tool input"
+  },
+  "expectedOutput": "evidence/round-two/image-production-recovery/30-cap-soft-gray-central-useful-close-fresh.png",
+  "lineage": "NEW text-only closer centralface photograph after29 actualallplanematerialHOLD; body/two topmargins/lowerjoin/allfourrows context; no macroinheritance or crop/upscale",
+  "outputSha256": "4beca3b3495c731c763a20114f8d456072c061215fef0aaecdeec2b688880231",
+  "nativeDimensions": [
+    1121,
+    1403
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-44927d13-76d6-4031-a87e-d820146285f9.png",
+  "selfReview": "New text-only centralpartialfront photo: no dome/side seams; fine clean orderly directional yarn allvisibleplanes; double upperjoin near100-145, lowerjoin~1090,4rows~1210/1250/1290/1330. Actualcamera landmarks differ proposal; Art remap needed for16mm and qualitative25family/gauge. No inheritedmacro/crop/upscale.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "standalone PASS; family HOLD",
+      "evidence": "cleanordered yarn;4rows1215/1252/1292/1331; samepanel frontfallright25/28 versusriseright30;face spans407to992~2.44x",
+      "conditionalActual30VAnchor": {
+        "visibleWidthPx": 177.5,
+        "center": [
+          560,
+          760
+        ],
+        "basis": "25upperjoin406/lower813 to30upper102/lower1094;2.44x camera; proposed16mm; not transferable to31"
+      }
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "standalone PASS; family HOLD",
+      "evidence": "4rows1210/1250/1290/1330, upper/lowercontext coherent; no loopbands;dominantfrontdirectionreversed"
+    }
+  ]
+}

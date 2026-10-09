@@ -1,0 +1,54 @@
+{
+  "id": "26",
+  "status": "REOPENED whole-material: prior blanket all-plane pass withdrawn by Art/R1/R2; no propagation",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: useful blank Soft Gray cap macro/detail photograph, generated design concept.\nInput image 1: the attached accepted NEW clean Soft Gray complete-front cap is the exclusive authority for this garment's cloth, pigment, construction, row count, camera angle and physical yarn gauge.\nPrimary request: Photograph this EXACT same cap with the camera moved optically about 1.40x closer at the same frontal angle and light. Make the blank continuous front face, curved upper crown join, adjacent crown/sides and four-row curved brim useful and sharply readable. Native portrait 1120x1404. Continuous front face nearly full frame width, crown apex close to y50, transverse double-margin join around y300, lower front/brim join around y870, brim edge near y1280 and neutral plinth contact below. Outer side panels may approach the frame edges; this is a closer real photograph, not a raster crop/upscale.\nMaterials invariant: Same exact fine compact regular directional woven cloth across crown, entire front face, sides and brim, with fine straight ordered local diagonal yarns and tiny interlaced cross-yarns as image 1. Preserve the actual yarn diameter/density and panel-relative grain direction. At 1.40x optical magnification the SAME weave is proportionally more visible, not a new coarse cloth. Matte physical yarn, minute natural fibers, realistic supported fabric weight. Every plane must preserve the clean straight small woven field rather than adding winding/curling ridges or decorative grain. No flat fills, plastic smoothing, blur or enlarged basket cells.\nConstruction invariant: Preserve the NEW five-panel cap's exact moderate crown height, continuous broad one-piece front face with no vertical center seam, TWO fine stitch margins around the transverse curved upper join, coherent side joins and no top button. Preserve the exact curved substantial brim and EXACTLY FOUR fine parallel curved stitch rows with the same density, spacing and edge margins. Do not add a row or panel. Small tonal sewn eyelets can be cropped if out of frame.\nColor/light/frame invariant: Same proposed cool Soft Gray around #A2A9B1, matching tonal stitches, neutral cool gray studio/plinth, natural diffuse upper-left light and truthful soft contact shadow. No whole-photo tint, warmth, cream, gold or gloss.\nConstraints: Entire cap blank, no logo, V, glyph, icon, patch, badge, label, embroidery mark, printed text or watermark. No generated material/manufacturing claim.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png"
+  ],
+  "referenceSha256": [
+    "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520"
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/26-cap-soft-gray-detail-new-four-row-family.png",
+  "lineage": "25 NEW clean family, independently passed Art/R1/R2; sole raster authority; closer optical1.4x; FOUR rows FIVEpanels",
+  "outputSha256": "d79f25823aeffb1b8086965b989d4d100e83223caae9c12917ea0f712a8f3900",
+  "nativeDimensions": [
+    1120,
+    1404
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-6c654c46-4127-4dd2-8235-13fbdb4238f5.png",
+  "selfReview": "Whole planes appear clean orderly directional woven; four rows visible, camera closer than25 and same broad panel/twojoin margins. Independent native correspondence gate required.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "PASS",
+      "evidence": "all planes fine directionalwoven;4rows1018/1050/1088/1125; panel728to1013,1.4x close camera",
+      "proposedVAnchor": {
+        "visibleWidthPx": 101.3,
+        "center": [
+          560,
+          658
+        ],
+        "basis": "1013px/proposed160mm face; lowerjoin848 minusproposed30mm"
+      }
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "PASS",
+      "evidence": "all-plane short directional yarn/fuzz;4rows1018/1050/1086/1123; camera~1.38x; coherent construction"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "PASS",
+      "evidence": "4rows1018/1053/1088/1124;face695to1007~1.45x; all-plane clean weave; no curls/fills"
+    }
+  ],
+  "gateAmendment": {
+    "reviewers": [
+      "art_direction",
+      "visual_review_one",
+      "visual_review_two_recovery"
+    ],
+    "evidence": "faint same closed-loop grain crown x450\u2013800/y30\u201380; R2 also flags rightbrim. Geometry/mainface/camera/gauge remain supported. Dark27 contrast exposes structure rather than excuses it."
+  }
+}

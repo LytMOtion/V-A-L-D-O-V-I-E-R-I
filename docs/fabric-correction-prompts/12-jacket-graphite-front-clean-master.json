@@ -1,0 +1,19 @@
+{
+  "id": "12",
+  "status": "generated; independent Art/R2 reject whole material",
+  "outputSha256": "7c70f0baa7c66467c6f62056f972e88841a897ad4fb0263f584195e3719202cf",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-bd5c61ed-772b-42eb-9e7d-9f84626eb715.png",
+  "selfReview": "Colorway/construction/camera preserved, irregular curled patches return shoulders/sleeves under Graphite contrast. No family pass.",
+  "independentReview": "Art/R2 reject: fingerprint/mottled grain rightshoulder x770..870/y300..480, right sleeve x950..1080/y500..1000 and left sleeve x70..190/y650..1100. Construction/hardware/color retained, clean10cloth not retained.",
+  "tool": "built-in image_gen",
+  "strategy": "color-only Graphite counterpart from independently accepted NEWGrayfront10, all physicalfabric/gauge/geometry invariant",
+  "prompt": "Use case: precise-object-edit\nPrimary request: Create the Graphite COLORWAY of this exact accepted clean full-front jacket photograph. Change ONLY cotton yarn pigment and tonal seam-thread pigment from Soft Gray to cool neutral Graphite #343638. The attached image is the absolute authority for every garment shape, physical cloth, gauge, seam, hardware, fold, lighting and camera.\nInvariants: Preserve its coherent regular fine diagonal twill across collar, neck strip, chest, shoulders, sleeves, pocket welts, plain turned cuffs and straight sewn hem. Identical physical yarn diameter, rib spacing, cloth weight and grain direction; natural fine fibers and sharply resolved matte textile remain visible in Graphite. Preserve entire1122×1402 frame, exact lowfoldpointcollar, single closedfullzip, original two-opening taperedgunmetalpull, teeth, setinsleeves, twonarrowverticalweltpockets, all seam/stitch positions, garmentoutline and foldgeometry. All cloth becomes Graphite consistently, no gray panels left. Zipper/hardware stay gunmetal. Background/contactshadows/studioexposure/light stay exactly as source; no wholephototint or darkening. Graphite is a yarn-colorchange, not an exposurechange; fine weave remains legible on every plane.\nConstraints: No smoothing/blur, plasticfill or new surfacepattern. No addedparts/panels/seams/closures. Blank garment withno logo/glyph/patch/badge/necklabel/text/watermark. Cool charcoal, not navy orwarmbrown. Generated concept photograph, not verifiedmanufacturing.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/10-jacket-soft-gray-front-clean-master.png"
+  ],
+  "referenceSha256": [
+    "6be0a32cfa242edf53f17ef784c543560c11eb87f6b4bd5197e0279d996a6c93"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/12-jacket-graphite-front-clean-master.png"
+}

@@ -5,8 +5,8 @@
     "name": "The Jacket",
     "type": "Full-zip jacket",
     "description": "A low point collar. A full front zip. A clean, straight silhouette.",
-    "details": "Two vertical welt pockets and plain cuffs frame the proposed jacket. The small tonal mark sits on the wearer’s left chest.",
-    "placement": "Proposed mark: 10mm wide, wearer’s left chest.",
+    "details": "Two vertical welt pockets and plain cuffs frame the proposed jacket. The small tonal mark sits on the wearer\u2019s left chest.",
+    "placement": "Proposed mark: 10mm wide, wearer\u2019s left chest.",
     "collection": "jacket-collection.webp",
     "collectionAlt": "Generated concept of the Graphite full-zip jacket in a complete menswear look.",
     "colors": [
@@ -15,14 +15,30 @@
         "name": "Graphite",
         "hex": "#41464D",
         "front": "jacket-graphite-front.webp",
-        "detail": "jacket-graphite-detail.webp"
+        "detail": "jacket-graphite-detail.webp",
+        "frontDimensions": [
+          1122,
+          1402
+        ],
+        "detailDimensions": [
+          1122,
+          1402
+        ]
       },
       {
         "id": "soft-gray",
         "name": "Soft Gray",
         "hex": "#A2A9B1",
         "front": "jacket-soft-gray-front.webp",
-        "detail": "jacket-soft-gray-detail.webp"
+        "detail": "jacket-soft-gray-detail.webp",
+        "frontDimensions": [
+          1122,
+          1402
+        ],
+        "detailDimensions": [
+          1122,
+          1402
+        ]
       }
     ]
   },
@@ -42,15 +58,41 @@
         "name": "Graphite",
         "hex": "#41464D",
         "front": "cap-graphite-front.webp",
-        "detail": "cap-graphite-detail.webp"
+        "detail": "cap-graphite-detail.webp",
+        "frontDimensions": [
+          1121,
+          1403
+        ],
+        "detailDimensions": [
+          1121,
+          1403
+        ],
+        "detailCrop": [
+          200,
+          280,
+          720,
+          900
+        ]
       },
       {
         "id": "soft-gray",
         "name": "Soft Gray",
         "hex": "#A2A9B1",
         "front": "cap-soft-gray-front.webp",
-        "detail": "cap-soft-gray-detail.webp"
+        "detail": "cap-soft-gray-detail.webp",
+        "frontDimensions": [
+          1121,
+          1403
+        ],
+        "detailDimensions": [
+          1121,
+          1403
+        ]
       }
+    ],
+    "collectionDimensions": [
+      1536,
+      1024
     ]
   },
   {
@@ -59,7 +101,7 @@
     "name": "The Beanie",
     "type": "Ribbed beanie",
     "description": "A compact crown. A turned cuff. Texture held in a close rib.",
-    "details": "Even ribs run into the turned cuff of the proposed beanie. A small tonal icon sits at its center, following the knit’s direction.",
+    "details": "Even ribs run into the turned cuff of the proposed beanie. A small tonal icon sits at its center, following the knit\u2019s direction.",
     "placement": "Proposed mark: 12mm wide, centered on the turned cuff.",
     "collection": "beanie-collection.webp",
     "collectionAlt": "Generated concept study of the Midnight Navy ribbed beanie with its turned cuff.",

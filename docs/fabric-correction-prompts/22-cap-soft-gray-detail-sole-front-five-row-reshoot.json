@@ -1,0 +1,14 @@
+{
+  "id": "22",
+  "status": "staged",
+  "tool": "built-in image_gen",
+  "strategy": "NEWmacrofrom14SOLEacceptedcleanfront, no17/20input, fiveexplicit separatedvisible sewnpaths/framing",
+  "prompt": "Use case: product-mockup\nInput image: This accepted clean NEW Soft Gray cap fullfront is the SOLE reference for physical fine woven cloth, color, five-panel construction and every seam/stitch. Create its matching NEW closer photograph; do not edit any earlier macro.\nPrimary request: Photograph this SAMEcap at a closer frontal studio camera distance, sameangle/light. Continuousblankfrontface fills mostwidth, adjacentcrown/sides remainvisible, entire curvedbrim remainsvisible with ALLFIVE actual sewn brim rows insideframe. One consistent compact fine directional woven cloth allplanes exactlylike source: regular tiny locally straight yarns/ordered directionalgrain, minute softfibers/matteweight, samephysical yarn diameter/density. Macroprojectionabout1.6×thefullfront; physicalgrainbecomesmorevisiblewithout largebasketcells ordecorativepattern. Crown, front andbrim are thesameclothroll, no recurringirregularmicrotexture.\nConstruction/framing: Portrait1120×1404, uppercrownarc neartop, double-margin transversecrown/frontjoin nearcentery310, continuousfrontface/brimjoinaroundy860. Preserve sourcefive-panel/noverticalcenterseam/no topbutton andsourceseammargins, samecurvedbrim/contact/plinth. Frame low enough to clearlyincludeFIVE SEPARATE curvedfine tonalbrimstitchrows before rollededge. Row1/Row2/Row3/Row4/Row5 are five distinct evenlyspaced parallel sewn paths, nevercountjoinoredge asrow. Asframingguidance rowcenters near y975,1017,1059,1101,1143; eachrow follows the same brimcurvature and fine stitchscale as source. Keep physical source-rowdensity/margins relativebrimsize, chooseframingsoallfivearevisible. Do notomitlowestrow oraddsixth.\nCoolSoftGray#A2A9B1/tonalthread, same neutralcoolgray background/plinth/diffuseupperleftlight, honestsoftcontactshadow. Tactilephotorealcloth, sharpfine yarn, no smoothing/blur/flattening/plastic/exposuredarkening/tint. Blanknologo/glyph/icon/badge/patch/label/text/watermark. Generatedconceptimage/noverifiedfiber/manufacturingclaim.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/14-cap-soft-gray-front-text-only-plainwoven.png"
+  ],
+  "referenceSha256": [
+    "128e0fb83d39c12d2ae07144556286372cce6e6f7de6fe667ff382a7562e9115"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/22-cap-soft-gray-detail-sole-front-five-row-reshoot.png"
+}

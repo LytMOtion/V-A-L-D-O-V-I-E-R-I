@@ -1,0 +1,52 @@
+{
+  "id": "31",
+  "status": "PASS: Art/R1/R2 native bounded25/31 visiblecloth/context/direction/gauge family",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: genuinely NEW useful close photograph of the central blank Soft Gray cap face and brim, proposed design concept.\nPrimary request: A natural studio product DETAIL photograph, ONLY the central portion of a cap's broad continuous front face. Most of the frame is actual fine woven front-face cloth with useful sewing context at top and bottom. No complete cap silhouette, crown apex, full dome, outer vertical side-panel seams, eyelets or outer brim corners in this camera field. This is a new optically closer photograph, never a crop, resize, mirror or upscale of an existing image.\nCamera/context: Portrait native1120x1404, straight frontal plane, slight view down to substantial curved brim. The front face extends BEYOND both left/right edges. A shallow upper-crown cloth band and transverse curved upper crown/front join with TWO fine stitch margins run across the image near y90\u2013140 with breathing room above. The broad uninterrupted blank front fills the center to its lower front/brim join near y1090. The gently curved brim occupies the lower frame, with EXACTLY FOUR distinct fine parallel curved stitch rows near y1210/1250/1290/1330 and a clear small cloth margin below the fourth row. This is roughly2.4x closer photographic projection than a complete-front catalog view, not a claim of measured physical camera dimensions. Keep original garment proportions, curved support and plausible sewing.\nCritical SAME family material: Fine dense compact regular directional woven cloth with tiny orderly straight yarn segments and small straight cross-yarn interlacing. All visible upper band, large front face and brim use the same cloth at the same fine physical yarn gauge. The DOMINANT diagonal yarn grain runs from UPPER LEFT toward LOWER RIGHT, falling downward as it goes toward the right side of the photograph, like a backslash. Keep that fall-right direction consistently on the continuous front face, matching the proposed full-front cap family. It must NOT rise toward the right, and must not switch direction within a panel. Fine shallow regular physical yarn relief, minute matte fibers, natural fabric weight. Retain ordered straight tiny thread structure under the closer lens, clean and regular across every visible plane, not large decorative ribs.\nConstruction/color/light: Same proposed five-panel cap with continuous one-piece front, NO center-front seam or top button. TWO narrow garment-matching stitch margins border the upper join. EXACTLY FOUR independent fine curved parallel brim stitch rows with realistic spacing/margins; no extra row, seam or panel. Proposed cool neutral Soft Gray around#A2A9B1, matching tonal thread. Neutral cool studio, natural diffuse upper-left lighting, honest restrained thread highlights/shadows, no warm cream/gold tint or gloss.\nAvoid: Closed looping, curling, winding, crosshook, fingerprint, maze or embossed contour grain; coarse basket cells, plastic smoothing, solid flat panel fill, blur, texture stamping or artificial grain overlay. No logo, V, glyph, icon, embroidery mark, text, label, badge, patch, watermark, person or extra object. Generated concept photograph only, no verified fiber/manufacturing/physical-measurement claim.",
+  "references": [],
+  "referenceSha256": [],
+  "constructionConceptSource": {
+    "path": "evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png",
+    "sha256": "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520",
+    "role": "accepted complete garment/fine-cloth/fall-right direction transcription only; no raster tool input"
+  },
+  "cameraConceptSource": {
+    "path": "evidence/round-two/image-production-recovery/30-cap-soft-gray-central-useful-close-fresh.png",
+    "sha256": "4beca3b3495c731c763a20114f8d456072c061215fef0aaecdeec2b688880231",
+    "role": "successful usefulclose construction/camera context transcribed only; its rise-right fabric is explicitly excluded"
+  },
+  "expectedOutput": "evidence/round-two/image-production-recovery/31-cap-soft-gray-central-close-fall-right.png",
+  "lineage": "NEW text-only one-change directionfix: match25/28 fallright yarn; preserve successful30 usefulcontext/cameraprojection; no mirroring/rastertransformation",
+  "outputSha256": "704594cff9ce5d666d4ced6664dd16524d8a052858c584849cfabd6506012cce",
+  "nativeDimensions": [
+    1121,
+    1403
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-912316fb-90c9-4f04-b872-693e761f96c0.png",
+  "selfReview": "Newtextonly usefulcentralclose clean fine fall-right backslash yarn allvisibleplanes, upper doublejoin/lowerjoin/all4rows. No dome/fullside seams. Actual upperjoin~90/lower1056,4rows1183/1240/1290/1345. Actualfamily/gauge and16mmremap needed; no promptfield claim.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "PASS new25/31 bounded visiblefamily",
+      "evidence": "fine clean fall-right interlaced yarn;two uppermargins/lowerjoin;4rows1190/1239/1289/1341; upper25=406/lower813 versus31upper93/lower1064\u21922.386x",
+      "proposedVAnchor": {
+        "visibleWidthPx": 173.7,
+        "center": [
+          560,
+          738
+        ],
+        "basis": "actual25/31 join-span projection2.386x; originalproposed16mmfullfront72.8px/160mmface; not verified manufacturing"
+      }
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "PASS bounded25/31visiblefamily",
+      "evidence": "allvisible fallrightfinewoven;two margins/lowerjoin/fourcurves; no29 winding; actualcameraoffset/glyph~2.37/2.39x; no verifiedphysicalmeasurement"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "PASS bounded25/31visiblefamily",
+      "evidence": "allvisiblefineyarn/interlacing withoutclosedwinding;fourrows1185/1239/1289/1342; doubleupper/lowerjoins; ~2.4x closer; absentdome/sides notmicroscopicallycertified"
+    }
+  ]
+}

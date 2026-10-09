@@ -1,0 +1,46 @@
+{
+  "id": "32",
+  "status": "PASS standalonecloth/direction; FAIL/HOLD familyconstruction addedlowerfrontstitchmargin. No retry; rootapproved sourcecrop fallback",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: genuinely NEW useful close photograph of the central blank Graphite cap face and brim, proposed design concept.\nPrimary request: A natural studio product DETAIL photograph, ONLY the central portion of a cap's broad continuous front face. Most of the frame is actual fine woven front-face cloth with useful sewing context at top and bottom. No complete cap silhouette, crown apex, full dome, outer vertical side-panel seams, eyelets or outer brim corners in this camera field. This is a new optically closer photograph, never a crop, resize, mirror or upscale of an existing image.\nCamera/context: Portrait native1120x1404, straight frontal plane, slight view down to substantial curved brim. The front face extends BEYOND both left/right edges. A shallow upper-crown cloth band and transverse curved upper crown/front join with TWO fine stitch margins run across the image near y90\u2013140 with breathing room above. The broad uninterrupted blank front fills the center to its lower front/brim join near y1090. The gently curved brim occupies the lower frame, with EXACTLY FOUR distinct fine parallel curved stitch rows near y1210/1250/1290/1330 and a clear small cloth margin below the fourth row. This is roughly2.4x closer photographic projection than a complete-front catalog view, not a claim of measured physical camera dimensions. Keep original garment proportions, curved support and plausible sewing.\nCritical SAME family material: Fine dense compact regular directional woven cloth with tiny orderly straight yarn segments and small straight cross-yarn interlacing. All visible upper band, large front face and brim use the same cloth at the same fine physical yarn gauge. The DOMINANT diagonal yarn grain runs from UPPER LEFT toward LOWER RIGHT, falling downward as it goes toward the right side of the photograph, like a backslash. Keep that fall-right direction consistently on the continuous front face, matching the proposed full-front cap family. It must NOT rise toward the right, and must not switch direction within a panel. Fine shallow regular physical yarn relief, minute matte fibers, natural fabric weight. Retain ordered straight tiny thread structure under the closer lens, clean and regular across every visible plane, not large decorative ribs.\nConstruction/color/light: Same proposed five-panel cap with continuous one-piece front, NO center-front seam or top button. TWO narrow garment-matching stitch margins border the upper join. EXACTLY FOUR independent fine curved parallel brim stitch rows with realistic spacing/margins; no extra row, seam or panel. Proposed cool neutral Graphite around#41464D, matching tonal thread. Neutral cool studio, natural diffuse upper-left lighting, honest restrained thread highlights/shadows, no warm cream/gold tint or gloss.\nAvoid: Closed looping, curling, winding, crosshook, fingerprint, maze or embossed contour grain; coarse basket cells, plastic smoothing, solid flat panel fill, blur, texture stamping or artificial grain overlay. No logo, V, glyph, icon, embroidery mark, text, label, badge, patch, watermark, person or extra object. Generated concept photograph only, no verified fiber/manufacturing/physical-measurement claim.\nGraphite exposure: A truthful cool dark-gray cap pigment, matching the proposed complete-front Graphite colorway. Fine individual woven yarn remains visibly ordered and sharply readable under diffuse upper-left light, with restrained natural yarn highlights and shadow, never solid black, crushed exposure, plastic, a dark filter or whole-scene tint. Preserve the clean fine physical yarn gauge and fall-right direction of the useful closer Gray family; this is the matching genuinely new Graphite photograph.",
+  "references": [],
+  "referenceSha256": [],
+  "constructionConceptSources": [
+    {
+      "path": "evidence/round-two/image-production-recovery/31-cap-soft-gray-central-close-fall-right.png",
+      "sha256": "704594cff9ce5d666d4ced6664dd16524d8a052858c584849cfabd6506012cce",
+      "role": "Art/R1/R2 accepted finecloth/fallright direction/usefulcamera transcription; no raster tool input"
+    },
+    {
+      "path": "evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png",
+      "sha256": "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a",
+      "role": "accepted Graphite pigment/wholeconstruction/fallrightgrain transcription; no raster tool input"
+    }
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/32-cap-graphite-central-close-fall-right.png",
+  "lineage": "ONE matching NEW text-onlyGraphite usefulclose route after31allactualgatePASS, no priorimage/recolorgrain inheritance, no32retry unless rootauthorizes",
+  "outputSha256": "729366c24c101c69a36b17581db6b789998f11d262eab2687cca7a3b95a61646",
+  "nativeDimensions": [
+    1120,
+    1404
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-412c61be-dbad-4a02-abdc-e0a5da47674f.png",
+  "selfReview": "SingleauthorizedNEWtext-onlyGraphite close: cleanfine fallrightordered cloth, fourbrimrows, readableGraphite. Lowerfront fine dashed stitch margin visible above mainattachment unlike31 appearance; actual28construction correspondence must be gated. No32retry authorized. Actualcamera/markremap needed.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "familyconstruction FAIL",
+      "evidence": "fine cleanfallrightcloth/4brimrows pass; addedlowerfrontdashedmargin~1035 absent28/31"
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "familyconstruction HOLD",
+      "evidence": "extra lowerfrontdashedmargin1000-1035 absent31/28; visiblecloth/4rows/topmarginspass"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "familyconstruction HOLD",
+      "evidence": "lowerfrontdashedmarginx200-950/y~1030 absent31/28; cloth/direction/camera/4rows pass"
+    }
+  ]
+}

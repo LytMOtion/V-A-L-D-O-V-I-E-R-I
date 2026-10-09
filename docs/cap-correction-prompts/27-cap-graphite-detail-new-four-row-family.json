@@ -1,0 +1,33 @@
+{
+  "id": "27",
+  "status": "FAIL: Art/R1 whole material, no derivative propagation",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: NEW blank Graphite cap macro product photograph, generated design concept.\nInput image 1: the accepted clean NEW Soft Gray macro is the exclusive design authority for the cap's actual whole construction, physical fine woven cloth, yarn gauge, panel grain directions, four stitch rows, camera geometry and composition.\nPrimary request: Make a genuinely new studio photograph of the Graphite colorway of this SAME cap design, photographed at exactly the same macro camera position and framing. This is a fresh photographic counterpart of the real cloth concept. Do not apply a tint, dark exposure filter, or a recoloring effect to the reference photograph. A matching five-panel cap in proposed cool neutral Graphite around #41464D, with matching tonal stitched seams and brim rows.\nFabric: The Graphite cap is made from exactly the SAME clean fine compact dense directional woven cloth as image 1. Every crown, large front, side and brim plane has tiny orderly straight local diagonal yarns with fine regular cross-yarn interlacing and minute fibers. Preserve the actual fine physical yarn diameter/density and each panel's cloth direction at the SAME camera scale. The material remains matte, dry and realistically weighted. Sharp natural yarn detail must be readable in dark Graphite under honest diffuse light; do not substitute solid black, blur, smoothing or a coarse material. No winding/curling/fingerprint/maze/embossed decorative ridges or texture stamps.\nConstruction/composition: Same moderate crown, same large uninterrupted front panel with no vertical center seam, curved transverse upper crown join with exactly TWO narrow stitch margins, coherent side joins and NO top button. EXACTLY FOUR independent fine curved parallel brim stitch rows, with identical spacing, density and edge margins as the four rows in image 1. Same curved substantial supported brim, same plinth contact. Preserve portrait native1120x1404, crown apex near top, curved double-margin upper join centered around y280, lower front/brim join near y850, brim edge near y1280. No extra panel, seam, row or hardware.\nStudio: Same neutral cool-gray background and rectangular gray plinth, naturally diffuse upper-left light with truthful yarn highlights and gentle contact shadow. Keep graphite cloth distinctly darker than the neutral scene while its ordered physical texture remains legible. No warmth, gold, cream, glare, gloss, whole-photograph darkening or color wash.\nBlank garment: NO logo, V, glyph, icon, embroidery mark, label, badge, patch, text or watermark anywhere. No person or other object. This is proposed generated concept imagery without fiber/manufacturing claims.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/26-cap-soft-gray-detail-new-four-row-family.png"
+  ],
+  "referenceSha256": [
+    "d79f25823aeffb1b8086965b989d4d100e83223caae9c12917ea0f712a8f3900"
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/27-cap-graphite-detail-new-four-row-family.png",
+  "lineage": "26 NEW clean family, independently passed Art/R1/R2; sole design authority; genuinely NEW Graphite macro photograph, not pixel color transfer; FOUR rows FIVEpanels",
+  "outputSha256": "662ed0e9fc0447debe1e93f6ac238229efbdc15e6be9124341132cb3ec5e01e1",
+  "nativeDimensions": [
+    1120,
+    1404
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-d45e791a-6c1d-434f-83cf-2adec0cf41a6.png",
+  "selfReview": "Four rows and new26 geometry camera retained; main diagonal front weave readable, crown/outer-side winding microstructure must be independently gated before propagation.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "FAIL",
+      "evidence": "crown360-760/y35-200 roundedloops/crosshooks; side30-130/y350-700 maze; rightside1070+/y450-800 andrightbrim650-1000/y900-1100 irregular;4rows/camera pass"
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "HOLD/FAIL",
+      "evidence": "crown400-840/y25-110 closedloops;leftstrip0-65/y320-750 andrightbrim700-1010/y875-1000 winding contour;centralfront/camera/4rows pass"
+    }
+  ]
+}

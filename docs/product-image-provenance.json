@@ -1,95 +1,140 @@
 [
   {
     "deployedAsset": "assets/products/jacket-graphite-front.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/jacket-graphite-front-blank-v1.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/18-jacket-graphite-front-sole-macro-reshoot.png",
     "dimensions": [
       1122,
       1402
     ],
-    "sourceSha256": "03faf843462471fecaa4cbca42bb64cda36fa14d9b04f2d18bf5320a9fee602c",
-    "assetSha256": "ef6bcfa7ba31bf73ff7d0f5a9db5972a2096166165a5a143c4e3633c203870af",
+    "sourceSha256": "c35c3b015cb5106dde44e6879860143cfe1cd0772fb4dd770651266af9c88d32",
+    "assetSha256": "693828e5a4eadb655c47415a09c0cc0ee974efbaffa8b15a25d2aa13d3526212",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-9009109e-1c75-4369-97f7-0956382f41a7.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-51ae96ca-a864-4bd1-adb3-fb26e164d47f.png",
     "promptRecords": [
-      "docs/product-image-prompts/01-jacket-graphite-front.txt"
+      "docs/fabric-correction-prompts/18-jacket-graphite-front-sole-macro-reshoot.json"
     ],
-    "promptLineageStatus": "recorded original tool output and references available",
-    "toolReferences": [],
-    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-9009109e-1c75-4369-97f7-0956382f41a7.png",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "pending final rendered independent review"
+    "promptLineageStatus": "approved built-in generation, original/reference hashes and complete prompt recorded; original output hash verified",
+    "toolReferences": [
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/13-jacket-graphite-detail-clean-master.png"
+    ],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-51ae96ca-a864-4bd1-adb3-fb26e164d47f.png",
+    "mark": "exact original Version2 path, digitally applied photographic matching-tone thread; proposed10mm, never verified manufacture",
+    "visualGate": "native whole-family cloth/construction and actual close87px thread appearance/contact passed art direction and both independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "referenceSha256": [
+      "67fbf31b4045c1e7df8cc108dc128adbfb079acadbf3c3fc0c167c27793ae71e"
+    ],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "colorAccuracy": "concept shade under photographed lighting; interface swatches and physical dimensions are proposals, not verified sample measurements"
   },
   {
     "deployedAsset": "assets/products/jacket-graphite-detail.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/assets/jacket-graphite-detail-blank-v1.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/21-jacket-graphite-useful-close-photo.png",
     "dimensions": [
       1122,
       1402
     ],
-    "sourceSha256": "35c203b19f6718d2f065515d2937c67fadaa0ca58285fa101ab8283aeb35695b",
-    "assetSha256": "a4f97d53c4dbf7ccb8b70bc252491ad9b54c5abd141c0d7f4e4c1f55128c415e",
+    "sourceSha256": "b78bf8865e00b599c2b20b23cdbe8db92d3136f6b562848c7ea765dbca087b9b",
+    "assetSha256": "6b807f99478f614f85fa4d9c17f909279157fe2c08c9b2e5804a50e3ce3542c2",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-93fd78d8-3423-467a-9e07-4f1e209cdb85.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-ee3cbd1c-c604-4108-a5bd-88c417dee679.png",
     "promptRecords": [
-      "docs/product-image-prompts/07-jacket-graphite-detail.txt"
+      "docs/fabric-correction-prompts/21-jacket-graphite-useful-close-photo.json"
     ],
-    "promptLineageStatus": "recorded original tool output and references available",
+    "promptLineageStatus": "approved built-in generation, original/reference hashes and complete prompt recorded; original output hash verified",
     "toolReferences": [
-      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/jacket-graphite-front-blank-v1.png"
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/19-jacket-soft-gray-useful-close-photo.png"
     ],
-    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-93fd78d8-3423-467a-9e07-4f1e209cdb85.png",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "pending final rendered independent review"
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-ee3cbd1c-c604-4108-a5bd-88c417dee679.png",
+    "mark": "exact original Version2 path, digitally applied photographic matching-tone thread; proposed10mm, never verified manufacture",
+    "visualGate": "native whole-family cloth/construction and actual close87px thread appearance/contact passed art direction and both independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "referenceSha256": [
+      "bef93d47666210cff4df215cee193801ab65454217f602c694dd07c4e24c52ff"
+    ],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "colorAccuracy": "concept shade under photographed lighting; interface swatches and physical dimensions are proposals, not verified sample measurements"
   },
   {
     "deployedAsset": "assets/products/cap-graphite-front.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/cap-graphite-front-blank-v1.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png",
     "dimensions": [
-      1122,
-      1402
+      1121,
+      1403
     ],
-    "sourceSha256": "d4f50bc264755816dc9b70d155ec7f8dd06741312f9593488d3c6a96ddde7396",
-    "assetSha256": "dd014c9597fdce067ab1fa99895974df626bcef475969ea3eccaa4b7e17b3d80",
+    "sourceSha256": "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a",
+    "assetSha256": "febb704f0e1bd988f35203379bd4d7832d2bf721deee1a5d940a77c3ba23f68c",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-d22b3360-25d4-457e-8168-eeffdd34332c.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-3f1a7e61-64f5-4d8a-80ed-3e2f818c8f4c.png",
     "promptRecords": [
-      "docs/product-image-prompts/02-cap-graphite-front.txt"
+      "docs/cap-correction-prompts/28-cap-graphite-front-fresh-four-row.json"
     ],
-    "promptLineageStatus": "recorded original tool output and references available",
+    "promptLineageStatus": "approved built-in generation; complete prompt, original output hash and actual references recorded; original bytes verified",
     "toolReferences": [],
-    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-d22b3360-25d4-457e-8168-eeffdd34332c.png",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "pending final rendered independent review"
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-3f1a7e61-64f5-4d8a-80ed-3e2f818c8f4c.png",
+    "mark": "exact original Version2 path with digitally applied same-tone photographic thread; proposed16mm, no verified manufacture",
+    "visualGate": "selected native cloth/construction and actual original-path thread proofs personally passed art direction and two independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "referenceSha256": [],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "constructionProposal": "five panels; four visible curved brim stitch rows; uninterrupted front; double upper join margins; plain lower attachment; no top button",
+    "colorAccuracy": "proposed shade under photographed lighting, not a calibrated physical sample or dye recipe"
   },
   {
     "deployedAsset": "assets/products/cap-graphite-detail.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/assets/cap-graphite-detail-blank-v1.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png",
     "dimensions": [
-      1122,
-      1402
+      1121,
+      1403
     ],
-    "sourceSha256": "bd79cc27774f45258f73b953053efaf7daf84a04c3b817f670d1560959c94958",
-    "assetSha256": "5580289663276f1221326bb1f97cb82ab189378e69ec62c128f5f237cb85b6dc",
-    "conversion": "RGB lossless WebP, no retouching or pixel tint",
-    "classification": "AI-generated design concept; not manufactured product evidence",
+    "sourceSha256": "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a",
+    "assetSha256": "febb704f0e1bd988f35203379bd4d7832d2bf721deee1a5d940a77c3ba23f68c",
+    "conversion": "RGB lossless full-master WebP; faithful720x900 code-native display crop; no raster retouch, resampling, upscaling or new photograph",
+    "classification": "faithful detail crop of the same AI-generated Graphite front concept; not a separate camera view or manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-7c1405a1-cd3f-4d17-bf2b-3b8ae4030798.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-3f1a7e61-64f5-4d8a-80ed-3e2f818c8f4c.png",
     "promptRecords": [
-      "docs/product-image-prompts/08-cap-graphite-detail.txt"
+      "docs/cap-correction-prompts/28-cap-graphite-front-fresh-four-row.json"
     ],
-    "promptLineageStatus": "recorded original tool output and references available",
-    "toolReferences": [
-      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/cap-graphite-front-blank-v1.png"
+    "promptLineageStatus": "approved built-in generation; complete prompt, original output hash and actual references recorded; original bytes verified",
+    "toolReferences": [],
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-3f1a7e61-64f5-4d8a-80ed-3e2f818c8f4c.png",
+    "mark": "exact original Version2 path with digitally applied same-tone photographic thread; proposed16mm, no verified manufacture",
+    "visualGate": "selected native cloth/construction and actual original-path thread proofs personally passed art direction and two independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "referenceSha256": [],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
     ],
-    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-7c1405a1-cd3f-4d17-bf2b-3b8ae4030798.png",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "pending final rendered independent review"
+    "constructionProposal": "five panels; four visible curved brim stitch rows; uninterrupted front; double upper join margins; plain lower attachment; no top button",
+    "colorAccuracy": "proposed shade under photographed lighting, not a calibrated physical sample or dye recipe",
+    "displayCrop": [
+      200,
+      280,
+      720,
+      900
+    ],
+    "displayDimensions": [
+      720,
+      900
+    ],
+    "resolutionLimit": "same72.8px native visible glyph as full front; lower individual thread-method certainty than Gray close173.7px; no extra resolved yarn claimed"
   },
   {
     "deployedAsset": "assets/products/beanie-graphite-front.webp",
@@ -139,93 +184,129 @@
   },
   {
     "deployedAsset": "assets/products/jacket-soft-gray-front.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-front-twill-v3.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/10-jacket-soft-gray-front-clean-master.png",
     "dimensions": [
       1122,
       1402
     ],
-    "sourceSha256": "e2f80dd2696db44786130e5158e38ab941ef3ea457900f7f72a2e23435fcba65",
-    "assetSha256": "490d01a4aa3491b270c0900fd9cbadb206ed76e285125a68bb453c3efa165f1b",
+    "sourceSha256": "6be0a32cfa242edf53f17ef784c543560c11eb87f6b4bd5197e0279d996a6c93",
+    "assetSha256": "604edf7cffe0214ceda6be0c70417ddf0d8b6468daea394de05185d9cb5ef727",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-5386dd96-cbae-4af8-bf40-a26069265110.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-86a0bba8-6eb5-4136-b69f-98ca58b2eb67.png",
     "promptRecords": [
-      "docs/jacket-soft-gray-front-twill-v3.json"
+      "docs/fabric-correction-prompts/10-jacket-soft-gray-front-clean-master.json"
     ],
-    "promptLineageStatus": "root tool output/reference/prompt recorded",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "front body regular fine diagonal twill improved; collar/shoulder/sleeve grain still curled; whole material gate open",
-    "generatedOriginal": "../generated_images/exec-5386dd96-cbae-4af8-bf40-a26069265110.png",
+    "promptLineageStatus": "approved built-in generation, original/reference hashes and complete prompt recorded; original output hash verified",
+    "mark": "exact original Version2 path, digitally applied photographic matching-tone thread; proposed10mm, never verified manufacture",
+    "visualGate": "native whole-family cloth/construction and actual close87px thread appearance/contact passed art direction and both independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-86a0bba8-6eb5-4136-b69f-98ca58b2eb67.png",
     "toolReferences": [
-      "evidence/round-two/image-production/masters/jacket-graphite-front-blank-v1.png"
-    ]
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/09-jacket-soft-gray-detail-original-pull-restoration.png"
+    ],
+    "referenceSha256": [
+      "fa5d53d392cdbf82b2fd86f7a6fa8cdc7c050081f4058b4b9ea3b6f0302afb38"
+    ],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "colorAccuracy": "concept shade under photographed lighting; interface swatches and physical dimensions are proposals, not verified sample measurements"
   },
   {
     "deployedAsset": "assets/products/jacket-soft-gray-detail.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-detail-twill-v4.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/19-jacket-soft-gray-useful-close-photo.png",
     "dimensions": [
       1122,
       1402
     ],
-    "sourceSha256": "e014597529003d3b813ba8a369ddcc064daf92227339c83f352b4a07a6c414f4",
-    "assetSha256": "e09c2ffc4d2663edf07200f923a01f4e0a7e43d50b1182a2a8c54dd38126a2e8",
+    "sourceSha256": "bef93d47666210cff4df215cee193801ab65454217f602c694dd07c4e24c52ff",
+    "assetSha256": "452e523684cd2b11f1ab499c8e9b8a047f7b483629970c2f1fb4b23287eb0783",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-597c47c7-d993-457d-aa27-efd0cce585eb.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-fb6ccfb5-b2ec-4714-9ce2-fc899e2c5215.png",
     "promptRecords": [
-      "docs/jacket-soft-gray-detail-twill-v4.json"
+      "docs/fabric-correction-prompts/19-jacket-soft-gray-useful-close-photo.json"
     ],
-    "promptLineageStatus": "root tool output/reference/prompt recorded",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "chest regular fine diagonal twill improved; collar/inner neck/right sleeve still curling; whole-material gate open",
-    "generatedOriginal": "../generated_images/exec-597c47c7-d993-457d-aa27-efd0cce585eb.png",
+    "promptLineageStatus": "approved built-in generation, original/reference hashes and complete prompt recorded; original output hash verified",
+    "mark": "exact original Version2 path, digitally applied photographic matching-tone thread; proposed10mm, never verified manufacture",
+    "visualGate": "native whole-family cloth/construction and actual close87px thread appearance/contact passed art direction and both independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-fb6ccfb5-b2ec-4714-9ce2-fc899e2c5215.png",
     "toolReferences": [
-      "evidence/round-two/image-production/assets/jacket-graphite-detail-blank-v1.png"
-    ]
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/09-jacket-soft-gray-detail-original-pull-restoration.png"
+    ],
+    "referenceSha256": [
+      "fa5d53d392cdbf82b2fd86f7a6fa8cdc7c050081f4058b4b9ea3b6f0302afb38"
+    ],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "colorAccuracy": "concept shade under photographed lighting; interface swatches and physical dimensions are proposals, not verified sample measurements"
   },
   {
     "deployedAsset": "assets/products/cap-soft-gray-front.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/masters/cap-soft-gray-front-blank-v1.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png",
     "dimensions": [
-      1122,
-      1402
+      1121,
+      1403
     ],
-    "sourceSha256": "0071ee8cf44d70e324227310cdd91ec70d62553fee2f037e8eaed5dfca54c29b",
-    "assetSha256": "a0a12942b3797b33d134d2d584fb314bb4cf342eff014abf4833cd28a6409407",
+    "sourceSha256": "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520",
+    "assetSha256": "7874fa9d6046fdde55e129c295b6127bfc9203bac97252269966e9a2719af0b6",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-0bc6d0b0-3156-466a-9ec9-db024cfea0a1.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-45aa4410-3926-4b08-8bd5-e9fc7118302b.png",
     "promptRecords": [
-      "docs/product-image-prompts/17-cap-soft-gray-front.txt"
+      "docs/cap-correction-prompts/25-cap-soft-gray-front-fresh-four-row.json"
     ],
-    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "open pending final rendered independent reviews; Soft Gray woven texture specifically flagged"
+    "promptLineageStatus": "approved built-in generation; complete prompt, original output hash and actual references recorded; original bytes verified",
+    "mark": "exact original Version2 path with digitally applied same-tone photographic thread; proposed16mm, no verified manufacture",
+    "visualGate": "selected native cloth/construction and actual original-path thread proofs personally passed art direction and two independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-45aa4410-3926-4b08-8bd5-e9fc7118302b.png",
+    "toolReferences": [],
+    "referenceSha256": [],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "constructionProposal": "five panels; four visible curved brim stitch rows; uninterrupted front; double upper join margins; plain lower attachment; no top button",
+    "colorAccuracy": "proposed shade under photographed lighting, not a calibrated physical sample or dye recipe"
   },
   {
     "deployedAsset": "assets/products/cap-soft-gray-detail.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/assets/cap-soft-gray-detail-blank-v3.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/31-cap-soft-gray-central-close-fall-right.png",
     "dimensions": [
-      1122,
-      1402
+      1121,
+      1403
     ],
-    "sourceSha256": "d65cee4570facea71a49abb71174d3f106a1fe200804e243c32105aa70cb2a34",
-    "assetSha256": "34110c750c0be78290002e80b02ed52fafd51885448b948fa7185c6faacd5d27",
+    "sourceSha256": "704594cff9ce5d666d4ced6664dd16524d8a052858c584849cfabd6506012cce",
+    "assetSha256": "002000a857de0edc0e18472336522e92dd375166f4effa03421a9af507608220",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-579a0768-cb87-4298-b899-b313d559b8cc.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-912316fb-90c9-4f04-b872-693e761f96c0.png",
     "promptRecords": [
-      "docs/product-image-prompts/19-cap-soft-gray-detail.txt",
-      "docs/product-image-prompts/21-cap-soft-gray-surface-detail.txt",
-      "docs/product-image-prompts/23-cap-soft-gray-zones-detail.txt"
+      "docs/cap-correction-prompts/31-cap-soft-gray-central-close-fall-right.json"
     ],
-    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "open pending final rendered independent reviews; Soft Gray woven texture specifically flagged"
+    "promptLineageStatus": "approved built-in generation; complete prompt, original output hash and actual references recorded; original bytes verified",
+    "mark": "exact original Version2 path with digitally applied same-tone photographic thread; proposed16mm, no verified manufacture",
+    "visualGate": "selected native cloth/construction and actual original-path thread proofs personally passed art direction and two independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-912316fb-90c9-4f04-b872-693e761f96c0.png",
+    "toolReferences": [],
+    "referenceSha256": [],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "constructionProposal": "five panels; four visible curved brim stitch rows; uninterrupted front; double upper join margins; plain lower attachment; no top button",
+    "colorAccuracy": "proposed shade under photographed lighting, not a calibrated physical sample or dye recipe"
   },
   {
     "deployedAsset": "assets/products/beanie-midnight-navy-front.webp",
@@ -294,23 +375,37 @@
   },
   {
     "deployedAsset": "assets/products/cap-collection.webp",
-    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production/assets/cap-graphite-editorial-blank-v1.png",
+    "source": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/33-cap-graphite-editorial-four-row.png",
     "dimensions": [
       1536,
       1024
     ],
-    "sourceSha256": "4cbe67cd491c171d2d6447ed81fce5b6feeb77046fd748cef729f2c353f5b776",
-    "assetSha256": "3b4f658cde4f3e2a3b869c6cd28b6069cdb8c79bf01c4a3287e3db8cd7a8f1de",
+    "sourceSha256": "b7b387e99e2d53b29bae778467ecd02abbcfbf02f286b582ae0860be6c8209df",
+    "assetSha256": "3d0474eeaae0834fdc4984d5c1cf0ff7f1c97e52f59102ba01d767e46210660f",
     "conversion": "RGB lossless WebP, no retouching or pixel tint",
     "classification": "AI-generated design concept; not manufactured product evidence",
     "tool": "approved built-in image_gen.imagegen",
-    "generatedOriginalHashMatch": "../generated_images/exec-a1b7f464-e130-46ae-8d98-9bcd873e2dc8.png",
+    "generatedOriginalHashMatch": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-cd1038c4-7ce3-4570-91bc-ed3b338fbd65.png",
     "promptRecords": [
-      "docs/product-image-prompts/14-cap-editorial.txt"
+      "docs/cap-correction-prompts/33-cap-graphite-editorial-four-row.json"
     ],
-    "promptLineageStatus": "saved prompt sequence; historical final tool-call mapping partly unavailable after specialist reporting interruption",
-    "mark": "exact native original Version 2 path, digital photographic tonal-thread concept clipped in rendered SVG",
-    "visualGate": "pending final rendered independent review"
+    "promptLineageStatus": "approved built-in generation; complete prompt, original output hash and actual references recorded; original bytes verified",
+    "mark": "exact original Version2 path with digitally applied same-tone photographic thread; proposed16mm, no verified manufacture",
+    "visualGate": "selected native cloth/construction and actual original-path thread proofs personally passed art direction and two independent reviewers; final deployed review must be bound externally to final commit/deployment",
+    "generatedOriginal": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-cd1038c4-7ce3-4570-91bc-ed3b338fbd65.png",
+    "toolReferences": [
+      "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png"
+    ],
+    "referenceSha256": [
+      "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a"
+    ],
+    "nativeReviewEvidence": [
+      "evidence/round-two/art-direction/FOCUSED-FABRIC-REVIEW.md",
+      "evidence/round-two/review-one/FABRIC-CORRECTION-SUPPLEMENT.md",
+      "evidence/round-two/review-two-recovery/NATIVE-REVIEW.md"
+    ],
+    "constructionProposal": "five panels; four visible curved brim stitch rows; uninterrupted front; double upper join margins; plain lower attachment; no top button",
+    "colorAccuracy": "proposed shade under photographed lighting, not a calibrated physical sample or dye recipe"
   },
   {
     "deployedAsset": "assets/products/beanie-collection.webp",

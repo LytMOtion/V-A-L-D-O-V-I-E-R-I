@@ -1,0 +1,18 @@
+{
+  "id": "17",
+  "status": "generated; self coherentcloth, independent14pair/EXACT5rows check pending",
+  "outputSha256": "4501965ff3d84bcf792d2be13db3c0392925ee893f418bc7a123565ca38ad728",
+  "nativeDimensions": [1120, 1404],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-066a3750-0015-4ba4-b7ed-f829ed5e09fc.png",
+  "selfReview": "Coherentdirectionalclothallplanes/doublemarginjoin; exact5brimrowcount notconfidentfromdisplay, independentactualconstruction/gaugegate requested beforecolorpropagation.",
+  "tool": "built-in image_gen",
+  "strategy": "dependentmatchingmacro fromindependentlyPASS14solecleanauthority, optical1.6xmagnification, exactNEWfivepanel/fiverows/doublemarginjoin/gauge",
+  "prompt": "Use case: product-mockup\nInput image: The attached accepted clean NEW Soft Gray cap fullfront is the exclusive physical woven-cloth, pigment, garment construction, stitch and camera-angle authority. Photograph its matching closer macro detail.\nPrimary request: A frontal close-up of this EXACT cap with the same camera angle/plane and soft studio light, camera simply closer so the blank large continuous front face, transverse crown/front join, adjacent crown/sides and curved brim are clearly visible. One consistent fine compact directional woven cloth throughout, as attached: tiny straight local yarns, regular ordered directional woven grain, matte physical weight and minute fibers. Macro optical scale about1.6× the attached fullfront product projection; same actual yarn diameter and density, naturally morevisible at closer scale, never invent largebasketcells or decorativecurvedpatterns.\nConstruction/frame: Portrait1120×1404. Frontface fills almostfullwidth; cap crownarc approaches upperframe, transverse doublemargin crown/front seam centerednear y255, front/brimjoinnear y920. Both crown-to-sidejoins and their same seam proportions intact; continuousfrontface/no verticalcenterseam/no topbutton. EXACTLY FIVE curved parallel brim stitchrows retain originalrowspacing/margins relativebrimsize; cropbrim edge nearbottomframe, neutralplinthcontact beneath. Do notadd/change panels/stitchmargins/seams/hardware or fabricdirection. Sideeyelets neednotshow ifoutside tightercrop.\nColor/light: SAME cool Soft Gray #A2A9B1 andtonalthread, same neutralcoolgray studio background/plinth and diffuseupperleft light withnaturalcontactshadow. Highdetailphysicalwovenfabric, no smoothing/blur/plastic/flatfill/exposuredarkening/wholephototint. Blankcap, noicon/logo/glyph/badge/patch/label/text/watermark. Generatedconceptimagery, no verifiedmaterial/manufacturingclaim.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/14-cap-soft-gray-front-text-only-plainwoven.png"
+  ],
+  "referenceSha256": [
+    "128e0fb83d39c12d2ae07144556286372cce6e6f7de6fe667ff382a7562e9115"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/17-cap-soft-gray-detail-clean-master.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "10",
+  "status": "generated; self-review coherentcloth candidate, independent Graypair review pending",
+  "outputSha256": "6be0a32cfa242edf53f17ef784c543560c11eb87f6b4bd5197e0279d996a6c93",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-86a0bba8-6eb5-4136-b69f-98ca58b2eb67.png",
+  "selfReview": "Coherent fine directional twill throughout collar/neck/shoulder/sleeves/body/cuffs/hem; required garment construction preserved. Actual09/10Graypair review pending, no family integrationpass.",
+  "tool": "built-in image_gen",
+  "strategy": "NEW fullfront from clean09 exclusive physical cloth/hardware/upperconstruction authority, exact required construction transcribed, no old curledfront input",
+  "prompt": "Use case: product-mockup\nInput image: The attached clean Soft Gray jacket detail is the exclusive PHYSICAL CLOTH, COLOR, HARDWARE and upper-garment CONSTRUCTION authority. Create its full front view with the camera pulled back, not another detail crop.\nPrimary request: A new professional studio full-front photograph of this SAME hip-length Soft Gray cotton-twill jacket, entirely visible and flat-arranged with real soft garment weight. Use the attached reference's coherent regular fine directional twill, tiny cotton fibers, matte weight and cool Soft Gray #A2A9B1 on every panel. It is one cloth roll throughout: folded collar, neck strip, chest, sleeves, cuffs, hem and pocket welts use identical physical yarn diameter and dense regular diagonal twill. With the camera farther away, the yarn detail naturally becomes much finer than in the attached macro. Every cloth plane stays directional and orderly; straight parallel local twill ribs follow its cut/fold and gentle curvature.\nConstruction: Hip-length full single closed gunmetal zip, centered. Match the attached low fold-down point collar and enclosed two-aperture tapered gunmetal pull at the upper zipper. Set-in full-length sleeves, TWO narrow nearly vertical welt pockets on the lower chest/body, no pocket flaps. Plain turned cuffs with sewn seam rows, straight sewn bottom hem, no ribbing or elastic. No extra plackets, buttons, snaps, patches, labels or closures.\nFraming: 1122×1402 portrait. Entire symmetrical jacket visible, topneck near y175, collar points near y395, set-in shoulder corners aroundx240/y325 andx880/y325; sleeveends aroundx45..190 andx930..1080 at y1180. Body ends straight aroundy1170, centeredzip fromx560/y365 tobottomhem. Lowerweltpockets aroundx315 andx800 fromy790 toy1040. Broad gentle physical folds, same garment proportions as a clean minimal fullzip workjacket. Comfortable gray margins, no crop.\nScene/light: Cool neutral gray studio surface/backdrop, diffuse soft upper-left light, natural contact shadows under garment. Preserve reference coolgray cloth and gunmetal, no cream/gold tone or wholephototint. Photoreal tactile textile, no smoothing/blur, plastic fill or defect-hiding darkening.\nConstraints: Blank unbranded concept garment, no logo, glyph, badge, patch, neck label, text or watermark. Natural consistent fine directional twill on all surfaces, not patterned/jacquard cloth. Exact same construction family as attached macro. Generated concept imagery, not verified manufacturing.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/09-jacket-soft-gray-detail-original-pull-restoration.png"
+  ],
+  "referenceSha256": [
+    "fa5d53d392cdbf82b2fd86f7a6fa8cdc7c050081f4058b4b9ea3b6f0302afb38"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/10-jacket-soft-gray-front-clean-master.png"
+}

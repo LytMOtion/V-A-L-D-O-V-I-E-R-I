@@ -1,0 +1,20 @@
+{
+  "id": "20",
+  "status": "generated; self5rows butpossibleclothcorruption, independentgate pending",
+  "outputSha256": "163f1462199b27560fd9edfe0689452d562b4da0b1d9c9c3173f2a4da2fa850a",
+  "nativeDimensions": [1120, 1404],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-84b968b1-89d7-435f-ace9-1afb26180fe5.png",
+  "selfReview": "Five independentrows now, butcrown/bodypossiblycurledmicrograinreturned despiteclothinvariant. Actualallcloth/rowcount14pairArt/R2pending; noGraphitecappropagation.",
+  "tool": "built-in image_gen",
+  "strategy": "focusedONLYone missing fifth fine curved stitchrow onclean17,14sameconstructionreference; allcloth/frame invariant",
+  "prompt": "Use case: precise-object-edit\nInput images: Image1 is EDIT TARGET and exclusive cloth/light/camera/seam authority. Image2 is the SAMEcapfullfront construction reference, showing the required FIVE brim stitch rows.\nPrimary request: Add ONLY ONE missing fine curved parallel sewn stitch row to Image1's brim so it contains EXACTLY FIVE independent stitch rows, matching Image2's physical brim construction. The current target has FOUR independent rows crossing centerbrim near y1009,1041,1075,1109. Keep those four existing curved rows and ADD the fifth immediately below the fourth at abouty1143 atcenter, continuing smoothly around the same brim arc to both edges. The new row is made of the same fine cool-gray thread, same tiny stitch length, thickness and even spacing as the existing four. Match the complete five-row physical density and front-edge margin of Image2 at this macro magnification. The crown/frontjoin and brimfrontrollededge are NOT counted as a stitch row. Requiredtotal=FIVE, notfourorsix.\nAbsolute invariants: Keep ALLsourcecoherent directional woven fabric on crown/front/sides/brim, same yarn/ribgauge/fibers/materialweight, same doublemargin crown/frontjoin, continuousfront/no centerseam, every other seam/stitch, capoutline/brimcurve/contactshadow/plinth,1120×1404frame, coolSoftGray#A2A9B1/tonalthread, neutralstudiolight/background. No cottonsurface/gauge/color/cameraedit, no smoothing/blur/darkening, no decoration. No newpanels/button/hardware. Entirecap blank withnologo/glyph/icon/badge/patch/label/text/watermark. Generatedconceptphoto.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/17-cap-soft-gray-detail-clean-master.png",
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/14-cap-soft-gray-front-text-only-plainwoven.png"
+  ],
+  "referenceSha256": [
+    "4501965ff3d84bcf792d2be13db3c0392925ee893f418bc7a123565ca38ad728",
+    "128e0fb83d39c12d2ae07144556286372cce6e6f7de6fe667ff382a7562e9115"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/20-cap-soft-gray-detail-five-row-restoration.png"
+}

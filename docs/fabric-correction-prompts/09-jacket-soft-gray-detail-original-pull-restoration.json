@@ -1,0 +1,21 @@
+{
+  "id": "09",
+  "status": "generated; independent standalone material/hardware pass; old-family gauge open",
+  "outputSha256": "fa5d53d392cdbf82b2fd86f7a6fa8cdc7c050081f4058b4b9ea3b6f0302afb38",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-ccd7e17a-b211-4c23-8b23-56607f4a2d45.png",
+  "selfReview": "Actual lower rectangular through-aperture restored; coherent04 directional cloth retained. Camera/gauge must be checked relative to fullfront and other color.",
+  "independentReview": "Art, R1, R2: standalone coherentcloth and restored two-aperture hardware pass. Physicalgauge versus old Graphite/oldfront remains open: bodypitch ~1.5–1.6x with hardware only1.2–1.3x. Requires coherent NEW fullfront/both-color family; no integrationpass.",
+  "tool": "built-in image_gen",
+  "strategy": "clean04 macro target, hardware-only restoration of exact original two-aperture pull design at04camera projection",
+  "prompt": "Use case: precise-object-edit\nInput images: Image 1 is the EDIT TARGET. Preserve its entire cloth, camera framing and garment. Image 2 is ONLY the original gunmetal zipper-pull construction reference.\nPrimary request: Correct ONLY the single gunmetal zipper pull in Image 1 to match the exact physical hardware design visible in Image 2. Preserve Image 1's current larger macro-camera projection, pull placement and pull outer size, but reproduce Image 2's physical pull construction proportionally at that projection. The matching pull has two real through-openings: a long narrow upper rectangular opening beneath its top hinge, and a clearly visible smaller rectangular THROUGH-APERTURE near its bottom with the same height/width ratio and rounded inner corners as Image 2. The bottom opening is an actual open rectangular window, not the very shallow thin horizontal slit now in Image 1. Match the original pull's body contour, stepped/rounded outer corners, lower edge, metal bevels and proportional aperture geometry. Keep natural gunmetal light and shadow, hinge and true open holes aligned with the same zipper chain. Do not move or enlarge the pull; do not alter teeth, tape, seam position or any garment part. This is hardware construction correction only.\nAbsolute invariants: Keep all of Image 1's clean, coherent, regular directional twill cloth pixel appearance across collar, inner neck strip, chest, shoulder and sleeve; preserve all folds, seams, collar silhouette, garment boundary, lighting, cool Soft Gray color, neutral background, all zipper teeth and the exact1122×1402 camera crop. No cloth texture edit, no gauge change, no color/exposure change, no blur or smoothing. Keep garment blank without logo, emblem, glyph, label, badge, patch or text. Generated design concept photograph.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/04-jacket-soft-gray-detail-new-physical-twill.png",
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/integration/jacket-soft-gray-detail-twill-v4.png"
+  ],
+  "referenceSha256": [
+    "0e4c42cc67f078bac6a39a8c5f6f159419d4beb2fa0b3f6602aeeee40f28201a",
+    "e014597529003d3b813ba8a369ddcc064daf92227339c83f352b4a07a6c414f4"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/09-jacket-soft-gray-detail-original-pull-restoration.png"
+}

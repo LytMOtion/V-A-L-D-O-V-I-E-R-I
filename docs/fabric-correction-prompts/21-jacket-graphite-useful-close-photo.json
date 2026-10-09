@@ -1,0 +1,18 @@
+{
+  "id": "21",
+  "status": "generated; self coherentcloth/exact19camera, independentblankpair pending",
+  "outputSha256": "b78bf8865e00b599c2b20b23cdbe8db92d3136f6b562848c7ea765dbca087b9b",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-ee3cbd1c-c604-4108-a5bd-88c417dee679.png",
+  "selfReview": "Coherentallcloth/clearfinefibers, exact19gauge/camera/two-aperturepull/collar preserved, darkpigmentonly. Actual19/21blankpairindependentgatepending.",
+  "tool": "built-in image_gen",
+  "strategy": "Graphitepigment-only usefulclosecounterpart fromnativePASS19solecloth/camera/hardwareauthority",
+  "prompt": "Use case: precise-object-edit\nCreate the Graphite COLORWAY of this exact accepted NEW useful closer jacket photograph. Change ONLY garment cotton-like yarn pigment and tonal seam-thread pigment from cool Soft Gray to cool neutral Graphite #343638. Preserve this exact physical cloth and genuine close camera projection.\nAll clear fine diagonal woven yarn ribs/fibers on the chest and collar remain exactly the same physical diameter, spacing, local direction and matte softness. Every local woven field stays orderly/straight/directional with true fine fibers and subtle yarn shadow; same cloth roll throughout. Graphite pigment becomes cool charcoal but natural sharply resolved yarn detail remains legible in unchanged softstudio light.\nAbsolute invariants: Exact1122×1402 camera/frame, collaroutline/point/fold/seam, centerzipposition, originaltwo-openinggunmetalpull including lowerrectangularthrough-aperture andbothopeningproportions, allmetal chain/teeth/tape/stitches, garmentboundary/folds, neutralgraylight/background/exposure. The new color photograph must align to the source at every physical landmark so the same actual10mm mark canlater beprojected, but DO NOT draw any mark. Background/exposure/hardwareunchanged; Graphite is ONLYyarncolor, no wholephototint or darkeningtohide details. No newmaterialpattern, geometrychange, smoothing/blur/plasticfill.\nCompletelyblankgarment: noglyph/logo/label/badge/patch/text/watermark orgeneratedembroidery. Generatedconceptimage, no verifiedfiber/manufacturingclaim.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/19-jacket-soft-gray-useful-close-photo.png"
+  ],
+  "referenceSha256": [
+    "bef93d47666210cff4df215cee193801ab65454217f602c694dd07c4e24c52ff"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/21-jacket-graphite-useful-close-photo.png"
+}

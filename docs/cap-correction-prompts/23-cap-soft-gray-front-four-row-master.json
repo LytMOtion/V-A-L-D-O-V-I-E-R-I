@@ -1,0 +1,28 @@
+{
+  "id": "23",
+  "status": "HOLD: construction passes R2; whole-material comparative review pending",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: blank cap full-front catalog photograph, proposed design concept.\nInput image 1: sole garment and cloth authority, the attached clean Soft Gray macro. Use only this image for actual cap construction, fabric, pigment, yarn gauge, stitches, and camera angle.\nPrimary request: Photograph the SAME complete Soft Gray cap by pulling the camera back optically about 1.55x from the attached macro. Show the complete crown, both sides, entire curved substantial brim and its contact with a rectangular neutral gray plinth. Center it in a portrait 1120x1404 native frame with balanced generous margins; cap around 80 percent of image width. Same frontal camera plane, slight view down onto the brim, same crown height and head size, same transverse curved upper crown join and its two fine stitch margins. The large continuous one-piece front face has NO vertical center seam. Preserve the coherent five-panel product construction, side joins, small tonal sewn eyelets only where naturally visible, and NO top button.\nCritical construction: There are EXACTLY FOUR fine parallel curved stitch rows on the brim, matching the four actual rows, spacing, density and edge margins visible in image 1. FOUR brim stitch rows is the new accepted concept; five-panel construction does not mean five brim rows. Do not add a fifth brim stitch row. Preserve the reference's curved brim proportions and physical thickness.\nMaterials/textures: Copy the reference's clean fine compact regular directional woven cloth across crown, entire large front face, side panels and brim. Actual tiny straight local yarns and ordered directional grain, matte physical yarn and minute fibers, natural fabric weight. Preserve the same physical yarn diameter and density, which become proportionally finer in the pulled-back photograph. Every cloth plane uses the same material. Do not recreate curved fingerprint, maze, topographic, swirling or wormlike surface patterns. No plastic smoothing, flat color fill, blurred fabric, enlarged basket cells or texture stamp.\nColor/light/backdrop: Same proposed cool Soft Gray approximately #A2A9B1 with garment-matching tonal threads. Neutral cool gray studio backdrop and plinth, natural diffuse upper-left light, believable soft grounding contact shadow. No cream, gold, beige tint or gloss. Readable true woven grain.\nConstraints: Entire cap is blank. No logo, glyph, V, icon, badge, patch, label, embroidery mark, printed text or watermark. No other product, no person, no top button, no extra panel or altered seam. This is generated design concept imagery, not manufactured product evidence.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/17-cap-soft-gray-detail-clean-master.png"
+  ],
+  "referenceSha256": [
+    "4501965ff3d84bcf792d2be13db3c0392925ee893f418bc7a123565ca38ad728"
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/23-cap-soft-gray-front-four-row-master.png",
+  "lineage": "17 sole authority; new accepted FOUR brim rows; FIVE panels unchanged; no generated mark",
+  "outputSha256": "9957af407799e15c4d3e22f4646095c47bcfef4dcd55acf8a5d620170c812f4f",
+  "nativeDimensions": [
+    1120,
+    1404
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-939937e9-7b76-47a9-8c8a-a9834bc133dd.png",
+  "independentGates": [
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "HOLD",
+      "construction": "four brim rows center~955/979/1007/1037; two upper join margins; no button; continuous front",
+      "materialConcern": "crown x350\u2013720,y260\u2013420 and left outer side x110\u2013205,y580\u2013790 locally winding/maze/crosshook grain"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "08",
+  "status": "generated; self-review reject pending independent review",
+  "outputSha256": "271b2b59ef87a77cb55b1c1a122d839b10a1539438d85ec70312d877f5e26cc6",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-6d23e5b9-30bf-467f-8478-780c3fa77575.png",
+  "selfReview": "Fine central plane, framing and five stitch rows preserved; crown/side curls remain strongly at x475,y85 and x175/y200 or x1000/y200. Faint brim contour remains. Reject fullsurface.",
+  "tool": "built-in image_gen",
+  "strategy": "keep attempt01 successful fine central plane; only crown/side/brim material repair with fresh plainweave donor and source gauge authority",
+  "prompt": "Use case: precise-object-edit\nInput images: Image 1 is the EDIT TARGET and exclusive authority for cap construction, camera, color, light, shadows, seams, stitch rows and final fabric gauge. Image 2 is ONLY an enlarged physical plain-weave yarn-path reference, never the final yarn size.\nPrimary request: In Image 1, finish the upper crown, both narrow side panels and curved brim using the SAME fine dense regular plain weave already visible across its successful large central front face. KEEP the successful central front-face cotton exactly as shown. The upper crown and side panels and brim all need newly reconstructed straight local warp/weft yarn crossings, using Image 2's true regular one-over-one physical yarn paths and matte fibers. All panels are cut from the same roll of fine plain-weave cotton as Image 1's central face. Project the enlarged Image 2 yarn pattern roughly FOUR TIMES SMALLER so individual woven crossings match the central front-face tiny2–3px gauge. Across crown, side planes, narrow folded edges and brim, use very thin straight parallel local warp yarns crossing very thin straight parallel local weft yarns at right angles; the orderly field follows each cloth plane's orientation and gentle 3D curvature. Keep fine actual fibers and physically weighted matte cloth. The central face is the ONLY yarn-diameter/thread-density scale authority.\nInvariants: Preserve Image 1's exact cap silhouette, crown arc, transverse crown/front seam centered aroundy250, front/brim join aroundy910, one continuous front face without a center seam, all existing panel joins, tonal seam stitches, EXACTLY FIVE curved brim stitch rows, same brim curve, front edge and contact shadow. No top button. Preserve cool neutral Soft Gray #A2A9B1 pigment, original neutralgray backdrop/light, entire1122×1402 frame and supporting surface. The only edit is reconstructed coherent fine plain-weave material on upper crown/side/brim. Never move or reshape any garment part or add hardware/seams.\nConstraints: Sharp tactile fine cotton with regular yarn crossings, no smoothing, blur, flattening, exposure-darkening or tint cast. No large basket-checker cells, decorative etched pattern or curling grain. Blank cap: no logos, glyphs, badges, labels, patches, text or watermark. Generated design-concept photograph.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/01-cap-soft-gray-detail-dense-plainweave.png",
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/07-soft-gray-fine-cotton-plain-weave-reference.png"
+  ],
+  "referenceSha256": [
+    "1bbda60705c9ccf8c0642ba0712e6d1015b801cbfa1ae304513070e57649e2fc",
+    "6ec4f2fb3451021b5b2565c91c7041b10f60ef2731063e78399ed4f13be567bf"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/08-cap-soft-gray-detail-reference-material-transfer.png"
+}

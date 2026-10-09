@@ -1,0 +1,199 @@
+{
+  "status": "production-ready clean blanks; root owns exact V thread/composite/crop/integration/deploy gates",
+  "tool": "built-in image_gen only; copied losslessly and original/output hashes/dimensions verified",
+  "accepted": [
+    {
+      "id": "25",
+      "status": "PASS: Art/R1/R2 native bounded NEW four-row family authority",
+      "outputSha256": "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520",
+      "nativeDimensions": [
+        1121,
+        1403
+      ],
+      "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-45aa4410-3926-4b08-8bd5-e9fc7118302b.png",
+      "role": "Soft Gray complete-front blank",
+      "path": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png",
+      "record": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.json",
+      "independentGates": [
+        {
+          "reviewer": "art_direction",
+          "verdict": "PASS new family",
+          "evidence": "fine directional woven all planes; four rows center931/955/979/1003; two margins; no button; eyelets; contact",
+          "proposedVAnchor": {
+            "visibleWidthPx": 72.8,
+            "center": [
+              560,
+              676
+            ],
+            "basis": "proposed160mm face,728px projection; proposed16mm glyph; proposed30mm lowerjoin setback"
+          }
+        },
+        {
+          "reviewer": "visual_review_one",
+          "verdict": "PASS new family",
+          "evidence": "native1121x1403 fine grain/fiber/fuzz all planes; four rows933/956/980/1003; double upper margins; no center seam/button"
+        },
+        {
+          "reviewer": "visual_review_two_recovery",
+          "verdict": "PASS new family",
+          "evidence": "four rows930/954/978/1002; straight small directional yarn all planes; no broad curl/fingerprint/flatfill; no pair correspondence17"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "status": "PASS: Art/R1/R2 standalone native whole material/construction; paired finewoven appearance bounded, closerfamily pending",
+      "outputSha256": "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a",
+      "nativeDimensions": [
+        1121,
+        1403
+      ],
+      "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-3f1a7e61-64f5-4d8a-80ed-3e2f818c8f4c.png",
+      "role": "Graphite complete-front blank",
+      "path": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png",
+      "record": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.json",
+      "independentGates": [
+        {
+          "reviewer": "art_direction",
+          "verdict": "PASS standalone",
+          "evidence": "allplane readable regular finewoven;4rows960/986/1011/1037;doubleupper margins/continuousface/no button/eyelets/contact; slight plausiblecamera25",
+          "proposedVAnchor": {
+            "visibleWidthPx": 72.8,
+            "center": [
+              560,
+              697
+            ],
+            "basis": "proposed160mm face/728px; actualjoin~833 minus30mm*4.55"
+          }
+        },
+        {
+          "reviewer": "visual_review_one",
+          "verdict": "PASS standalone/new25/28front pair bounded",
+          "evidence": "allplane no27loopclusters;4rows963/988/1013/1037; construction/contact coherent; slightcamera/contrastvariation"
+        },
+        {
+          "reviewer": "visual_review_two_recovery",
+          "verdict": "PASS standalone; bounded pair correspondence",
+          "evidence": "allplane clean regular woven;4rows963/988/1013/1037;25 stronger angularinterlacing,28 continuousparallelridges; closerfamily must demonstrate correspondence"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "status": "PASS: Art/R1/R2 native bounded25/31 visiblecloth/context/direction/gauge family",
+      "outputSha256": "704594cff9ce5d666d4ced6664dd16524d8a052858c584849cfabd6506012cce",
+      "nativeDimensions": [
+        1121,
+        1403
+      ],
+      "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-912316fb-90c9-4f04-b872-693e761f96c0.png",
+      "role": "Soft Gray genuinely new useful close blank",
+      "path": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/31-cap-soft-gray-central-close-fall-right.png",
+      "record": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/31-cap-soft-gray-central-close-fall-right.json",
+      "independentGates": [
+        {
+          "reviewer": "art_direction",
+          "verdict": "PASS new25/31 bounded visiblefamily",
+          "evidence": "fine clean fall-right interlaced yarn;two uppermargins/lowerjoin;4rows1190/1239/1289/1341; upper25=406/lower813 versus31upper93/lower1064\u21922.386x",
+          "proposedVAnchor": {
+            "visibleWidthPx": 173.7,
+            "center": [
+              560,
+              738
+            ],
+            "basis": "actual25/31 join-span projection2.386x; originalproposed16mmfullfront72.8px/160mmface; not verified manufacturing"
+          }
+        },
+        {
+          "reviewer": "visual_review_one",
+          "verdict": "PASS bounded25/31visiblefamily",
+          "evidence": "allvisible fallrightfinewoven;two margins/lowerjoin/fourcurves; no29 winding; actualcameraoffset/glyph~2.37/2.39x; no verifiedphysicalmeasurement"
+        },
+        {
+          "reviewer": "visual_review_two_recovery",
+          "verdict": "PASS bounded25/31visiblefamily",
+          "evidence": "allvisiblefineyarn/interlacing withoutclosedwinding;fourrows1185/1239/1289/1342; doubleupper/lowerjoins; ~2.4x closer; absentdome/sides notmicroscopicallycertified"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "status": "PASS: Art/R1/R2 native bounded28 editorial wholevisiblecloth/construction/family/scene appearance",
+      "outputSha256": "b7b387e99e2d53b29bae778467ecd02abbcfbf02f286b582ae0860be6c8209df",
+      "nativeDimensions": [
+        1536,
+        1024
+      ],
+      "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-cd1038c4-7ce3-4570-91bc-ed3b338fbd65.png",
+      "role": "Graphite new original editorial blank",
+      "path": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/33-cap-graphite-editorial-four-row.png",
+      "record": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/33-cap-graphite-editorial-four-row.json",
+      "independentGates": [
+        {
+          "reviewer": "art_direction",
+          "verdict": "PASS",
+          "evidence": "allplane fine directionalcloth,4rows/doubleupper margins/plainlowerjoin/no button/eyelet/support; originalcaststone scene",
+          "proposedVAnchor": {
+            "visibleWidthPx": 54.5,
+            "center": [
+              812,
+              495
+            ],
+            "clockwiseRotationDeg": 7,
+            "basis": "frontface545px/proposed160mm; localbodyjoin598 minus proposed30mm*3.4; not verified manufacturing"
+          }
+        },
+        {
+          "reviewer": "visual_review_one",
+          "verdict": "PASS",
+          "evidence": "fouractualrows excludedjoin; continuousfront/doubleupper/plainlower/no button/eyelet match28; no closedmazeclusters; perspective/benchcontact/shadowcoherent"
+        },
+        {
+          "reviewer": "visual_review_two_recovery",
+          "verdict": "PASS",
+          "evidence": "fourrows verifiedunchangedscale diagnostic; allplane coherentfinewoven/no rejectedloopbands; support/brimgap/weight/exposure distinctscene"
+        }
+      ]
+    }
+  ],
+  "construction": "NEW proposed FOUR brim stitch rows; FIVE-PANEL cap construction unchanged; no generated icon; fine directional woven is appearance description, not verified fiber/manufacture",
+  "graphiteDetail": "32 added lowerfront stitching and is rejected as matching family. No retry under parent/root steering. Root owns approved faithful28 native-resolution detail-crop fallback and honest same-photograph provenance.",
+  "rejectedOrHeld": [
+    {
+      "id": "23",
+      "reason": "crown/side winding grain"
+    },
+    {
+      "id": "24",
+      "reason": "wholematerial winding/curl ridges"
+    },
+    {
+      "id": "26",
+      "reason": "blanketallplanePASS withdrawn; faint crown/rightbrim loop organization"
+    },
+    {
+      "id": "27",
+      "reason": "crown/sides/rightbrim winding/mazegrain"
+    },
+    {
+      "id": "29",
+      "reason": "actual crown/rightbrim materialHOLD; camera variation alone not rejection"
+    },
+    {
+      "id": "30",
+      "reason": "cleanstandalone but reversed frontdiagonal direction; no rasterflip used"
+    },
+    {
+      "id": "32",
+      "reason": "finecloth standalone passes but added lowerfront stitchmargin; no retry"
+    }
+  ],
+  "notExecuted": [
+    "prepared old29 Graphite macro draft, preserved with id draft-29-not-executed"
+  ],
+  "remainingOwnerWork": [
+    "root exact Version2 V tonal-thread application and actualcomposite proof",
+    "root Graphite faithful nativecrop provenance/actualreview",
+    "root source/site/browser/deployment/finalPreview"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "28",
+  "status": "PASS: Art/R1/R2 standalone native whole material/construction; paired finewoven appearance bounded, closerfamily pending",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: product-mockup\nAsset type: genuinely NEW photoreal blank Graphite cap complete-front catalog image, proposed design concept.\nPrimary request: A new natural studio photograph of one complete cool neutral Graphite five-panel cap. No input image or inherited raster grain. Native portrait1120x1404. Straight frontal product camera slightly above brim plane so the top of its curved brim is visible. Complete cap centered on a rectangular neutral gray plinth; moderate rounded crown apex around y230, curved transverse upper front join around y410, lower front/brim attachment around y810, brim tip around y1110. Cap width approximately940\u2013960 pixels and continuous large front-panel width around720 pixels. Balanced clear margins, believable cap/head-size proportions, substantial gently curved supported brim and a soft physical contact shadow.\nConstruction: A broad uninterrupted one-piece front panel, with NO vertical center seam, framed by two coherent vertical crown-to-side joins. The upper crown rounds naturally over the front face, with a transverse curved join between them, curving slightly lower toward the sides. Exactly TWO narrow fine garment-matching stitch margins border this upper join. Softly curving side panels with one small tonal sewn eyelet visible on each side. FIVE-PANEL construction and NO top button. The brim contains EXACTLY FOUR independent fine parallel curved stitch rows, with modest close spacing and a clear fabric edge margin; all four rows can be traced across the brim. The panel count is five; the separate brim-row count is four.\nPhysical cloth: Every upper crown, front face, side panel and brim is the SAME fine dense compact directional woven cloth, with tiny evenly spaced orderly straight local diagonal yarns and fine small cross-yarn interlacing. Crisp fine regular woven grain follows each cut panel and natural surface perspective. Short straight thread segments, subtle natural fiber fuzz and matte dry physical yarn; reasonable cloth weight. Fine yarn gauge appropriate to a complete cap of this size and camera distance. Keep a clean regular field across ALL planes. The proposed Gray counterpart uses this same fine fabric and construction, so this colorway must remain comparable in gauge and silhouette.\nPigment/light: Proposed cool neutral Graphite approximately #41464D, with garment-matching tonal stitched seams and rows. The graphite cloth is distinctly dark gray, with honest readable yarn detail and gentle physical highlights under soft diffuse upper-left daylight studio lighting. Neutral cool-gray background and neutral gray rectangular plinth remain well exposed. No crushed blacks, color filter, whole-photo darkening, warmth, cream, gold or glossy finish.\nConstraints: Entire garment blank: no logo, V, glyph, icon, text, label, badge, patch, embroidery mark or watermark. No person or other product. No top button, no center front seam, no fifth brim row. No curling/winding/fingerprint/maze/topographic/swirl patterns, embossed ridges, texture stamps, plastic smoothing, flat-filled panels or blur. This is generated proposed design imagery without verified fiber, manufacturing or measurement claims.",
+  "references": [],
+  "referenceSha256": [],
+  "constructionConceptSource": {
+    "path": "evidence/round-two/image-production-recovery/25-cap-soft-gray-front-fresh-four-row.png",
+    "sha256": "17a9e9a0156151478ad9d40cfc905b8ececabd0b02c482408d11a0617dd43520",
+    "role": "accepted new-family construction/camera/fine-gauge transcription only; NOT raster tool input"
+  },
+  "expectedOutput": "evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png",
+  "lineage": "NEW text-only Graphite fullfront after27 all-plane grain failure; no raster texture inheritance; corresponding25 newFourrow/Fivepanel concept",
+  "outputSha256": "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a",
+  "nativeDimensions": [
+    1121,
+    1403
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-3f1a7e61-64f5-4d8a-80ed-3e2f818c8f4c.png",
+  "selfReview": "Fresh text-only Graphite fullfront appears clean small straight directional yarn across all planes;4rows/double upperjoin/no button/continuousfront/contact. Shape/camera/finegauge correspondence25 requires independent actual gate.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "PASS standalone",
+      "evidence": "allplane readable regular finewoven;4rows960/986/1011/1037;doubleupper margins/continuousface/no button/eyelets/contact; slight plausiblecamera25",
+      "proposedVAnchor": {
+        "visibleWidthPx": 72.8,
+        "center": [
+          560,
+          697
+        ],
+        "basis": "proposed160mm face/728px; actualjoin~833 minus30mm*4.55"
+      }
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "PASS standalone/new25/28front pair bounded",
+      "evidence": "allplane no27loopclusters;4rows963/988/1013/1037; construction/contact coherent; slightcamera/contrastvariation"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "PASS standalone; bounded pair correspondence",
+      "evidence": "allplane clean regular woven;4rows963/988/1013/1037;25 stronger angularinterlacing,28 continuousparallelridges; closerfamily must demonstrate correspondence"
+    }
+  ]
+}

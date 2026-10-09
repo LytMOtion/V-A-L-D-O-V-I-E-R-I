@@ -1,0 +1,29 @@
+{
+  "id": "24",
+  "status": "FAIL: R2 whole material; not propagation authority",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit\nAsset type: blank Graphite cap macro detail, proposed design concept.\nInput image 1: clean Soft Gray macro cap, the ONLY edit target and sole authority for the garment, cloth, camera, light, seams, stitch rows and composition.\nPrimary request: Change ONLY the cap cloth and its garment-matching stitching from Soft Gray to proposed cool neutral Graphite approximately #41464D. Keep the neutral gray background and plinth unchanged. Keep the exact same cap, camera, close crop, geometry, front-face panel height, curved brim and physical cloth. Pigment change only, never change exposure or tint the whole photograph.\nMaterials/textures invariant: Retain precisely the original fine compact regular directional woven grain on crown, continuous front panel, sides, and brim; tiny straight ordered local yarns and minute fibers with matte physical weight. Preserve the actual reference yarn diameter and density at the SAME native camera scale. The Graphite cloth must remain sharply readable and honestly exposed with diffuse upper-left light and tonal stitching. Retain natural bright detail on individual yarns, not crushed flat black. No curling fingerprints, maze, topographic pattern, wormlike loops, plastic smoothing, texture stamping, enlarged basket cells, blur, glare or flat fills.\nConstruction invariants: Preserve the large continuous one-piece front face with NO vertical center seam, the transverse curved upper crown join with TWO fine stitch margins and coherent side joins. Preserve FIVE-PANEL product construction and NO top button. Retain EXACTLY FOUR fine parallel curved brim stitch rows, with exactly the same positions, density, spacing and edge margins as the four visible rows of the attached reference. Do not add any brim row. Four brim rows and five garment panels are separate counts.\nFraming/color/light invariants: Same portrait 1120x1404 native composition, same cap crown arc, seam positions, cropped brim, rectangular neutral gray plinth contact and soft grounding shadow. Same natural diffuse upper-left studio light, cool neutral background, no cream/gold/beige or gloss.\nConstraints: Blank garment throughout: no logo, V, glyph, icon, badge, patch, label, embroidery mark, text or watermark. This is generated design concept imagery, not verified fiber or manufacturing evidence.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/17-cap-soft-gray-detail-clean-master.png"
+  ],
+  "referenceSha256": [
+    "4501965ff3d84bcf792d2be13db3c0392925ee893f418bc7a123565ca38ad728"
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/24-cap-graphite-detail-four-row-master.png",
+  "lineage": "17 sole authority; pigment-only Graphite; accepted FOUR brim rows; FIVE panels unchanged; no generated mark",
+  "outputSha256": "51af2335f17aaac9fee6a0212475709633cb3c515698b6f6641cca321cc5f5f6",
+  "nativeDimensions": [
+    1120,
+    1404
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-ec0db82f-76f6-4fed-8556-9f848ec50efb.png",
+  "selfReview": "Four brim rows and same macro framing appear preserved; crown/front small winding grains require independent actual gate before propagation.",
+  "independentGates": [
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "FAIL",
+      "construction": "four brim rows center~1009/1042/1075/1110; macro camera and seams preserved",
+      "materialConcern": "front x420\u2013750,y480\u2013760 thick winding/curl/fingerprint ridges; crown x350\u2013700,y45\u2013220 worm/crosshook grain"
+    }
+  ]
+}

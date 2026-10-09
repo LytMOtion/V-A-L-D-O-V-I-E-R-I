@@ -1,0 +1,47 @@
+{
+  "id": "33",
+  "status": "PASS: Art/R1/R2 native bounded28 editorial wholevisiblecloth/construction/family/scene appearance",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural\nAsset type: NEW original horizontal Graphite cap editorial product scene, proposed design concept.\nInput image 1: the attached accepted clean Graphite complete-front cap28 is the SOLE garment authority for exact cap construction, pigment, physical cloth/yarn gauge, stitching, four brim rows and proportions. No other photograph is a scene or material reference.\nScene: An original understated architectural setting: a long low smooth cool-gray cast-stone bench in a quiet minimal covered courtyard. A large shadowed blue-charcoal architectural plane behind, a restrained pale-gray structural edge far to the left, and natural soft daylight from upper left. Calm gray/charcoal/deep-navy palette, refined real surfaces and subtle shadow geometry. One cap only; no accessories, brand objects, people or text.\nSubject/composition: Photograph the SAME cap resting physically on the bench with a believable supported brim/crown and soft contact shadow. Horizontal native1536x1024. Complete cap placed slightly right of center, about850 pixels wide, with balanced negative space to the left and clear margins around allcap. A modest three-quarter frontal camera view, roughly15\u201320degrees to the cap's front, slightly above brim level. The broad uninterrupted front face and all four curved brim rows remain visible. Reveal one near side and its small tonal sewn eyelet; far side naturally recedes. Camera and garment contact perspective agree with the bench.\nExact garment construction: Same moderate crown/head size, rounded crown, broad continuous one-piece front face NO vertical center seam, coherent FIVE-PANEL crown-to-side joins, NO top button. Preserve the transverse curved upper crown/front join with exactly TWO narrow fine cap-matching stitch margins. The lower front/brim attachment is a simple plain rolled join as in reference28, with NO additional horizontal dashed stitch margin across the lower front face. Brim is substantial and gently curved, with EXACTLY FOUR distinct fine parallel curved stitch rows, same physical density/spacing/edge margins as28. Do not add a fifth brim row, extra lower-front seam, panel or hardware.\nPhysical cloth/color: Same clean fine compact regular directional woven cloth across every crown/front/side/brim plane as28. Tiny straight orderly local diagonal yarn and fine cross-yarn interlacing, dominant front grain falling from upperleft toward lowerright, adapted naturally to the modest perspective. Same actual physical yarn gauge scaled to this camera, minute matte fibers and realistic dry supported fabric weight. Proposed cool neutral Graphite around#41464D, matching tonal stitching. Soft honest daylight keeps all cap fabric sharply legible and darkgray, with subdued real yarn highlights, no crushedblack.\nConstraints: Blank cap, absolutely no logo, V, glyph, icon, embroidery mark, label, patch, badge, text or watermark. No people/anatomy, otherheadwear or foreignbrand object. No warmcream/gold, gloss, plastic smoothing, blur on cap, flat-filled cloth, closed-loop/winding/maze/fingerprint/embossed contour grain, copied campaign or copied scene. This is a newly generated original concept photograph, not manufactured product evidence.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/image-production-recovery/28-cap-graphite-front-fresh-four-row.png"
+  ],
+  "referenceSha256": [
+    "5263c2aecbcc5613dea9bf625a941e673068184afdf2ed4f39f63ec0dd928f0a"
+  ],
+  "expectedOutput": "evidence/round-two/image-production-recovery/33-cap-graphite-editorial-four-row.png",
+  "lineage": "accepted28 wholecap sole raster garment/cloth/construction authority; NEW originalarchitecture objectscene; fourrows/fivepanels; no oldeditorial/refmacro/32drift inheritance",
+  "outputSha256": "b7b387e99e2d53b29bae778467ecd02abbcfbf02f286b582ae0860be6c8209df",
+  "nativeDimensions": [
+    1536,
+    1024
+  ],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-cd1038c4-7ce3-4570-91bc-ed3b338fbd65.png",
+  "selfReview": "New original cool architectural bench/courtyard scene, capfullthreequarter grounded, blank continuousface/no topbutton/two upperjoin margins/plainlowerjoin,4brimrows appear. Allcapcloth/gauge/rowtrace/contact/markperspective require actualnative independent gate.",
+  "independentGates": [
+    {
+      "reviewer": "art_direction",
+      "verdict": "PASS",
+      "evidence": "allplane fine directionalcloth,4rows/doubleupper margins/plainlowerjoin/no button/eyelet/support; originalcaststone scene",
+      "proposedVAnchor": {
+        "visibleWidthPx": 54.5,
+        "center": [
+          812,
+          495
+        ],
+        "clockwiseRotationDeg": 7,
+        "basis": "frontface545px/proposed160mm; localbodyjoin598 minus proposed30mm*3.4; not verified manufacturing"
+      }
+    },
+    {
+      "reviewer": "visual_review_one",
+      "verdict": "PASS",
+      "evidence": "fouractualrows excludedjoin; continuousfront/doubleupper/plainlower/no button/eyelet match28; no closedmazeclusters; perspective/benchcontact/shadowcoherent"
+    },
+    {
+      "reviewer": "visual_review_two_recovery",
+      "verdict": "PASS",
+      "evidence": "fourrows verifiedunchangedscale diagnostic; allplane coherentfinewoven/no rejectedloopbands; support/brimgap/weight/exposure distinctscene"
+    }
+  ]
+}

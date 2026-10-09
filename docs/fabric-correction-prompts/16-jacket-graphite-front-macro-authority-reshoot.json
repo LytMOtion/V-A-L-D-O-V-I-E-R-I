@@ -1,0 +1,20 @@
+{
+  "id": "16",
+  "status": "generated; self sees possible residualcurl, independentfamily review pending",
+  "outputSha256": "114798020b85aaed5b856e6f28b1af6a0c80b9837d698b83fe2ecca80d66455f",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-0cb4b2a6-a331-4cc1-a320-b4c2bf57e34e.png",
+  "selfReview": "Construction/frame close10, someirregularshoulder/sleevepatches mayremain. Actualfourview independentgate pending, noautopass.",
+  "tool": "built-in image_gen",
+  "strategy": "NEWfullGraphitefront fromclean13solematerial+hardwareauthority, Gray10construction/layoutonly, analogsuccessful09->10; replacesfailed12proposal only",
+  "prompt": "Use case: product-mockup\nInput images: Image 1 clean Graphite macro is the exclusive PHYSICAL CLOTH, GRAPHITE COLOR, HARDWARE and upper-construction authority. Image 2 clean SoftGray fullfront is ONLY the matching whole-garment construction, silhouette and full-front camera/layout guide. Create a NEW fullfront Graphite photograph, not a recolor/edit of Image2.\nPrimary request: Photograph the SAME clean Graphite cotton-twill jacket of Image1 with the camera pulled back so the whole jacket is visible exactly like the matching fullfront layout ofImage2. Newly resolve the physical cloth everywhere fromImage1: coherent regular fine straight parallel diagonal ribs with tiny yarn fibers, matte weight, one identical dense twill roll throughout collar/neckstrip/chest/shoulders/sleeves/pocketwelts/plaincuffs/hem. At farther fullfrontcamera distance, yarns naturally become muchfiner than macroImage1. Preserve an orderly locally straight directional grain on every cloth plane, allowing natural cut/fold/curvature. Cool neutral Graphite #343638, tonalcharcoalthread, readable finewoven surface in honeststudio light.\nConstruction/layout: EXACTsame hip-lengthfullsingleclosedzip jacket asbothreferences: lowfold-downpointcollar, sameoriginaltwo-aperturetaperedgunmetalpull, gunmetalchain/teeth, setinfull-lengthsleeves, TWOnarrownearlyverticallowerweltpockets, plainturnedcuffs withsewnseamrows andstraightsewnhem, noribbing/elastic. UseImage2overalloutline/proportions/pocketpositions/fullframing. Portrait1122×1402, topneck aroundy165, collarpoints aroundy420, shouldersx220/900near y315, sleeveends near y1230, bodyhemaroundy1200, fullzipcenterx560. Broadgentleweightedfolds, capfreegraymargins.\nScene: SameImage2neutralcoolgray studio surface/background, diffuse upperleftstudio light andnaturalsupportshadow. Gunmetal staysunchanged. No exposure-darkening/wholephototint tohidefabric.\nConstraints: Photoreal sharp tactile cloth, no smoothing/blur/plastic/decorativepattern or curvedmicrograin. No newparts/closures/seams. Blankgarment, nologo/glyph/badge/patch/necklabel/text/watermark. Generatedconceptimagery, not verifiedmanufacturing.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/13-jacket-graphite-detail-clean-master.png",
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/10-jacket-soft-gray-front-clean-master.png"
+  ],
+  "referenceSha256": [
+    "67fbf31b4045c1e7df8cc108dc128adbfb079acadbf3c3fc0c167c27793ae71e",
+    "6be0a32cfa242edf53f17ef784c543560c11eb87f6b4bd5197e0279d996a6c93"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/16-jacket-graphite-front-macro-authority-reshoot.png"
+}

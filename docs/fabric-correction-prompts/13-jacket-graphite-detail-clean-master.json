@@ -1,0 +1,18 @@
+{
+  "id": "13",
+  "status": "generated; self-review coherentcloth candidate, independent09/13pair pending",
+  "outputSha256": "67fbf31b4045c1e7df8cc108dc128adbfb079acadbf3c3fc0c167c27793ae71e",
+  "nativeDimensions": [1122, 1402],
+  "generatedSourcePath": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/generated_images/exec-7787f0ce-8988-428d-b88e-ccd322148eb2.png",
+  "selfReview": "Coherentdirectionaltwillallplanes/collar/neck/sleeve, exact09geometry/gauge/twoaperturepull retained. Actual09/13colorpair independentgate pending;12frontfailed.",
+  "tool": "built-in image_gen",
+  "strategy": "Graphitepigment-only counterpart fromclean09macro, identicalnewphysicalcloth/gauge/hardware/camera",
+  "prompt": "Use case: precise-object-edit\nPrimary request: Create the Graphite colorway of this exact clean jacket macro photograph. Change ONLY cotton yarn and tonal seam thread pigment from cool Soft Gray to neutral cool Graphite #343638. Preserve the physical regular directional twill on EVERY fabric plane exactly from the attached clean reference. The fold-down collar, horizontal neck strip, chest, narrow shoulder band and right sleeve are the same tightly woven twill roll, same tiny yarn diameter, diagonal rib pitch, matte weight, sparse fine fibers and locally straight parallel woven ribs. Each plane's grain direction follows its cut/fold. Graphite cotton is naturally darker pigment but regular fine diagonal yarn remains legible on all planes in unchanged studio light.\nAbsolute invariants: Exact1122×1402 macro camera/frame, all garment geometry/folds, collar silhouette and point, neck opening, seam/stitch positions, shoulder/armhole/sleeve, original restored two-aperture taperedgunmetalpull with open lower rectangularwindow, zipperteeth/tape/hardware color, neutralgray background, lighting and exposure. No new surfacepattern, materialreplacement or densitychange. Graybackground/exposure unchanged; only garment pigment changes, not wholephoto darkening/tint. Graphite means coolcharcoal, not navy/warmbrown.\nConstraints: Tactile sharp directional cloth, no smoothing/blur/plastic/noise decoration. No hardware changes or newseams/panels. Blank garment: no logo/glyph/patch/badge/label/text/watermark. Generated concept imagery, not verifiedmanufacturing.",
+  "references": [
+    "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/09-jacket-soft-gray-detail-original-pull-restoration.png"
+  ],
+  "referenceSha256": [
+    "fa5d53d392cdbf82b2fd86f7a6fa8cdc7c050081f4058b4b9ea3b6f0302afb38"
+  ],
+  "expectedOutput": "/Users/raymondmedrano/Documents/Codex/2026-10-08/task-2/evidence/round-two/fabric-correction/13-jacket-graphite-detail-clean-master.png"
+}
