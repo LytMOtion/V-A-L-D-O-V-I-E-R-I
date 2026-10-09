@@ -1,0 +1,10 @@
+{
+  "status":"staging-photography-pending",
+  "opening":{"file":"jacket-collection.webp","dimensions":[1536,1024],"mobile":{"file":"jacket-collection.webp","dimensions":[1536,1024]},"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated concept of a complete outfit wearing The Jacket in Graphite.","position":"66% 50%"},
+  "outfit":{"file":"jacket-collection.webp","dimensions":[1536,1024],"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated jacket outfit study.","caption":"The Jacket / Graphite"},
+  "closer":{"file":"jacket-graphite-front.webp","dimensions":[1122,1402],"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated jacket study.","caption":"The Jacket / Graphite"},
+  "construction":{"file":"jacket-graphite-detail.webp","dimensions":[1122,1402],"href":"/products/jacket/","linkLabel":"The Jacket / Graphite","alt":"Generated jacket construction study.","caption":"The Jacket / Graphite / Detail","copy":"A closer view of the collar, front closure and stitching."},
+  "cap":{"file":"cap-collection.webp","dimensions":[1536,1024],"href":"/products/cap/","linkLabel":"The Cap / Graphite","alt":"Generated cap concept study.","caption":"The Cap / Graphite"},
+  "beanie":{"file":"beanie-collection.webp","dimensions":[1536,1024],"href":"/products/beanie/midnight-navy/","linkLabel":"The Beanie / Midnight Navy","alt":"Generated beanie concept study.","caption":"The Beanie / Midnight Navy"},
+  "closing":{"file":"beanie-collection.webp","dimensions":[1536,1024],"href":"/products/beanie/midnight-navy/","linkLabel":"The Beanie / Midnight Navy","alt":"Generated beanie concept study.","featured":[{"href":"/products/beanie/midnight-navy/","label":"The Beanie / Midnight Navy"}]}
+}

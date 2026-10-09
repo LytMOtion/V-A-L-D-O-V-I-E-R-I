@@ -49,47 +49,57 @@ test('six product/color routes show matching images, selected color and inquiry 
   for(const product of products) for(const color of product.colors){
     const html=readFileSync(`dist${productPath(product,color)}index.html`,'utf8');
     assert.ok(html.includes(`<strong id="selectedColor">${color.name}</strong>`));
-    assert.ok(html.includes(`data-color="${color.id}" aria-current="true"`));
-    assert.equal([...html.matchAll(/aria-current="true"/g)].length,1);
+    assert.ok(html.includes(`data-color="${color.id}" aria-current="page"`));
+    assert.equal([...html.matchAll(/class="color-option"[^>]*aria-current="page"/g)].length,1);
     for(const view of ['front','detail']) assert.ok(html.includes(`src="/assets/products/${color[view]}"`));
     assert.ok(html.includes(`id="inquiryPiece" value="${product.name}"`));
     assert.ok(html.includes(`id="inquiryColor" value="${color.name}"`));
     assert.ok(html.includes(`id="accessContext">${product.name} / ${color.name}</p>`));
     assert.ok(html.includes(encodeURIComponent(`VALDOVIERI inquiry — ${product.name} / ${color.name}`)));
-    assert.ok(html.includes('href="/#collection"'));
+    assert.ok(html.includes('href="/collection/"'));
   }
 });
-test('every rendered local image/link resolves and every garment mark keeps original geometry', () => {
+test('all pages resolve assets/routes, preserve exact brand geometry and omit public placement overlays', () => {
   const icon=readFileSync('assets/mark-original.svg','utf8').match(/<path d="([^"]+)"/)[1];
-  const pages=['dist/index.html',...products.flatMap(p=>p.colors.map(c=>`dist${productPath(p,c)}index.html`))];
+  const pages=['dist/index.html','dist/collection/index.html',...products.flatMap(p=>p.colors.map(c=>`dist${productPath(p,c)}index.html`))];
   for(const page of pages){
     const html=readFileSync(page,'utf8');
     for(const match of html.matchAll(/(?:src|href)="(\/[^"#]*)(?:#[^"]*)?"/g)){
       const path=match[1]; const file=path.endsWith('/')?`dist${path}index.html`:`dist${path}`;
       assert.ok(existsSync(file),`${page} -> ${file}`);
     }
-    const paths=[...html.matchAll(/<path data-icon-path="original" d="([^"]+)"/g)].map(x=>x[1]);
-    assert.equal(paths.length,page==='dist/index.html'?6:3);
-    paths.forEach(path=>assert.equal(path,icon));
-    assert.ok(html.includes('role="status"'));
-    assert.ok(!html.includes('{{'));
+    const paths=[...html.matchAll(/<path d="([^"]+)"/g)].map(x=>x[1]);
+    assert.equal(paths.length,2); paths.forEach(path=>assert.equal(path,icon));
+    assert.ok(!/garment-mark|placement-note|\d+mm|digitally applied/.test(html));
+    assert.ok(html.includes('role="status"')); assert.ok(!html.includes('{{'));
   }
   const css=readFileSync('scripts/site.css','utf8');
   assert.ok(css.includes('prefers-reduced-motion:reduce'));
   assert.ok(!/IntersectionObserver|opacity:\s*0(?:;|})|class="lock"/.test(script+css));
 });
-test('active looks are distinct; the documented Graphite cap detail faithfully reuses its front master',()=>{
-  const files=products.flatMap(p=>[p.collection,...p.colors.flatMap(c=>[c.front,c.detail])]);
-  assert.equal(files.length,15); assert.equal(new Set(files).size,15);
-  const hashes=files.map(file=>createHash('sha256').update(readFileSync(`assets/products/${file}`)).digest('hex'));
-  assert.equal(new Set(hashes).size,14,'only the explicitly documented detail crop may reuse its photograph');
-  const cap=products.find(p=>p.id==='cap').colors.find(c=>c.id==='graphite');
-  assert.deepEqual(cap.detailCrop,[200,280,720,900]);
-  assert.deepEqual(readFileSync(`assets/products/${cap.detail}`),readFileSync(`assets/products/${cap.front}`),'faithful crop retains the untouched source photograph');
-  const html=readFileSync(`dist/products/cap/index.html`,'utf8');
-  assert.ok(html.includes('data-faithful-crop="true"'));
-  assert.ok(html.includes('Detail crop / same photograph'));
-  assert.ok(html.includes('--photo-width:720px;aspect-ratio:720/900'));
+test('homepage is editorial and catalog is separately addressable', () => {
+  const home=readFileSync('dist/index.html','utf8');
+  const collection=readFileSync('dist/collection/index.html','utf8');
+  assert.ok(!/wordmark|Form\.|Restraint\.|piece-grid/.test(home));
+  assert.ok(home.includes('class="opening"')); assert.ok(home.includes('class="construction-study"'));
+  assert.ok(home.includes('class="closing"')); assert.ok(collection.includes('class="piece-grid"'));
+  assert.ok(home.includes('(max-width:900px) and (orientation:portrait)'));
+});
+test('product order preserves summary, front, inquiry, then remaining views', () => {
+  for(const p of products)for(const c of p.colors){
+    const html=readFileSync(`dist${productPath(p,c)}index.html`,'utf8');
+    const sequence=['class="product-heading"','class="product-first"','class="product-actions"','class="product-more"'];
+    const positions=sequence.map(x=>html.indexOf(x)); assert.ok(positions.every(x=>x>=0));
+    assert.deepEqual([...positions].sort((a,b)=>a-b),positions);
+    assert.ok(html.includes('id="imageDialog"')); assert.ok(html.includes('data-image-src='));
+  }
+});
+test('documented crop remains a crop and never an alternate angle',()=>{
+  for(const p of products)for(const c of p.colors)if(c.detailCrop){
+    const html=readFileSync(`dist${productPath(p,c)}index.html`,'utf8');
+    assert.ok(html.includes('data-faithful-crop="true"'));assert.ok(html.includes('Detail crop / same photograph'));
+    assert.deepEqual(readFileSync(`assets/products/${c.detail}`),readFileSync(`assets/products/${c.front}`));
+  }
 });
 test('safe dry-run identifies all six piece/color combinations and never sends',async()=>{
   for(const product of products)for(const color of product.colors){
@@ -135,4 +145,16 @@ test('unavailable or arbitrary query values cannot switch product or redirect of
   }
   assert.equal(queryRoute(products[0], 'https://preview.example/products/jacket/?color=navy'), undefined);
   assert.equal(new URL(queryRoute(products[2], 'https://preview.example/products/beanie/?color=navy'), 'https://preview.example').pathname, '/products/beanie/midnight-navy/');
+});
+
+test('final photography release gate', {skip: process.env.REQUIRE_FINAL_PHOTOGRAPHY !== '1'},()=>{
+  const editorial=JSON.parse(readFileSync('data/editorial.json','utf8'));
+  assert.equal(editorial.status,'approved-intended-photography');
+  assert.notEqual(editorial.opening.file,editorial.opening.mobile.file);
+  assert.notEqual(editorial.opening.file,editorial.closing.file);
+  for(const p of products)for(const c of p.colors){
+    assert.deepEqual(c.views.map(v=>v.id),['front','angle','detail']);
+    assert.equal(new Set(c.views.map(v=>v.file)).size,3);
+    assert.ok(c.views.every(v=>!v.crop&&v.provenance==='generated-design-concept'));
+  }
 });
