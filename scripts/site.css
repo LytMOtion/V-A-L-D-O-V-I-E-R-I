@@ -9,3 +9,4 @@
 .garment-mark[data-knit-contact=true]{mix-blend-mode:multiply}
 
 .image-crop-source{display:block;position:absolute}.image-crop-source img{width:100%;height:100%;object-fit:contain}
+.zoom-header button{flex-shrink:0;white-space:nowrap}
