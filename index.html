@@ -7,12 +7,15 @@
 <meta name="description" content="{{DESCRIPTION}}">
 {{COLOR_ROUTE}}
 <link rel="stylesheet" href="/site.css">
+<link rel="preload" href="/assets/fonts/canela-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/soehne-buch.woff2" as="font" type="font/woff2" crossorigin>
 {{PRELOAD}}
-</head><body id="top">
+</head><body id="top" class="page-{{PAGE}}">
 <a class="skip" href="#main">Skip to content</a>
 {{HEADER}}
 <main id="main">{{CONTENT}}</main>
 {{FOOTER}}
 <script src="/site.js" defer></script>
 <script src="/gallery.js" defer></script>
+{{HOME_SCRIPT}}
 </body></html>
