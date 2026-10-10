@@ -42,4 +42,4 @@ body{font-synthesis:none}em{font-weight:400}.page-home{background:#f6f7f8;color:
 .page-home .menu-head h2{font-size:22px;line-height:1.2;letter-spacing:.04em;min-width:0}.menu-head button{flex-shrink:0;min-width:52px;white-space:nowrap}
 @media(max-width:600px){.campaign-heading{position:static;padding:36px 24px 38px;background:#f6f7f8}.campaign-heading h2{font-size:64px;margin-top:18px;max-width:none}.campaign-chapter>.campaign-photo{height:auto;aspect-ratio:var(--portrait-ratio)}.atmosphere-caption{font-size:10px}.brand-statement h2 em{white-space:normal}}
 
-.brand-statement h2 em{display:block}.page-home h2 em{word-spacing:.085em}@media(max-width:600px){.brand-statement h2 em{display:inline}}
+.page-home h2{word-spacing:.11em}.brand-statement h2 em{display:block}
