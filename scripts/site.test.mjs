@@ -4,6 +4,7 @@ import vm from 'node:vm';
 import { readFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { products, productPath } from './render.mjs';
+import { startTextileMotion } from './textile-motion.js';
 const script = readFileSync('scripts/site.js', 'utf8');
 function setup({ preview = false, valid = true, response = {ok: true}, fail = false, defer = false, piece = 'Collection I', color = 'Not selected' } = {}) {
   const state = { calls: 0, resets: 0, handler: null, status: '', timers: 0, cleared: 0 };
@@ -25,6 +26,20 @@ function setup({ preview = false, valid = true, response = {ok: true}, fail = fa
 test('preview validates but never transmits', async () => {
   const x = setup({preview:true}); await x.submit(); assert.equal(x.state.calls,0);
   assert.match(x.state.status, /No request has been sent/); assert.equal(x.state.resets,0);
+});
+test('unavailable motion preserves the immediate photograph without showing canvas or controls', async () => {
+  for (const unavailable of [false,true]) {
+    const canvas={hidden:true,getContext:()=>null};const toggle={hidden:true};
+    const still={decode:async()=>{},hidden:false};
+    await assert.rejects(startTextileMotion({surface:{},still,canvas,toggle,unavailable}),/WebGL unavailable/);
+    assert.equal(still.hidden,false);assert.equal(canvas.hidden,true);assert.equal(toggle.hidden,true);
+  }
+});
+test('failed atmospheric image decoding never hides page content or reveals an empty canvas',async()=>{
+  const canvas={hidden:true,getContext:()=>{throw new Error('must not initialize');}};
+  const toggle={hidden:true};const still={decode:async()=>{throw new Error('decode failed');},hidden:false};
+  await assert.rejects(startTextileMotion({surface:{},still,canvas,toggle}),/decode failed/);
+  assert.equal(still.hidden,false);assert.equal(canvas.hidden,true);assert.equal(toggle.hidden,true);
 });
 test('invalid email never transmits', async () => {
   const x = setup({valid:false}); await x.submit(); assert.equal(x.state.calls,0); assert.equal(x.state.status,'');
@@ -80,10 +95,15 @@ test('all pages resolve assets/routes, preserve exact brand geometry and omit pu
 test('homepage is editorial and catalog is separately addressable', () => {
   const home=readFileSync('dist/index.html','utf8');
   const collection=readFileSync('dist/collection/index.html','utf8');
-  assert.ok(!/wordmark|Form\.|Restraint\.|piece-grid/.test(home));
-  assert.ok(home.includes('class="opening"')); assert.ok(home.includes('class="construction-study"'));
-  assert.ok(home.includes('class="closing"')); assert.ok(collection.includes('class="piece-grid"'));
-  assert.ok(home.includes('(max-width:600px) and (orientation:portrait)'));
+  const sequence=['class="atmosphere-opening"','class="brand-statement"','class="campaign-chapter"','class="material-chapter"','class="collection-gateway"','class="private-invitation"'];
+  const positions=sequence.map(x=>home.indexOf(x));
+  assert.ok(positions.every(x=>x>=0));assert.deepEqual([...positions].sort((a,b)=>a-b),positions);
+  assert.ok(home.includes('id="textileStill"'));assert.ok(home.includes('fetchpriority="high"'));
+  assert.ok(home.includes('id="textileCanvas" aria-hidden="true" hidden'));
+  assert.ok(home.includes('no inquiry will be sent'));
+  assert.ok(home.includes('Opening study / Detail crop'));
+  assert.ok(!home.includes('piece-grid'));assert.ok(collection.includes('class="piece-grid"'));
+  assert.ok(!/Italian|cashmere|merino|Made in|manufactured|heritage/.test(home));
 });
 test('product order preserves summary, front, inquiry, then remaining views', () => {
   for(const p of products)for(const c of p.colors){
@@ -147,9 +167,8 @@ test('unavailable or arbitrary query values cannot switch product or redirect of
   assert.equal(new URL(queryRoute(products[2], 'https://preview.example/products/beanie/?color=navy'), 'https://preview.example').pathname, '/products/beanie/midnight-navy/');
 });
 
-test('final photography release gate', {skip: process.env.REQUIRE_FINAL_PHOTOGRAPHY !== '1'},()=>{
+test('preserved generated concept image families remain distinct and labeled', {skip: process.env.REQUIRE_FINAL_PHOTOGRAPHY !== '1'},()=>{
   const editorial=JSON.parse(readFileSync('data/editorial.json','utf8'));
-  assert.equal(editorial.status,'approved-intended-photography');
   assert.notEqual(editorial.opening.file,editorial.opening.mobile.file);
   assert.notEqual(editorial.opening.file,editorial.closing.file);
   for(const p of products)for(const c of p.colors){

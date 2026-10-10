@@ -2,10 +2,11 @@
   "name": "valdovieri-preview",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node --test scripts/site.test.mjs",
-    "lint": "node --check scripts/site.js && node --check scripts/build.mjs && node --check scripts/render.mjs && node --check scripts/gallery.js && node --check scripts/color-route.js",
+    "lint": "node --check scripts/site.js && node --check scripts/build.mjs && node --check scripts/render.mjs && node --check scripts/gallery.js && node --check scripts/color-route.js && node --check scripts/homepage.js && node --check scripts/textile-motion.js",
     "pretest": "npm run build"
   }
 }
